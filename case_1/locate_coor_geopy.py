@@ -8,7 +8,7 @@ df_BW.reset_index(inplace=True)
 
 for loc_count in range(len(df_BW['NUTS_NAME'])):
     geolocator = Nominatim(user_agent="pycharm")
-    location = geolocator.geocode(df_BW['NUTS_NAME'][loc_count])
+    location = geolocator.geocode(df_BW['NUTS_NAME'][loc_count].split(',')[0])
     df_BW['x'][loc_count] = location.longitude
     df_BW['y'][loc_count] = location.latitude
     print(location.address)
