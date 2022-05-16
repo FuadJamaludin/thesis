@@ -14,5 +14,7 @@ for loc_count in range(len(df_BW['NUTS_NAME'])):
     print(location.address)
     print((location.latitude, location.longitude))
 
+
 print('hello')
+print('hai')
 
