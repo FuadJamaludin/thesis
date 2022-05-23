@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from geopy.geocoders import Nominatim
 
-excel_BW = pd.read_excel('C:/Users/HP Elitebook 840/Desktop/sources/hydrogen/TN-H2-G\BW.xlsx', index_col=0)
+excel_BW = pd.read_excel('C:/Users/HP Elitebook 840/Desktop/sources/hydrogen/TN-H2-G/BW.xlsx', index_col=0)
 df_BW = pd.DataFrame(excel_BW)
 df_BW.reset_index(inplace=True)
 
