@@ -1,9 +1,6 @@
 import pypsa
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import os
-import cartopy.crs as ccrs
 from pypsa.linopt import get_var, linexpr, define_constraints
 from geopy.geocoders import Nominatim
 from geopy import distance
@@ -70,9 +67,6 @@ for loads_name in list(network.loads.index):
 
 df_ac_loads_h2_loads_dist = pd.DataFrame(index=network.loads.index, columns=df_BW['NUTS_NAME'])
 
-
-print('hai')
-
 for city_count_x in range(len(network.loads.index)):
     for city_count_y in range(len(df_BW['NUTS_NAME'])):
         if network.loads.index[city_count_x] != df_BW['NUTS_NAME'][city_count_y]:
@@ -81,19 +75,22 @@ for city_count_x in range(len(network.loads.index)):
             dist_city1_city2 = distance.distance(city_1, city_2).km
             df_ac_loads_h2_loads_dist.at[network.loads.index[city_count_x], df_BW['NUTS_NAME'][city_count_y]] = dist_city1_city2
 
+ac_loads_H2_links = []
+
+for column_count in df_ac_loads_h2_loads_dist.columns:
+    for distance_count in range(len(df_ac_loads_h2_loads_dist[column_count])):
+        if df_ac_loads_h2_loads_dist[column_count][distance_count] == df_ac_loads_h2_loads_dist[column_count].min():
+            ac_loads_H2_links.append(df_ac_loads_h2_loads_dist.index[distance_count])
+
+ac_loads_H2_links = list(dict.fromkeys(ac_loads_H2_links))
+
 print('hello')
 
 # connect between electrical buses and hydrogen bus via link (as electrolysis unit)
 
 network.add('Bus', 'Hydrogen', carrier='Hydrogen', x=8.5, y=49.0)
 
-link_buses = ['KarlsruheWest_110kV', 'HeidelburgSud_110kV', 'Leimen_110kV', 'Oberwald_110kV', 'Kuppenheim_110kV',
-              'Weier_110kV',
-              'Lorrach_110kV', 'Kuhmoos_110kV', 'Ravensburg_110kV', 'Leutkirch_110kV', 'Ehingen_110kV',
-              'Schmiechen_110kV',
-              'SoflingenUlm_110kV', 'Giengen_110kV', 'Aalen_110kV', 'Kupferzell_110kV', 'Hopfingen_110kV',
-              'Adelsheim_110kV',
-              'Grossgartach_110kV', 'Metzingen_110kV', 'Dotternhausen_110kV']
+link_buses = ac_loads_H2_links
 
 link_names = [s + ' Electrolysis' for s in link_buses]
 
@@ -108,12 +105,10 @@ network.madd('Link',
 
 network.add('Store', 'Store Hydrogen', bus='Hydrogen', carrier='Hydrogen', e_nom_extendable=True)
 
-
 # bus_colors2 = pd.Series("blue",network.buses.index)
 # bus_colors2["Hydrogen"]="green"
 # network.plot(bus_sizes=0.0005, bus_colors=bus_colors2, color_geomap=True)
 # plt.tight_layout()
-
 
 # case 1
 
@@ -124,7 +119,6 @@ def hydrogen_constraints(n, snapshots):
     total_production = 13940000  # 13.94 TWh/a = 13940000 MWh/a of H2 demand in BW
 
     define_constraints(n, lhs, '>=', total_production, 'Link', 'global_hydrogen_production_goal')
-
 
 def extra_functionality(n, snapshots):
     hydrogen_constraints(n, snapshots)
