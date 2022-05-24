@@ -5,7 +5,13 @@ file_name = "BW_2050"
 load_data_year_1 = pd.read_excel("C:/Users/work/pypsa_thesis/data/hydrogen/TN-H2-G/BW_2040.xlsx",
                                  index_col=0)
 
-load_data_year_2 = pd.read_excel("C:/Users/work/pypsa_thesis/data/hydrogen/TN-H2-G/BW_2050_original.xlsx",
+# load_data_year_2 = pd.read_excel("C:/Users/work/pypsa_thesis/data/hydrogen/TN-H2-G/BW_2050_original.xlsx",
+#                                 index_col=0)
+
+# load_data_year_2 = pd.read_excel("C:/Users/work/pypsa_thesis/data/hydrogen/TN-PtG-PtL/DE_2030_original.xlsx",
+#                                 index_col=0)
+
+load_data_year_2 = pd.read_excel("C:/Users/work/pypsa_thesis/data/hydrogen/TN-Strom/DE_2050_original.xlsx",
                                  index_col=0)
 
 dataframe_year_1 = pd.DataFrame(load_data_year_1)
@@ -26,6 +32,8 @@ df_year_2_to_excel = pd.DataFrame(index=location_list_year_2,
                                   columns=['demand_value', 'x', 'y'])
 
 df_year_2_to_excel['demand_value'] = demand_value_year_2
+
+df_year_2_to_excel = df_year_2_to_excel[df_year_2_to_excel['demand_value'] != 0]
 
 df_year_2_to_excel.to_excel("{}.xlsx".format(file_name))
 

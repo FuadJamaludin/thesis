@@ -87,22 +87,18 @@ def get_hydrogen_data(scenario_h2, years_h2):
 
     ac_loads_h2_links = list(dict.fromkeys(ac_loads_h2_links))
 
-    dict_h2_data = {'h2_links': ac_loads_h2_links, 'h2_demand_value': round(sum(df_h2_demand['demand_value']) * 1e6, 2)}
+    dict_h2_data = {'h2_links': ac_loads_h2_links, 'h2_dataframe': df_h2_demand, 'h2_demand_value': round(sum(df_h2_demand['demand_value']) * 1e6, 2)}
 
     return dict_h2_data
 
 
 # choose which year to simulate
 
-# years = [2030]
-# years = [2040]
-years = [2050]
+years = [2030]  # [2030] or [2040] or [2050]
 
 # choose which hydrogen demand scenario to simulate
 
-h2_scenario_demand = "TN-H2-G"
-# h2_scenario_demand = "TN-PtG-PtL"
-# h2_scenario_demand = "TN-PtG-PtL"
+h2_scenario_demand = "TN-H2-G"  # "TN-H2-G" or "TN-PtG-PtL" or "TN-Strom"
 
 freq = "24"
 
@@ -137,11 +133,13 @@ network.generators_t.p_max_pu.loc[:, pmaxpu_generators.index] = pd.DataFrame(ind
                                                                              data=np.random.rand(len(network.snapshots),
                                                                                                  len(pmaxpu_generators)))
 
+h2_data = get_hydrogen_data(h2_scenario_demand, years)
+h2_demand_dataframe = pd.DataFrame(h2_data['h2_dataframe'])
+
 # connect between electrical buses and hydrogen bus via link (as electrolysis unit)
 
 network.add('Bus', 'Hydrogen', carrier='Hydrogen', x=8.5, y=49.0)
 
-h2_data = get_hydrogen_data(h2_scenario_demand, years)
 link_buses = h2_data['h2_links']
 
 link_names = [s + ' Electrolysis' for s in link_buses]
