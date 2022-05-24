@@ -1,0 +1,229 @@
+MIME-Version: 1.0
+Date: Tue, 24 May 2022 08:43:06 +0200
+From: "lisaze...@gmail.com" <lisazeyen.lz@gmail.com>
+Subject: Re: [pypsa] Capital cost issue
+Thread-Topic: [pypsa] Capital cost issue
+In-Reply-To: <3b8e4e2a-f5f8-45a9-b42b-7d8ea08ba033n@googlegroups.com>
+Message-ID: <4b2680d9-2f2e-4407-99cd-26a80d892532n@googlegroups.com>
+References: <11e3b925-b53f-40de-89a6-0450f30b359dn@googlegroups.com>
+ <04585c2c-46b3-f8ef-3452-c924199a4024@tu-berlin.de>
+ <6fcd6871-2a66-4f79-8ee2-22f1034f77d9n@googlegroups.com>
+ <3f2e204a-5df4-4caf-9afe-e86c01959f7fn@googlegroups.com>
+ <fe1b4674-0ad2-4f25-9021-e4bb51ea40b4n@googlegroups.com>
+ <4c368a24-898d-4796-9a60-492f9ea4dfean@googlegroups.com>
+ <5ae5c9e3-4f1a-4c13-8f26-c6670c6d8da1n@googlegroups.com>
+ <3b8e4e2a-f5f8-45a9-b42b-7d8ea08ba033n@googlegroups.com>
+To: pypsa <pypsa@googlegroups.com>
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+Hi Fuad,<div><br></div><div>the Fixed Operational and Maintenance cost (FOM=
+) are given in our input data as a percentage of the investment costs. E.g.=
+ for onshore wind turbines investment costs in 2030 are 1.04*10=E2=81=B6 EU=
+R/MW and FOM are 12.6*10=C2=B3 EUR/MW/year so the FOM in our format as a pe=
+rcentage are 12.6*10=C2=B3/1.04*10=E2=81=B6 =3D&nbsp;&nbsp;0.0122 per unit =
+/ year =3D 1.22%/year.</div><div><br></div><div>We do have all the technolo=
+gy data already for different years calculated you can find it in this repo=
+sitory here</div><div>https://github.com/PyPSA/technology-data/tree/master/=
+outputs</div><div><br></div><div>Also if you want to check all the conversi=
+ons we are doing getting from the raw data to our input files check the scr=
+ipt in the same repository here</div><div>https://github.com/PyPSA/technolo=
+gy-data/blob/master/scripts/compile_cost_assumptions.py</div><div><br></div=
+><div>Best wishes,</div><div>Lisa<br><br></div><div class=3D"gmail_quote"><=
+div dir=3D"auto" class=3D"gmail_attr">afua...@gmail.com schrieb am Montag, =
+23. Mai 2022 um 23:38:22 UTC&#43;2:<br></div><blockquote class=3D"gmail_quo=
+te" style=3D"margin:0 0 0 0.8ex; border-left:1px solid rgb(204,204,204); pa=
+dding-left:1ex">Dear all,<div><br></div><div>I am trying to calculate techn=
+o-economic parameters for different electricity generation technologies, fo=
+r year 2030, 2040 and 2050.&nbsp;</div><div><br></div><div>Currently I am r=
+eferring to the formula mentioned by Lisa which is used in the pypsa-eur ad=
+d_electricity script. Based on the formula, for costs[&quot;FOM&quot;], and=
+ also, referring to the pypsa-eur costs.csv file, for example, for onwind t=
+echnology, with the FOM value of&nbsp;2.450549%/year, may I know how was th=
+e value obtained? Especially to get it in terms of percentage %/year. I hav=
+e tried to calculate based on below examples/resources but still couldn't g=
+et it. Or maybe I am referring to the wrong raw data sources?&nbsp;</div><d=
+iv><br></div><div>1) NPV example -&nbsp;<a href=3D"https://nworbmot.org/cou=
+rses/esm-2020/lectures/notebooks/NPV_examples.html" rel=3D"nofollow">https:=
+//nworbmot.org/courses/esm-2020/lectures/notebooks/NPV_examples.html&nbsp;<=
+/a></div><div>2) Numbers from the raw data sources of DEA <a href=3D"https:=
+//ens.dk/en/our-services/projections-and-models/technology-data/technology-=
+data-generation-electricity-and" rel=3D"nofollow">https://ens.dk</a> websit=
+e, screenshot of the table as below (highlighted in YELLOW colour), and its=
+ original excel file attached in this message (need to go to the &quot;20 O=
+nshore turbines&quot; sheet of the excel file)<br><br></div><div><img alt=
+=3D"1.jpg" width=3D"889px" height=3D"742px" src=3D"https://groups.google.co=
+m/group/pypsa/attach/253ad723835c6/1.jpg?part=3D0.1&amp;view=3D1"><br></div=
+><div><br></div><div>Once I fully understand how the numbers were obtained =
+for year 2030 as in the costs.csv file, then I can proceed to calculate for=
+ 2040 and 2050. Really appreciate any help and many thanks in advance!</div=
+><div><br></div><div>Regards,</div><div>Fuad</div><div class=3D"gmail_quote=
+"><div dir=3D"auto" class=3D"gmail_attr">On Thursday, April 14, 2022 at 12:=
+27:03 PM UTC&#43;2 <a href=3D"" rel=3D"nofollow">andreas...@gmail.com</a> w=
+rote:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 0.8e=
+x; border-left:1px solid rgb(204,204,204); padding-left:1ex">Hi Lisa,&nbsp;=
+<div><br></div><div>thanks again. Reading that, I assume changing nyears ma=
+nually to (1 / the lifetime of a component) would lead to reasonable consid=
+eration of the capex if I run the simulation only for 1 year.&nbsp;</div><d=
+iv><br></div><div>Thank you so much.<br></div><div><br></div><div>Br,</div>=
+<div>Andreas<br><br></div><div class=3D"gmail_quote"><div dir=3D"auto" clas=
+s=3D"gmail_attr"><a rel=3D"nofollow">lisaze...@gmail.com</a> schrieb am Don=
+nerstag, 14. April 2022 um 12:15:07 UTC&#43;2:<br></div><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 0.8ex; border-left:1px solid rgb(204=
+,204,204); padding-left:1ex">Hi Andreas,<div><br></div><div>the &quot;NYear=
+s&quot; in the example code stands for the Number of Years of your optimisa=
+tion. So in your example it should be equal to 1. If you run a simulation w=
+ith every 4th snapshot or a resampling to 4h you do have a network with 219=
+0 snapshots and&nbsp; n.snapshot_weightings.objective are probably equal to=
+ 4, so Nyears =3D n.snapshot_weightings.objective.sum() / 8760 should be 1 =
+as well.</div><div><br></div><div>Best,</div><div>Lisa<br><div><br></div><b=
+r></div><div class=3D"gmail_quote"><div dir=3D"auto" class=3D"gmail_attr"><=
+a rel=3D"nofollow">andreas...@gmail.com</a> schrieb am Donnerstag, 14. Apri=
+l 2022 um 11:34:19 UTC&#43;2:<br></div><blockquote class=3D"gmail_quote" st=
+yle=3D"margin:0 0 0 0.8ex; border-left:1px solid rgb(204,204,204); padding-=
+left:1ex">Hi Lisa,&nbsp;<div><br></div><div>thanks for the swift answer. Af=
+ter investigating the code, I get the idea. Definitely a very helpful reply=
+!</div><div>I don't really get the point about the &quot;Nyears&quot;, thou=
+gh. Staying in the example above, could you explain to me what the value fo=
+r Nyears would be? I am having trouble understanding what exactly is the ca=
+lculation behind this with respect to snapshot.weightings and so on.&nbsp;<=
+/div><div><br></div><div>Nyears =3D n.snapshot_weightings.objective.sum() /=
+ 8760<br></div><div><br></div><div>Could you give me an idea of what would =
+be the value for Nyears in the example presented above?</div><div>I am runn=
+ing 1 year of simulation with 4h-snapshots, in case that's relevant. Maybe =
+you could reiterate how the Nyear would change with changing the <b>X</b>h-=
+snapshots and <b>Y</b> years of&nbsp; simulation. That would be incredibly =
+helpful.</div><div><br></div><div>Thank you for your help, best regards,</d=
+iv><div>Andreas</div><div><br></div><div class=3D"gmail_quote"><div dir=3D"=
+auto" class=3D"gmail_attr"><a rel=3D"nofollow">lisaze...@gmail.com</a> schr=
+ieb am Donnerstag, 14. April 2022 um 08:04:30 UTC&#43;2:<br></div><blockquo=
+te class=3D"gmail_quote" style=3D"margin:0 0 0 0.8ex; border-left:1px solid=
+ rgb(204,204,204); padding-left:1ex">Hi Andreas,<div><br></div><div>If you =
+run the optimisation for one single year it makes sense to annualise the ca=
+pital costs (this does not happen internally in pypsa). In your example the=
+ capital cost should be 5 MUSD. You can find an example on how we normally =
+annualise the capital costs here</div><div><br></div><div><a href=3D"https:=
+//github.com/PyPSA/pypsa-eur/blob/3acc4a22360cbf6c3f22c63880f55c465ee8244b/=
+scripts/add_electricity.py#L141-L143" rel=3D"nofollow">https://github.com/P=
+yPSA/pypsa-eur/blob/3acc4a22360cbf6c3f22c63880f55c465ee8244b/scripts/add_el=
+ectricity.py#L141-L143</a><br><br></div><div>Best wishes,</div><div>Lisa</d=
+iv><div class=3D"gmail_quote"><div dir=3D"auto" class=3D"gmail_attr"><a rel=
+=3D"nofollow">andreas...@gmail.com</a> schrieb am Mittwoch, 13. April 2022 =
+um 16:32:38 UTC&#43;2:<br></div><blockquote class=3D"gmail_quote" style=3D"=
+margin:0 0 0 0.8ex; border-left:1px solid rgb(204,204,204); padding-left:1e=
+x">Dear all,&nbsp;<div><br></div><div>I know I am a bit late to this thread=
+, but this one seems to fit best with regards to my query.</div><div>Capita=
+l costs are something that is paid once for constructing an asset / compone=
+nt and will not be paid again. It is a fixed cost position. Now, if I run a=
+ simulation for 1 year (e.g. snapshots: 2013-01-01 to 2014-01-01), will the=
+ capital costs of the built components somehow be divided by a factor to ta=
+ke into account that I only simulate 1 year instead of the whole period thi=
+s asset would be active?&nbsp;</div><div><br></div><div>Let me give you an =
+example in case I was not clear enough:</div><div>The model (endogenously) =
+adds additional capacity of 100 MW of PV power. The capital costs for that =
+are 100 MUSD. Since I only simulate one year and a PV plant has an assumed =
+lifetime of 20 years, would the model add capital costs of 100 MUSD, or 5 M=
+USD?&nbsp;</div><div><br></div><div>I guess it would be 100 MUSD, but I wou=
+ld like to clarify this before going ahead with my project as this would be=
+ a crucial thing to consider for me.</div><div><br></div><div>Thank you all=
+ for your help!</div><div><br></div><div>Best regards,</div><div>Andreas</d=
+iv><div><br></div><div class=3D"gmail_quote"><div dir=3D"auto" class=3D"gma=
+il_attr"><a rel=3D"nofollow">t.b...@tu-berlin.de</a> schrieb am Sonntag, 6.=
+ Juni 2021 um 15:22:34 UTC&#43;2:<br></div><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 0.8ex; border-left:1px solid rgb(204,204,204); padd=
+ing-left:1ex">Hi Alice,
+<br>
+<br>The investment costs are annualised using a formula for the annuity tha=
+t
+<br>takes account of the discount rate, see e.g.
+<br>
+<br><a href=3D"https://nworbmot.org/courses/esm-2020/lectures/esm-lecture-1=
+1.pdf" rel=3D"nofollow">https://nworbmot.org/courses/esm-2020/lectures/esm-=
+lecture-11.pdf</a>
+<br>
+<br>To this are added fixed O&amp;M costs to get the fixed annual payment t=
+hat
+<br>enters PyPSA as the &quot;capital_cost&quot;.
+<br>
+<br>Best,
+<br>
+<br>Tom
+<br>
+<br>On 06/06/2021 14:00, Alice Di Bella wrote:
+<br>&gt; Hi everybody,
+<br>&gt;=20
+<br>&gt; I'm Alice Di Bella, I am currently writing my thesis for my Master
+<br>&gt; degree in Energy Engineering at Politecnico di Milano using Pypsa-=
+eur. I
+<br>&gt; am currently having troubles understanding how the cost variables
+<br>&gt; (capital_cost and marginal_cost) work.
+<br>&gt;=20
+<br>&gt; I'll be more precise: I ran a simulaion with 37 nodes in europe,
+<br>&gt; timestep of 24 hours, using config.default.yaml and I don't unders=
+tand
+<br>&gt; how the capital cost is calculated.
+<br>&gt; For example the capital cost for onwind, taken from
+<br>&gt; network.generators.capital_cost is 109.3 =E2=82=AC/kW but in the d=
+ata costs.csv
+<br>&gt; the value was 1040 =E2=82=AC/kW. I know that I should consider a c=
+ertain
+<br>&gt; discount rate, but the difference is of an entire order of magnitu=
+de, so
+<br>&gt; I think it's a bit weird. Can anybody help me with this please?
+<br>&gt; It would be important to go on with my work :)
+<br>&gt;=20
+<br>&gt; Thank you in advance ,
+<br>&gt; Alice Di Bella
+<br>&gt;=20
+<br>&gt; --=20
+<br>&gt; You received this message because you are subscribed to the Google
+<br>&gt; Groups &quot;pypsa&quot; group.
+<br>&gt; To unsubscribe from this group and stop receiving emails from it, =
+send
+<br>&gt; an email to <a rel=3D"nofollow">pypsa&#43;un...@googlegroups.com</=
+a>
+<br>&gt; &lt;mailto:<a rel=3D"nofollow">pypsa&#43;un...@googlegroups.com</a=
+>&gt;.
+<br>&gt; To view this discussion on the web, visit
+<br>&gt; <a href=3D"https://groups.google.com/d/msgid/pypsa/11e3b925-b53f-4=
+0de-89a6-0450f30b359dn%40googlegroups.com" rel=3D"nofollow">https://groups.=
+google.com/d/msgid/pypsa/11e3b925-b53f-40de-89a6-0450f30b359dn%40googlegrou=
+ps.com</a>
+<br>&gt; &lt;<a href=3D"https://groups.google.com/d/msgid/pypsa/11e3b925-b5=
+3f-40de-89a6-0450f30b359dn%40googlegroups.com?utm_medium=3Demail&amp;utm_so=
+urce=3Dfooter" rel=3D"nofollow">https://groups.google.com/d/msgid/pypsa/11e=
+3b925-b53f-40de-89a6-0450f30b359dn%40googlegroups.com?utm_medium=3Demail&am=
+p;utm_source=3Dfooter</a>&gt;.
+<br>
+<br>--=20
+<br>Tom Brown (he/him)
+<br>Professor of Digital Transformation in Energy Systems
+<br>Institute of Energy Technology
+<br>Technische Universit=C3=A4t Berlin
+<br>
+<br>Group website: <a href=3D"https://www.ensys.tu-berlin.de/" rel=3D"nofol=
+low">https://www.ensys.tu-berlin.de/</a>
+<br>Personal website: <a href=3D"https://nworbmot.org/" rel=3D"nofollow">ht=
+tps://nworbmot.org/</a>
+<br>
+<br>Visitor Address:
+<br>Einsteinufer 25 (TA 8)
+<br>10587 Berlin
+<br></blockquote></div></blockquote></div></blockquote></div></blockquote><=
+/div></blockquote></div></blockquote></div></blockquote></div>
+
+<p></p>
+
+-- <br>
+You received this message because you are subscribed to a topic in the Goog=
+le Groups &quot;pypsa&quot; group.<br>
+To unsubscribe from this topic, visit <a href=3D"https://groups.google.com/=
+d/topic/pypsa/Ybi1M9SXx-c/unsubscribe">https://groups.google.com/d/topic/py=
+psa/Ybi1M9SXx-c/unsubscribe</a>.<br>
+To unsubscribe from this group and all its topics, send an email to <a href=
+=3D"mailto:pypsa&#43;unsubscribe@googlegroups.com">pypsa&#43;unsubscribe@go=
+oglegroups.com</a>.<br>
+To view this discussion on the web, visit <a href=3D"https://groups.google.=
+com/d/msgid/pypsa/4b2680d9-2f2e-4407-99cd-26a80d892532n%40googlegroups.com?=
+utm_medium=3Demail&amp;utm_source=3Dfooter">https://groups.google.com/d/msg=
+id/pypsa/4b2680d9-2f2e-4407-99cd-26a80d892532n%40googlegroups.com</a>.<br>

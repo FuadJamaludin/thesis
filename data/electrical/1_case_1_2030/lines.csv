@@ -1,0 +1,175 @@
+name,bus0,bus1,type,s_nom_extendable,length,s_max_pu
+KarlsruheWest_Daxlanden_220,KarlsruheWest_220kV,Daxlanden_220kV,Al/St 240/40 2-bundle 220.0,TRUE,8,0.7
+Daxlanden_Oberwald_220,Daxlanden_220kV,Oberwald_220kV,Al/St 240/40 2-bundle 220.0,TRUE,10,0.7
+Daxlanden_Oberwald_110,Daxlanden_110kV,Oberwald_110kV,305-AL1/39-ST1A 110.0,TRUE,10,0.7
+Oberwald_KarlsruheOst_220,Oberwald_220kV,KarlsruheOst_220kV,Al/St 240/40 2-bundle 220.0,TRUE,8,0.7
+Oberwald_KarlsruheOst_110,Oberwald_110kV,KarlsruheOst_110kV,305-AL1/39-ST1A 110.0,TRUE,8,0.7
+Oberwald_Kuppenheim_110,Oberwald_110kV,Kuppenheim_110kV,305-AL1/39-ST1A 110.0,TRUE,27,0.7
+Oberwald_Bruchsal_110,Oberwald_110kV,Bruchsal_110kV,305-AL1/39-ST1A 110.0,TRUE,30,0.7
+Oberwald_Birkenfeld_110,Oberwald_110kV,Birkenfeld_110kV,305-AL1/39-ST1A 110.0,TRUE,30,0.7
+Oberwald_Birkenfeld_220,Oberwald_110kV,Birkenfeld_220kV,Al/St 240/40 2-bundle 220.0,TRUE,30,0.7
+Kuppenheim_Daxlanden_220,Kuppenheim_220kV,Daxlanden_220kV,Al/St 240/40 2-bundle 220.0,TRUE,28,0.7
+Forbach_Kuppenheim_110,Forbach_110kV,Kuppenheim_110kV,305-AL1/39-ST1A 110.0,TRUE,23,0.7
+Daxlanden_Altlussheim_220,Daxlanden_220kV,Altlussheim_220kV,Al/St 240/40 2-bundle 220.0,TRUE,45,0.7
+Altlussheim_Rheinau_110,Altlussheim_110kV,Rheinau_110kV,305-AL1/39-ST1A 110.0,TRUE,19,0.7
+Altlussheim_Rheinau_220,Altlussheim_220kV,Rheinau_220kV,Al/St 240/40 2-bundle 220.0,TRUE,19,0.7
+Rheinau_GKMannheim_220,Rheinau_220kV,GKMannheim_220kV,Al/St 240/40 2-bundle 220.0,TRUE,10,0.7
+Weinheim_GKMannheim_220,Weinheim_220kV,GKMannheim_220kV,Al/St 240/40 2-bundle 220.0,TRUE,24,0.7
+Rheinau_Weinheim_110,Rheinau_110kV,Weinheim_110kV,305-AL1/39-ST1A 110.0,TRUE,26,0.7
+Kuppenheim_Buhl_220,Kuppenheim_220kV,Buhl_220kV,Al/St 240/40 2-bundle 220.0,TRUE,25,0.7
+Kuppenheim_Buhl_110,Kuppenheim_110kV,Buhl_110kV,305-AL1/39-ST1A 110.0,TRUE,25,0.7
+Buhl_Weier_220,Buhl_220kV,Weier_220kV,Al/St 240/40 2-bundle 220.0,TRUE,38,0.7
+Weier_Eichstetten_220,Weier_220kV,Eichstetten_220kV,Al/St 240/40 2-bundle 220.0,TRUE,55,0.7
+Daxlanden_Eichstetten_380,Daxlanden_380kV,Eichstetten_380kV,Al/St 240/40 4-bundle 380.0,TRUE,126,0.7
+Rheinfelden_Eichstetten_110,Rheinfelden_110kV,Eichstetten_110kV,305-AL1/39-ST1A 110.0,TRUE,94,0.7
+Rheinfelden_Ryburg_Schworstadt_110,Rheinfelden_110kV,Ryburg_Schworstadt_110kV,305-AL1/39-ST1A 110.0,TRUE,11,0.7
+Lorrach_Eichstetten_110,Lorrach_110kV,Eichstetten_110kV,305-AL1/39-ST1A 110.0,TRUE,82,0.7
+Kuhmoos_Ryburg_Schworstadt_380,Kuhmoos_380kV,Ryburg_Schworstadt_380kV,Al/St 240/40 4-bundle 380.0,TRUE,20,0.7
+Kuhmoos_Eichstetten_380,Kuhmoos_380kV,Eichstetten_380kV,Al/St 240/40 4-bundle 380.0,TRUE,111,0.7
+Kuhmoos_Laufenburg_380,Kuhmoos_380kV,Laufenburg_380kV,Al/St 240/40 4-bundle 380.0,TRUE,20,0.7
+Tiengen_Ryburg_Schworstadt_110,Tiengen_110kV,Ryburg_Schworstadt_110kV,305-AL1/39-ST1A 110.0,TRUE,41,0.7
+Laufenburg_Tiengen_380,Laufenburg_380kV,Tiengen_380kV,Al/St 240/40 4-bundle 380.0,TRUE,18,0.7
+Reckingen_Tiengen_110,Reckingen_110kV,Tiengen_110kV,305-AL1/39-ST1A 110.0,TRUE,10,0.7
+Gurtweil_Tiengen_220,Gurtweil_220kV,Tiengen_220kV,Al/St 240/40 2-bundle 220.0,TRUE,3,0.7
+Gurtweil_Laufenburg_380,Gurtweil_380kV,Laufenburg_380kV,Al/St 240/40 4-bundle 380.0,TRUE,20,0.7
+Gurtweil_Villingen_110,Gurtweil_110kV,Villingen_110kV,305-AL1/39-ST1A 110.0,TRUE,69,0.7
+Gurtweil_Villingen_380,Gurtweil_380kV,Villingen_380kV,Al/St 240/40 4-bundle 380.0,TRUE,69,0.7
+Gurtweil_Eichstetten_220,Gurtweil_220kV,Eichstetten_220kV,Al/St 240/40 2-bundle 220.0,TRUE,98,0.7
+Villingen_Trossingen_110,Villingen_110kV,Trossingen_110kV,305-AL1/39-ST1A 110.0,TRUE,17,0.7
+Villingen_Trossingen_380,Villingen_380kV,Trossingen_380kV,Al/St 240/40 4-bundle 380.0,TRUE,17,0.7
+Trossingen_Engstlatt_380,Trossingen_380kV,Engstlatt_380kV,Al/St 240/40 4-bundle 380.0,TRUE,39,0.7
+Trossingen_Dotternhausen_110,Trossingen_110kV,Dotternhausen_110kV,305-AL1/39-ST1A 110.0,TRUE,27,0.7
+Dotternhausen_Engstlatt_110,Dotternhausen_110kV,Engstlatt_110kV,305-AL1/39-ST1A 110.0,TRUE,12,0.7
+Trossingen_Tuttlingen_110,Trossingen_110kV,Tuttlingen_110kV,305-AL1/39-ST1A 110.0,TRUE,25,0.7
+Villingen_Weier_110,Villingen_110kV,Weier_110kV,305-AL1/39-ST1A 110.0,TRUE,78,0.7
+Engstlatt_Oberjettingen_380,Engstlatt_380kV,Oberjettingen_380kV,Al/St 240/40 4-bundle 380.0,TRUE,49,0.7
+Oberjettingen_Pulverdingen_380,Oberjettingen_380kV,Pulverdingen_380kV,Al/St 240/40 4-bundle 380.0,TRUE,63,0.7
+Philippsburg_Altlussheim_110,Philippsburg_110kV,Altlussheim_110kV,305-AL1/39-ST1A 110.0,TRUE,11,0.7
+Bruchsal_Altlussheim_110,Bruchsal_110kV,Altlussheim_110kV,305-AL1/39-ST1A 110.0,TRUE,27,0.7
+Pulverdingen_Bruchsal_380,Pulverdingen_380kV,Bruchsal_380kV,Al/St 240/40 4-bundle 380.0,TRUE,50,0.7
+Bruchsal_Philippsburg_380,Bruchsal_380kV,Philippsburg_380kV,Al/St 240/40 4-bundle 380.0,TRUE,21,0.7
+Bruchsal_Philippsburg_110,Bruchsal_110kV,Philippsburg_110kV,305-AL1/39-ST1A 110.0,TRUE,21,0.7
+Daxlanden_Philippsburg_380,Daxlanden_380kV,Philippsburg_380kV,Al/St 240/40 4-bundle 380.0,TRUE,40,0.7
+Birkenfeld_Enzberg_110,Birkenfeld_110kV,Enzberg_110kV,305-AL1/39-ST1A 110.0,TRUE,20,0.7
+Wiesloch_Leimen_110,Wiesloch_110kV,Leimen_110kV,305-AL1/39-ST1A 110.0,TRUE,10,0.7
+Wiesloch_Pulverdingen_110,Wiesloch_110kV,Pulverdingen_110kV,305-AL1/39-ST1A 110.0,TRUE,100,0.7
+Wiesloch_Enzberg_110,Wiesloch_110kV,Enzberg_110kV,305-AL1/39-ST1A 110.0,TRUE,77,0.7
+Wiesloch_Philippsburg_110,Wiesloch_110kV,Philippsburg_110kV,305-AL1/39-ST1A 110.0,TRUE,22,0.7
+Pulverdingen_Enzberg_110,Pulverdingen_110kV,Enzberg_110kV,305-AL1/39-ST1A 110.0,TRUE,20,0.7
+Neurott_Philippsburg_380,Neurott_380kV,Philippsburg_380kV,Al/St 240/40 4-bundle 380.0,TRUE,30,0.7
+Neurott_Huffenhardt_380,Neurott_380kV,Huffenhardt_380kV,Al/St 240/40 4-bundle 380.0,TRUE,60,0.7
+Grossgartach_Huffenhardt_380,Grossgartach_380kV,Huffenhardt_380kV,Al/St 240/40 4-bundle 380.0,TRUE,21,0.7
+Grossgartach_Pulverdingen_380,Grossgartach_380kV,Pulverdingen_380kV,Al/St 240/40 4-bundle 380.0,TRUE,40,0.7
+Neurott_Hoheneck_380,Neurott_380kV,Hoheneck_380kV,Al/St 240/40 4-bundle 380.0,TRUE,97,0.7
+Hoheneck_Pulverdingen_380,Hoheneck_380kV,Pulverdingen_380kV,Al/St 240/40 4-bundle 380.0,TRUE,25,0.7
+Hoheneck_Pulverdingen_110,Hoheneck_110kV,Pulverdingen_110kV,305-AL1/39-ST1A 110.0,TRUE,25,0.7
+Hoheneck_Pulverdingen_220,Hoheneck_220kV,Pulverdingen_220kV,Al/St 240/40 2-bundle 220.0,TRUE,25,0.7
+Leimen_Huffenhardt_110,Leimen_110kV,Huffenhardt_110kV,305-AL1/39-ST1A 110.0,TRUE,54,0.7
+Leimen_Rheinau_110,Leimen_110kV,Rheinau_110kV,305-AL1/39-ST1A 110.0,TRUE,17,0.7
+Rheinau_Hoheneck_220,Rheinau_220kV,Hoheneck_220kV,Al/St 240/40 2-bundle 220.0,TRUE,104,0.7
+Lorrach_Rheinfelden_110,Lorrach_110kV,Rheinfelden_110kV,305-AL1/39-ST1A 110.0,TRUE,14,0.7
+Engstlatt_Nehren_110,Engstlatt_110kV,Nehren_110kV,305-AL1/39-ST1A 110.0,TRUE,25,0.7
+Nehren_Rappenberghalde_110,Nehren_110kV,Rappenberghalde_110kV,305-AL1/39-ST1A 110.0,TRUE,14,0.7
+Rappenberghalde_Herrenberg_110,Rappenberghalde_110kV,Herrenberg_110kV,305-AL1/39-ST1A 110.0,TRUE,21,0.7
+Herrenberg_Sindelfingen_110,Herrenberg_110kV,Sindelfingen_110kV,305-AL1/39-ST1A 110.0,TRUE,19,0.7
+Sindelfingen_Ludwigsburg_110,Sindelfingen_110kV,Ludwigsburg_110kV,305-AL1/39-ST1A 110.0,TRUE,32,0.7
+Ludwigsburg_Hoheneck_110,Ludwigsburg_110kV,Hoheneck_110kV,305-AL1/39-ST1A 110.0,TRUE,4,0.7
+Nehren_Oberjettingen_110,Nehren_110kV,Oberjettingen_110kV,305-AL1/39-ST1A 110.0,TRUE,38,0.7
+Nehren_Reutlingen_110,Nehren_110kV,Reutlingen_110kV,305-AL1/39-ST1A 110.0,TRUE,15,0.7
+Reutlingen_Metzingen_110,Reutlingen_110kV,Metzingen_110kV,305-AL1/39-ST1A 110.0,TRUE,9,0.7
+Metzingen_Hoheneck_380,Metzingen_380kV,Hoheneck_380kV,Al/St 240/40 4-bundle 380.0,TRUE,65,0.7
+Metzingen_Herbertingen_380,Metzingen_380kV,Herbertingen_380kV,Al/St 240/40 4-bundle 380.0,TRUE,73,0.7
+Herbertingen_Tiengen_380,Herbertingen_380kV,Tiengen_380kV,Al/St 240/40 4-bundle 380.0,TRUE,117,0.7
+Herbertingen_Ebingen_110,Herbertingen_110kV,Ebingen_110kV,305-AL1/39-ST1A 110.0,TRUE,44,0.7
+Ebingen_Laufen_110,Ebingen_110kV,Laufen_an_der_Eyach_110kV,305-AL1/39-ST1A 110.0,TRUE,10,0.7
+Laufen_Dotternhausen_110kV,Laufen_an_der_Eyach_110kV,Dotternhausen_110kV,305-AL1/39-ST1A 110.0,TRUE,13,0.7
+Gurtweil_Zollhaus_110,Gurtweil_110kV,Zollhaus_110kV,305-AL1/39-ST1A 110.0,TRUE,38,0.7
+Zollhaus_Beuren_110,Zollhaus_110kV,Beuren_110kV,305-AL1/39-ST1A 110.0,TRUE,45,0.7
+Beuren_Singen_110,Beuren_110kV,Singen_110kV,305-AL1/39-ST1A 110.0,TRUE,5,0.7
+Beuren_Stockach_110,Beuren_110kV,Stockach_110kV,305-AL1/39-ST1A 110.0,TRUE,25,0.7
+Gurtweil_Beuren_220,Gurtweil_220kV,Beuren_220kV,Al/St 240/40 2-bundle 220.0,TRUE,67,0.7
+Gurtweil_Stockach_220,Gurtweil_220kV,Stockach_220kV,Al/St 240/40 2-bundle 220.0,TRUE,78,0.7
+Stockach_Messkirch_110,Stockach_110kV,Messkirch_110kV,305-AL1/39-ST1A 110.0,TRUE,23,0.7
+Stockach_Sipplingen_110,Stockach_110kV,Sipplingen_110kV,305-AL1/39-ST1A 110.0,TRUE,11,0.7
+Sipplingen_Weildorf_110,Sipplingen_110kV,Weildorf_110kV,305-AL1/39-ST1A 110.0,TRUE,20,0.7
+Messkirch_Weildorf_110,Messkirch_110kV,Weildorf_110kV,305-AL1/39-ST1A 110.0,TRUE,34,0.7
+Weildorf_Markdorf_110,Weildorf_110kV,Markdorf_110kV,305-AL1/39-ST1A 110.0,TRUE,12,0.7
+Markdorf_Grunkraut_110,Markdorf_110kV,Grunkraut_110kV,305-AL1/39-ST1A 110.0,TRUE,26,0.7
+Herbertingen_Grunkraut_380,Herbertingen_380kV,Grunkraut_380kV,Al/St 240/40 4-bundle 380.0,TRUE,48,0.7
+Grunkraut_Obermooweiler_380,Grunkraut_380kV,Obermooweiler_380kV,Al/St 240/40 4-bundle 380.0,TRUE,19,0.7
+Grunkraut_Obermooweiler_110,Grunkraut_110kV,Obermooweiler_110kV,305-AL1/39-ST1A 110.0,TRUE,19,0.7
+Obermooweiler_Wangen_im_Allgau_110,Obermooweiler_110kV,Wangen_im_Allgau_110kV,305-AL1/39-ST1A 110.0,TRUE,4,0.7
+Wangen_Leutkirch_110,Wangen_im_Allgau_110kV,Leutkirch_110kV,305-AL1/39-ST1A 110.0,TRUE,23,0.7
+Leutkirch_Haisterkirch_110,Leutkirch_110kV,Haisterkirch_110kV,305-AL1/39-ST1A 110.0,TRUE,25,0.7
+Haisterkirch_Herbertingen_110,Haisterkirch_110kV,Herbertingen_110kV,305-AL1/39-ST1A 110.0,TRUE,39,0.7
+Haisterkirch_Biberach_110,Haisterkirch_110kV,Biberach_110kV,305-AL1/39-ST1A 110.0,TRUE,25,0.7
+Biberach_Ochsenhausen_110,Biberach_110kV,Ochsenhausen_110kV,305-AL1/39-ST1A 110.0,TRUE,15,0.7
+Ochsenhausen_Tannheim_110,Ochsenhausen_110kV,Tannheim_110kV,305-AL1/39-ST1A 110.0,TRUE,15,0.7
+Tannheim_Unteropfingen_110,Tannheim_110kV,Unteropfingen_110kV,305-AL1/39-ST1A 110.0,TRUE,10,0.7
+Unteropfingen_Dettingen_110,Unteropfingen_110kV,Dettingen_110kV,305-AL1/39-ST1A 110.0,TRUE,6,0.7
+Biberach_Dellmensingen_110,Biberach_110kV,Dellmensingen_110kV,305-AL1/39-ST1A 110.0,TRUE,29,0.7
+Obermooweiler_Dellmensingen_380,Obermooweiler_380kV,Dellmensingen_380kV,Al/St 240/40 4-bundle 380.0,TRUE,104,0.7
+Dettingen_Donautal_110,Dettingen_110kV,Donautal_110kV,305-AL1/39-ST1A 110.0,TRUE,44,0.7
+Donautal_Dellmensingen_110,Donautal_110kV,Dellmensingen_110kV,305-AL1/39-ST1A 110.0,TRUE,12,0.7
+Dellmensingen_Schmiechen_110,Dellmensingen_110kV,Schmiechen_110kV,305-AL1/39-ST1A 110.0,TRUE,20,0.7
+Schmiechen_Laichingen_110,Schmiechen_110kV,Laichingen_110kV,305-AL1/39-ST1A 110.0,TRUE,23,0.7
+Dellmensingen_Laichingen_380,Dellmensingen_380kV,Laichingen_380kV,Al/St 240/40 4-bundle 380.0,TRUE,35,0.7
+Herbertingen_Ehingen_110,Herbertingen_110kV,Ehingen_110kV,305-AL1/39-ST1A 110.0,TRUE,38,0.7
+Ehingen_Schmiechen_110,Ehingen_110kV,Schmiechen_110kV,305-AL1/39-ST1A 110.0,TRUE,12,0.7
+Dellmensingen_Soflingen_110,Dellmensingen_110kV,SoflingenUlm_110kV,305-AL1/39-ST1A 110.0,TRUE,16,0.7
+UlmOst_Dornstadt_110,UlmOst_110kV,Dornstadt_110kV,305-AL1/39-ST1A 110.0,TRUE,10,0.7
+Dornstadt_Laichingen_110,Dornstadt_110kV,Laichingen_110kV,305-AL1/39-ST1A 110.0,TRUE,27,0.7
+Laichingen_Wendlingen_380,Laichingen_380kV,Wendlingen_380kV,Al/St 240/40 4-bundle 380.0,TRUE,45,0.7
+Metzingen_Wendlingen_380,Metzingen_380kV,Wendlingen_380kV,Al/St 240/40 4-bundle 380.0,TRUE,21,0.7
+Wendlingen_Mohringen_110,Wendlingen_110kV,Mohringen_110kV,305-AL1/39-ST1A 110.0,TRUE,21,0.7
+Mohringen_Sindelfingen_110,Mohringen_110kV,Sindelfingen_110kV,305-AL1/39-ST1A 110.0,TRUE,17,0.7
+Sindelfingen_Pulverdingen_110,Sindelfingen_110kV,Pulverdingen_110kV,305-AL1/39-ST1A 110.0,TRUE,34,0.7
+Sindelfingen_Stuttgart_110,Sindelfingen_110kV,Stuttgart_110kV,305-AL1/39-ST1A 110.0,TRUE,20,0.7
+Stuttgart_Muhlhausen_110,Stuttgart_110kV,Muhlhausen_110kV,305-AL1/39-ST1A 110.0,TRUE,10,0.7
+Muhlhausen_Neckarwestheim_220,Muhlhausen_220kV,Neckarwestheim_220kV,Al/St 240/40 2-bundle 220.0,TRUE,38,0.7
+Neckarwestheim_Grossgartach_380,Neckarwestheim_380kV,Grossgartach_380kV,Al/St 240/40 4-bundle 380.0,TRUE,18,0.7
+Muhlhausen_Hoheneck_380,Muhlhausen_380kV,Hoheneck_380kV,Al/St 240/40 4-bundle 380.0,TRUE,15,0.7
+Neckarwestheim_Hoheneck_110,Neckarwestheim_110kV,Hoheneck_110kV,305-AL1/39-ST1A 110.0,TRUE,25,0.7
+Wendlingen_Altbach_110,Wendlingen_110kV,Altbach_110kV,305-AL1/39-ST1A 110.0,TRUE,10,0.7
+Wendlingen_Altbach_380,Wendlingen_380kV,Altbach_380kV,Al/St 240/40 4-bundle 380.0,TRUE,10,0.7
+Altbach_Hoheneck_110,Altbach_110kV,Hoheneck_110kV,305-AL1/39-ST1A 110.0,TRUE,45,0.7
+Altbach_Endersbach_380,Altbach_380kV,Endersbach_380kV,Al/St 240/40 4-bundle 380.0,TRUE,23,0.7
+Altbach_Endersbach_110,Altbach_110kV,Endersbach_110kV,305-AL1/39-ST1A 110.0,TRUE,23,0.7
+Herbertingen_Grunkraut_110,Herbertingen_110kV,Grunkraut_110kV,305-AL1/39-ST1A 110.0,TRUE,48,0.7
+Herbertingen_Ravensburg_110,Herbertingen_110kV,Ravensburg_110kV,305-AL1/39-ST1A 110.0,TRUE,45,0.7
+Ravensburg_Grunkraut_110,Ravensburg_110kV,Grunkraut_110kV,305-AL1/39-ST1A 110.0,TRUE,7,0.7
+Metzingen_Nurtingen_110,Metzingen_110kV,Nurtingen_110kV,305-AL1/39-ST1A 110.0,TRUE,15,0.7
+Nurtingen_Wendlingen_110,Nurtingen_110kV,Wendlingen_110kV,305-AL1/39-ST1A 110.0,TRUE,8,0.7
+Laichingen_Amstetten_110,Laichingen_110kV,Amstetten_110kV,305-AL1/39-ST1A 110.0,TRUE,21,0.7
+Amstetten_Geislingen_110,Amstetten_110kV,Geislingen_110kV,305-AL1/39-ST1A 110.0,TRUE,8,0.7
+Geislingen_Kirchheim_110,Geislingen_110kV,Kirchheim_110kV,305-AL1/39-ST1A 110.0,TRUE,35,0.7
+Kirchheim_Wendlingen_110,Kirchheim_110kV,Wendlingen_110kV,305-AL1/39-ST1A 110.0,TRUE,13,0.7
+Geislingen_Altbach_110,Geislingen_110kV,Altbach_110kV,305-AL1/39-ST1A 110.0,TRUE,40,0.7
+Endersbach_Hoheneck_380,Endersbach_380kV,Hoheneck_380kV,Al/St 240/40 4-bundle 380.0,TRUE,28,0.7
+Endersbach_Kornwestheim_110,Endersbach_110kV,Kornwestheim_110kV,305-AL1/39-ST1A 110.0,TRUE,23,0.7
+Kornwestheim_Ludwigsburg_110,Kornwestheim_110kV,Ludwigsburg_110kV,305-AL1/39-ST1A 110.0,TRUE,4,0.7
+Hoheneck_Grossgartach_110,Hoheneck_110kV,Grossgartach_110kV,305-AL1/39-ST1A 110.0,TRUE,38,0.7
+Neckarwestheim_Grossgartach_110,Neckarwestheim_110kV,Grossgartach_110kV,305-AL1/39-ST1A 110.0,TRUE,18,0.7
+Neckarwestheim_Pulverdingen_110,Neckarwestheim_110kV,Pulverdingen_110kV,305-AL1/39-ST1A 110.0,TRUE,30,0.7
+Hopfingen_Huffenhardt_380,Hopfingen_380kV,Huffenhardt_380kV,Al/St 240/40 4-bundle 380.0,TRUE,53,0.7
+Hopfingen_Huffenhardt_110,Hopfingen_110kV,Huffenhardt_110kV,305-AL1/39-ST1A 110.0,TRUE,53,0.7
+Adelsheim_Huffenhardt_110,Adelsheim_110kV,Huffenhardt_110kV,305-AL1/39-ST1A 110.0,TRUE,38,0.7
+Adelsheim_Hopfingen_110,Adelsheim_110kV,Hopfingen_110kV,305-AL1/39-ST1A 110.0,TRUE,30,0.7
+Kupferzell_Grossgartach_380,Kupferzell_380kV,Grossgartach_380kV,Al/St 240/40 4-bundle 380.0,TRUE,55,0.7
+Kupferzell_Goldshofe_380,Kupferzell_380kV,Goldshofe_380kV,Al/St 240/40 4-bundle 380.0,TRUE,92,0.7
+Goldshofe_Rotensohl_380,Goldshofe_380kV,Rotensohl_380kV,Al/St 240/40 4-bundle 380.0,TRUE,25,0.7
+Goldshofe_Oberkochen_110,Goldshofe_110kV,Oberkochen_110kV,305-AL1/39-ST1A 110.0,TRUE,23,0.7
+Rotensohl_Niederstotzingen_380,Rotensohl_380kV,Niederstotzingen_380kV,Al/St 240/40 4-bundle 380.0,TRUE,33,0.7
+Niederstotzingen_Dellmensingen_380,Niederstotzingen_380kV,Dellmensingen_380kV,Al/St 240/40 4-bundle 380.0,TRUE,55,0.7
+Kupferzell_Gaildorf_110,Kupferzell_110kV,Gaildorf_110kV,305-AL1/39-ST1A 110.0,TRUE,31,0.7
+Gaildorf_Goldshofe_110,Gaildorf_110kV,Goldshofe_110kV,305-AL1/39-ST1A 110.0,TRUE,38,0.7
+Gaildorf_Pfahlbronn_110,Gaildorf_110kV,Pfahlbronn_110kV,305-AL1/39-ST1A 110.0,TRUE,25,0.7
+Pfahlbronn_Winnenden_110,Pfahlbronn_110kV,Winnenden_110kV,305-AL1/39-ST1A 110.0,TRUE,40,0.7
+Winnenden_Hoheneck_110,Winnenden_110kV,Hoheneck_110kV,305-AL1/39-ST1A 110.0,TRUE,18,0.7
+Kupferzell_Goldshofe_220,Kupferzell_220kV,Goldshofe_220kV,Al/St 240/40 2-bundle 220.0,TRUE,92,0.7
+Aalen_Geislingen_110,Aalen_110kV,Geislingen_110kV,305-AL1/39-ST1A 110.0,TRUE,40,0.7
+Aalen_Adelsheim_110,Aalen_110kV,Adelsheim_110kV,305-AL1/39-ST1A 110.0,TRUE,140,0.7
+Giengen_Rotensohl_110,Giengen_110kV,Rotensohl_110kV,305-AL1/39-ST1A 110.0,TRUE,12,0.7
+Giengen_Niederstotzingen_110,Giengen_110kV,Niederstotzingen_110kV,305-AL1/39-ST1A 110.0,TRUE,15,0.7
+Oberkochen_Rotensohl_110,Oberkochen_110kV,Rotensohl_110kV,305-AL1/39-ST1A 110.0,TRUE,16,0.7
+HeidelburgSud_Rheinau_220,HeidelburgSud_220kV,Rheinau_220kV,Al/St 240/40 2-bundle 220.0,TRUE,16,0.7

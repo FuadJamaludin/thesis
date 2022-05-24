@@ -1,0 +1,1730 @@
+,SiteId,CompanyName,StreetNameAndNumber,PostalCode,Country,ID_Eurostat,Subsector_Name,Latitude,Longitude,NUTS1ID,NUTS3ID,H2-Potential in TWh,ProcessInfo,geometry
+0,1,Shell Deutschland Oil GmbH Rheinland Raffinerie Werk Nord,Godorfer Hauptstr. 150,50997,DE,9,Refineries,50.85499337,6.976845536,DEA,DEA23,1.5837,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Refinery diesel focused</td> <td>2.0</td> <td>1.5837 </td>
+ </table>
+",POINT (6.976845536 50.85499337)
+1,2,"Shell Deutschland Oil GmbH Rheinland Raffinerie, Werk Süd",Ludwigshafener Str. 1,50389,DE,9,Refineries,50.81411042,7.005756279,DEA,DEA27,10.2139,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Refinery diesel focused</td> <td>2.0</td> <td>2.2378 </td>
+ <tr> <td nowrap>Ethylene</td> <td>63.6</td> <td>6.4628 </td>
+ <tr> <td nowrap>Methanol</td> <td>22.7</td> <td>1.5133 </td>
+ </table>
+",POINT (7.005756279 50.81411042)
+2,3,RUHR OEL GMBH Werk Scholven,Pawiker Strasse 30,45896,DE,9,Refineries,51.59603275,7.028908506,DEA,DEA32,28.8769,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Refinery flexible</td> <td>1.8</td> <td>2.2056 </td>
+ <tr> <td nowrap>Ethylene</td> <td>63.6</td> <td>26.6713 </td>
+ </table>
+",POINT (7.028908506 51.59603275)
+3,4,Ruhr Oel GmbH Werk Horst,Johannastrasse 2-8,45899,DE,9,Refineries,51.53960695,7.037202844,DEA,DEA32,1.894,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Refinery flexible</td> <td>1.8</td> <td>0.759 </td>
+ <tr> <td nowrap>Methanol</td> <td>22.7</td> <td>1.135 </td>
+ </table>
+",POINT (7.037202844 51.53960695)
+4,5,TOTAL Raffinerie Mitteldeutschland GmbH (Raffinerie/POX),Maienweg 1,6237,DE,9,Refineries,51.2896773,11.99058215,DEE,DEE0B,5.1709,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Refinery gasoline focused</td> <td>1.7</td> <td>2.6739 </td>
+ <tr> <td nowrap>Methanol</td> <td>22.7</td> <td>2.497 </td>
+ </table>
+",POINT (11.99058215 51.2896773)
+5,6,PCK Raffinerie GmbH Schwedt,Passower Chaussee 111,16303,DE,9,Refineries,53.08758529,14.23812153,DE4,DE40I,2.5868,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Refinery gasoline focused</td> <td>1.7</td> <td>2.5868 </td>
+ </table>
+",POINT (14.23812153 53.08758529)
+6,7,Holborn Europa Raffinerie GmbH,Moorburger Strasse 16,21079,DE,9,Refineries,53.47708586,9.951581894,DE6,DE600,0.9171,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Refinery gasoline focused</td> <td>1.7</td> <td>0.9171 </td>
+ </table>
+",POINT (9.951581894 53.47708586)
+7,8,Nynas Raffinerie Harburg-Süd,Moorburger Str. 10,21079,DE,9,Refineries,53.485769,9.969356,DE6,DE600,0.5171,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Refinery flexible</td> <td>1.8</td> <td>0.5171 </td>
+ </table>
+",POINT (9.969355999999999 53.485769)
+8,9,Raffinerie Heide GmbH,Meldorfer Str. 43,25734,DE,9,Refineries,54.16083121,9.079774432,DEF,DEF05,3.5439,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Refinery diesel focused</td> <td>2.0</td> <td>1.0582 </td>
+ <tr> <td nowrap>Ethylene</td> <td>63.6</td> <td>2.4857 </td>
+ </table>
+",POINT (9.079774432000001 54.16083121)
+9,10,BAYERNOIL Betriebsteil Neustadt,Raffineriestr. 100,93333,DE,9,Refineries,48.78499323,11.75797661,DE2,DE226,0.7017,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Refinery gasoline focused</td> <td>1.7</td> <td>0.7017 </td>
+ </table>
+",POINT (11.75797661 48.78499323)
+10,11,BP Europa SE BP Lingen,Raffineriestrasse 1,49808,DE,9,Refineries,52.56185428,7.311814641,DE9,DE949,1.0601,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Refinery diesel focused</td> <td>2.0</td> <td>1.0601 </td>
+ </table>
+",POINT (7.311814641 52.56185428)
+11,12,OMV Werk Burghausen,Haiminger Strasse 1,84489,DE,9,Refineries,48.19497657,12.83249114,DE2,DE214,12.062,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Refinery basic</td> <td>1.4</td> <td>0.8764 </td>
+ <tr> <td nowrap>Ethylene</td> <td>63.6</td> <td>11.1856 </td>
+ </table>
+",POINT (12.83249114 48.19497657)
+12,13,Gunvor Raffinerie Ingolstadt GmbH,Essostrasse 1,85092,DE,9,Refineries,48.79199234,11.47731516,DE2,DE219,1.2934,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Refinery gasoline focused</td> <td>1.7</td> <td>1.2934 </td>
+ </table>
+",POINT (11.47731516 48.79199234)
+13,14,BAYERNOIL Betriebsteil Vohburg,Irschinger Weg 1,85088,DE,9,Refineries,48.76579569,11.59885571,DE2,DE21J,0.3879,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Refinery gasoline focused</td> <td>1.7</td> <td>0.3879 </td>
+ </table>
+",POINT (11.59885571 48.76579569)
+14,15,Werk 1 MIRO-Mineralölraffinerie Oberrhein GmbH & Co.KG,Nördliche Raffineriestr. 1,76187,DE,9,Refineries,49.05780929,8.329049992,DE1,DE122,3.6451,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Refinery gasoline focused</td> <td>1.7</td> <td>3.6451 </td>
+ </table>
+",POINT (8.329049992 49.05780929)
+15,16,Covestro,Rheinuferstraße 7,47829,DE,5,Chemical industry,51.36813,6.66235,DEA,DEA14,0.0544,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.0544 </td>
+ </table>
+",POINT (6.66235 51.36813)
+16,17,Covestro,An der Römerziegelei,50769,DE,5,Chemical industry,51.08519,6.84469,DEA,DEA1D,0.1005,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.1005 </td>
+ </table>
+",POINT (6.84469 51.08519)
+17,18,INOVYN,Ludwigstraße 12,47495,DE,5,Chemical industry,51.56165,6.57928,DEA,DEA1F,0.0944,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chlorine, diaphragma</td> <td>3.1</td> <td>0.0714 </td>
+ <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.023 </td>
+ </table>
+",POINT (6.57928 51.56165)
+18,19,INEOS Manufacturing Deutschland GmbH,Alte Strasse 201,50769,DE,5,Chemical industry,51.06763602,6.846742503,DEA,DEA23,24.8289,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Ammonia</td> <td>21.3</td> <td>1.3144 </td>
+ <tr> <td nowrap>Ethylene</td> <td>63.6</td> <td>23.5145 </td>
+ </table>
+",POINT (6.846742503 51.06763602)
+19,20,Covestro,Friedrich-Ebert-Straße,51373,DE,5,Chemical industry,51.02508,6.98915,DEA,DEA24,0.0816,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.0816 </td>
+ </table>
+",POINT (6.98915 51.02508)
+20,21,BASF,Carl-Bosch-Str. 38,67056,DE,5,Chemical industry,49.52909984,8.424717492,DEB,DEB34,21.6522,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Ammonia</td> <td>21.3</td> <td>4.3446 </td>
+ <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.045 </td>
+ <tr> <td nowrap>Chlorine, mercury</td> <td>1.0</td> <td>0.0356 </td>
+ <tr> <td nowrap>Ethylene</td> <td>63.6</td> <td>15.4112 </td>
+ <tr> <td nowrap>Methanol</td> <td>22.7</td> <td>1.8158 </td>
+ </table>
+",POINT (8.424717491999999 49.52909984)
+21,22,Basell Polyolefine GmbH Werk Wesseling,Brühler Str. 60,50389,DE,5,Chemical industry,50.83268204,6.94406668,DEA,DEA27,25.8511,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Ethylene</td> <td>63.6</td> <td>25.8511 </td>
+ </table>
+",POINT (6.94406668 50.83268204)
+22,23,Evonik Industries,Feldmühlestraße 3,53859,DE,5,Chemical industry,50.83062,7.02402,DEA,DEA2C,0.0161,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.0161 </td>
+ </table>
+",POINT (7.02402 50.83062)
+23,24,VESTOLIT,Paul-Baumann-Straße 1,45772,DE,5,Chemical industry,51.68027,7.10186,DEA,DEA36,0.0544,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.0544 </td>
+ </table>
+",POINT (7.10186 51.68027)
+24,25,SKW Stickstoffwerke Piesteritz GmbH,Möllensdorfer Strasse 13,6886,DE,5,Chemical industry,51.87859337,12.57512855,DEE,DEE0E,7.0204,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Ammonia</td> <td>21.3</td> <td>7.0204 </td>
+ </table>
+",POINT (12.57512855 51.87859337)
+25,26,Dow,Straße B 13,6258,DE,5,Chemical industry,51.41207,12.02761,DEE,DEE0B,0.0523,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.0523 </td>
+ </table>
+",POINT (12.02761 51.41207)
+26,27,Nouryon (AkzoNobel),Elektrolysestraße 1,6749,DE,5,Chemical industry,51.63635,12.29834,DEE,DEE05,0.0207,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.0207 </td>
+ </table>
+",POINT (12.29834 51.63635)
+27,28,LEUNA-TENSIDE,Am Haupttor 7302,6237,DE,5,Chemical industry,51.29755,12.01855,DEE,DEE0B,0.0031,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.0031 </td>
+ </table>
+",POINT (12.01855 51.29755)
+28,29,Dow Europe Holding B.V.,Olefinstrasse 1,4564,DE,5,Chemical industry,51.19141347,12.35613076,DED,DED52,14.0441,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Ethylene</td> <td>63.6</td> <td>14.0441 </td>
+ </table>
+",POINT (12.35613076 51.19141347)
+29,30,Dow,Bützflether Sand 9,21683,DE,5,Chemical industry,53.63522,9.48465,DE9,DE939,0.7535,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chlorine, diaphragma</td> <td>3.1</td> <td>0.6488 </td>
+ <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.1047 </td>
+ </table>
+",POINT (9.48465 53.63522)
+30,31,Neolyse Ibbenbüren GmbH,Hauptstraße 47,49479,DE,5,Chemical industry,52.31284,7.63045,DEA,DEA37,0.0157,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.0157 </td>
+ </table>
+",POINT (7.63045 52.31284)
+31,32,Nouryon (AkzoNobel),Industriepark Höchst ,65926,DE,5,Chemical industry,50.08235,8.54303,DE7,DE712,0.0523,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.0523 </td>
+ </table>
+",POINT (8.54303 50.08235)
+32,33,Vinnolit,Industrieparkstraße 1,84508,DE,5,Chemical industry,48.17768,12.72044,DE2,DE214,0.0377,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.0377 </td>
+ </table>
+",POINT (12.72044 48.17768)
+33,34,Vinnolit,Industriestraße,50354,DE,5,Chemical industry,50.86421,6.86223,DEA,DEA27,0.0523,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.0523 </td>
+ </table>
+",POINT (6.86223 50.86421)
+34,35,YARA Brunsbüttel GmbH,Holstendamm 2,25572,DE,5,Chemical industry,53.91064434,9.207870944,DEF,DEF0E,4.26,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Ammonia</td> <td>21.3</td> <td>4.26 </td>
+ </table>
+",POINT (9.207870944 53.91064434)
+35,36,Covestro,Fährstraße 51,25541,DE,5,Chemical industry,53.89692,9.13817,DEF,DEF05,0.044,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.044 </td>
+ </table>
+",POINT (9.138170000000001 53.89692)
+36,37,CABB GmbH,Ludwig-Hermann-Straße 100,86368,DE,5,Chemical industry,48.44499,10.88004,DE2,DE276,0.0109,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.0109 </td>
+ </table>
+",POINT (10.88004 48.44499)
+37,38,Wacker Chemie,Johannes-Hess-Straße 24,84489,DE,5,Chemical industry,48.18027,12.84437,DE2,DE214,0.0115,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chlorine, membrane</td> <td>1.0</td> <td>0.0115 </td>
+ </table>
+",POINT (12.84437 48.18027)
+38,39,Basell Polyolefine GmbH,Berghauser Weg 50,85126,DE,5,Chemical industry,48.75855173,11.70862643,DE2,DE21J,9.9427,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Ethylene</td> <td>63.6</td> <td>9.9427 </td>
+ </table>
+",POINT (11.70862643 48.75855173)
+39,40,Verallia Saint Gobain Oberland AG Essen,Ruhrglasstraße 50,45329,DE,4,Non-metallic minerals,51.5300371,6.995643748,DEA,DEA13,0.0421,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.0421 </td>
+ </table>
+",POINT (6.995643748 51.5300371)
+40,41,Gerresheimer Essen GmbH,Ruhrau 50 ,45279,DE,4,Non-metallic minerals,51.441176,7.087096,DEA,DEA13,0.0804,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.0804 </td>
+ </table>
+",POINT (7.087096 51.441176)
+41,42,Gerresheimer Bünde GmbH,Erich-Martens-Straße 26,32257,DE,4,Non-metallic minerals,52.193971,8.60857,DEA,DEA43,0.0603,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.0603 </td>
+ </table>
+",POINT (8.60857 52.193971)
+42,43,Glashütte Freital GmbH,Dresdner Str.135 ,1705,DE,4,Non-metallic minerals,51.006367,13.657259,DED,DED2F,0.0402,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.0402 </td>
+ </table>
+",POINT (13.657259 51.006367)
+43,44,Ardagh Glass GmbH,Döttelbeckstraße 62 ,44534,DE,4,Non-metallic minerals,51.621611,7.521982,DEA,DEA5C,0.1407,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1407 </td>
+ </table>
+",POINT (7.521982 51.621611)
+44,45,HNG Global GmbH,Dr.-Kurt-Becker-Straße 1,39638,DE,4,Non-metallic minerals,52.526556,11.392978,DEE,DEE04,0.1306,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1306 </td>
+ </table>
+",POINT (11.392978 52.526556)
+45,46,Ardagh Glass GmbH,Große Drakenburger Sraße 132 ,31582,DE,4,Non-metallic minerals,51.837156,11.767553,DEE,DEE0C,0.1507,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1507 </td>
+ </table>
+",POINT (11.767553 51.837156)
+46,47,O-I Glasspack Bernsdorf,Otto-Buchwitz-Str. 13 ,2994,DE,4,Non-metallic minerals,51.370686,14.067965,DED,DED2C,0.0904,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.0904 </td>
+ </table>
+",POINT (14.067965 51.370686)
+47,48,Neue Glaswerke Großbreitenbach GmbH & Co. KG,Am Katzstein 3 ,98701,DE,4,Non-metallic minerals,50.58334561,10.9922719,DEG,DEG0F,0.1206,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1206 </td>
+ </table>
+",POINT (10.9922719 50.58334561)
+48,49,Ilmaborglass GmbH,Am Vogelherd 74 ,98693,DE,4,Non-metallic minerals,50.698462,10.938711,DEG,DEG0F,0.01,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.01 </td>
+ </table>
+",POINT (10.938711 50.698462)
+49,50,Glaswerk Ernstthal GmbH,Glaswerkstr. 29 ,98724,DE,4,Non-metallic minerals,50.4907198,11.1718406,DEG,DEG0H,0.1256,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1256 </td>
+ </table>
+",POINT (11.1718406 50.4907198)
+50,51,HEINZ-GLAS GmbH,Hüttenring 3 ,98739,DE,4,Non-metallic minerals,50.511445,11.214213,DEG,DEG0I,0.0603,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.0603 </td>
+ </table>
+",POINT (11.214213 50.511445)
+51,52,Ardagh Glass GmbH,Schauensteiner Str. 1,76726,DE,4,Non-metallic minerals,49.23310953,8.374906979,DEB,DEB3E,0.1156,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1156 </td>
+ </table>
+",POINT (8.374906979 49.23310953)
+52,53,Verallia Saint Gobain Oberland AG (Wirges),Siemensstr.1 ,56422,DE,4,Non-metallic minerals,50.47173,7.7865,DEB,DEB1B,0.1156,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1156 </td>
+ </table>
+",POINT (7.7865 50.47173)
+53,54,Ardagh Glass GmbH,Lohplatz 1,31683,DE,4,Non-metallic minerals,52.26436832,9.140727455,DE9,DE928,0.1306,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1306 </td>
+ </table>
+",POINT (9.140727455 52.26436832)
+54,55,O-I Glasspack GmbH & Co. KG,Alter Postweg 3 ,37603,DE,4,Non-metallic minerals,51.807093,9.442747,DE9,DE926,0.1005,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1005 </td>
+ </table>
+",POINT (9.442747000000001 51.807093)
+55,56,"Noelle + von Campe, Glashütte GmbH",Sollingstraße 14 ,37691,DE,4,Non-metallic minerals,51.75083,9.396317,DE9,DE926,0.1256,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1256 </td>
+ </table>
+",POINT (9.396317 51.75083)
+56,57,O-I Glasspack,Stoevesandtstr. 17 ,31737,DE,4,Non-metallic minerals,52.197013,9.070883,DE9,DE928,0.1256,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1256 </td>
+ </table>
+",POINT (9.070883 52.197013)
+57,58,Ardagh Glass GmbH,Süntelstraße 33 ,31848,DE,4,Non-metallic minerals,52.193399,9.464839,DE9,DE923,0.1156,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1156 </td>
+ </table>
+",POINT (9.464839 52.193399)
+58,59,Ardagh Glass GmbH,An der Glashütte 1-5 ,15366,DE,4,Non-metallic minerals,52.537657,13.71098,DE4,DE409,0.1859,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1859 </td>
+ </table>
+",POINT (13.71098 52.537657)
+59,60,Ardagh Glass GmbH,Dr. Hermann-Lindrath-Straße 21 ,23812,DE,4,Non-metallic minerals,53.948274,10.198677,DEF,DEF0D,0.1156,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1156 </td>
+ </table>
+",POINT (10.198677 53.948274)
+60,61,Verallia Saint Gobain Oberland AG (BW),Oberlandstr.,88410,DE,4,Non-metallic minerals,47.90606777,9.875412032,DE1,DE148,0.4572,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.2864 </td>
+ <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1708 </td>
+ </table>
+",POINT (9.875412032 47.90606777)
+61,62,Wiegand-Glas GmbH,Otto-Wiegand-Str. 9,96361,DE,4,Non-metallic minerals,50.43882729,11.3812546,DE2,DE24A,0.1156,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1156 </td>
+ </table>
+",POINT (11.3812546 50.43882729)
+62,63,SGD Kipfenberg GmbH,Altmühlstraße 2 ,85110,DE,4,Non-metallic minerals,48.956135,11.398277,DE2,DE219,0.1005,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1005 </td>
+ </table>
+",POINT (11.398277 48.956135)
+63,64,HEINZ-GLAS Group Holding,Glashüttenplatz 1-7 ,96355,DE,4,Non-metallic minerals,50.471435,11.282619,DE2,DE24A,0.0201,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.0201 </td>
+ </table>
+",POINT (11.282619 50.471435)
+64,65,Gerresheimer Lohr GmbH,Rodenbacher Straße 38 ,97816,DE,4,Non-metallic minerals,49.980056,9.583181,DE2,DE26A,0.113,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.113 </td>
+ </table>
+",POINT (9.583181 49.980056)
+65,66,Verallia Saint Gobain Oberland AG,Ruhrstr.2 ,86633,DE,4,Non-metallic minerals,48.741115,11.236569,DE2,DE21I,0.1156,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1156 </td>
+ </table>
+",POINT (11.236569 48.741115)
+66,67,Gerresheimer Tettau GmbH,Tettaugrundstr. 1-5 ,96355,DE,4,Non-metallic minerals,50.459333,11.26413,DE2,DE24A,0.1492,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.0653 </td>
+ <tr> <td nowrap>Container glass - All oxygen</td> <td>4.4</td> <td>0.0839 </td>
+ </table>
+",POINT (11.26413 50.459333)
+67,68,Ardagh Glass GmbH,Spremberger Straße 62 ,3113,DE,4,Non-metallic minerals,51.649469,14.231009,DE4,DE40G,0.1156,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.1156 </td>
+ </table>
+",POINT (14.231009 51.649469)
+68,69,Thüringer Behälterglas GmbH Schleusingen,Suhler Str.60 ,98553,DE,4,Non-metallic minerals,50.509984,10.749162,DEG,DEG0E,0.0703,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.0703 </td>
+ </table>
+",POINT (10.749162 50.509984)
+69,70,Weck Glaswerk GmbH,Wehratalstraße 3,79664,DE,4,Non-metallic minerals,47.603845,7.915107,DE1,DE13A,0.0904,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.0904 </td>
+ </table>
+",POINT (7.915107 47.603845)
+70,71,Gerresheimer Wertheim GmbH,Dertinger Weg 1,97877,DE,4,Non-metallic minerals,49.7736,9.570095,DE1,DE11B,0.0301,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Container glass - Recuperative</td> <td>5.8</td> <td>0.0301 </td>
+ </table>
+",POINT (9.570095 49.7736)
+71,72,SAINT-GOBAIN GLASS Deutschland,Glasstr. 1 ,52134,DE,4,Non-metallic minerals,50.869333,6.092921,DEA,DEA2D,0.3985,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Flat glass - Recuperative</td> <td>9.2</td> <td>0.3985 </td>
+ </table>
+",POINT (6.092921 50.869333)
+72,73,Pilkington AG Werk Gladbeck,Hegestr. 360,45966,DE,4,Non-metallic minerals,51.56623302,6.933418968,DEA,DEA36,0.5977,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Flat glass - Recuperative</td> <td>9.2</td> <td>0.5977 </td>
+ </table>
+",POINT (6.933418968 51.56623302)
+73,74,Euroglas GmbH,Dammühlenweg 60,39340,DE,4,Non-metallic minerals,52.27442466,11.44018309,DEE,DEE07,0.8368,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Flat glass - Recuperative</td> <td>9.2</td> <td>0.6376 </td>
+ <tr> <td nowrap>Flat glass - Recuperative</td> <td>9.2</td> <td>0.1992 </td>
+ </table>
+",POINT (11.44018309 52.27442466)
+74,75,Guardian Flachglas GmbH,Guardianstraße 1,6766,DE,4,Non-metallic minerals,51.65123268,12.24338759,DEE,DEE05,0.3985,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Flat glass - Recuperative</td> <td>9.2</td> <td>0.3985 </td>
+ </table>
+",POINT (12.24338759 51.65123268)
+75,76,Euroglas AG,Euroglasstr. 101,39171,DE,4,Non-metallic minerals,52.05757216,11.58077961,DEE,DEE07,0.4583,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Flat glass - Recuperative</td> <td>9.2</td> <td>0.4583 </td>
+ </table>
+",POINT (11.58077961 52.05757216)
+76,77,f | glass GmbH,Appendorfer Weg 5,39171,DE,4,Non-metallic minerals,52.062819,11.570379,DEE,DEE07,0.4782,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Flat glass - Recuperative</td> <td>9.2</td> <td>0.4782 </td>
+ </table>
+",POINT (11.570379 52.062819)
+77,78,Flachglas Torgau GmbH / Saint Gobain Sekurit,Solarstraße 1,4860,DE,4,Non-metallic minerals,51.57965077,13.00355028,DED,DED53,0.5579,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Flat glass - Recuperative</td> <td>9.2</td> <td>0.5579 </td>
+ </table>
+",POINT (13.00355028 51.57965077)
+78,79,Saint Gobain Glass Deutschland,Nikolausstraße 1,52222,DE,4,Non-metallic minerals,50.78483857,6.220041688,DEA,DEA2D,0.0002,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Flat glass - Recuperative</td> <td>9.2</td> <td>0.0002 </td>
+ </table>
+",POINT (6.220041688 50.78483857)
+79,80,Pilkington Deutschland AG,Flachglasstraße 3,92729,DE,4,Non-metallic minerals,49.62008699,12.07645089,DE2,DE237,0.6455,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Flat glass - Recuperative</td> <td>9.2</td> <td>0.6455 </td>
+ </table>
+",POINT (12.07645089 49.62008699)
+80,81,Saint Gobain Glass Deutschland,Spiegelstraße 1 ,68305,DE,4,Non-metallic minerals,49.52354,8.473091,DE1,DE126,0.1594,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Flat glass - Recuperative</td> <td>9.2</td> <td>0.1594 </td>
+ </table>
+",POINT (8.473091 49.52354)
+81,82,Glasfabrik LAMBERTS GmbH & Co KG,Egerstr. 197 ,95632,DE,4,Non-metallic minerals,50.049414,12.037088,DE2,DE24D,0.0764,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Flat glass - All oxygen</td> <td>6.3</td> <td>0.0764 </td>
+ </table>
+",POINT (12.037088 50.049414)
+82,83,GMB Glasmanufaktur Brandenburg GmbH,Spremberger Straße 4,3130,DE,4,Non-metallic minerals,51.574495,14.607143,DE4,DE40G,0.1501,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Flat glass - All oxygen</td> <td>6.3</td> <td>0.1501 </td>
+ </table>
+",POINT (14.607143 51.574495)
+83,84,Dyckerhoff AG (Buzzi Unicem),Biebricher Str. 74,65203,DE,4,Mineral Processing,50.03190956,8.257001754,DE7,DE714,0.1593,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.1593 </td>
+ </table>
+",POINT (8.257001753999999 50.03190956)
+84,85,Dyckerhoff AG (Buzzi Unicem),Lienener Str. 89,49525,DE,4,Mineral Processing,52.17498589,7.887827641,DEA,DEA37,1.4101,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>1.4101 </td>
+ </table>
+",POINT (7.887827641 52.17498589)
+85,86,Cemex WestZement GmbH,Am Kollenbach 27,59269,DE,4,Mineral Processing,51.76517373,8.054028788,DEA,DEA38,0.6373,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.6373 </td>
+ </table>
+",POINT (8.054028788 51.76517373)
+86,87,Phoenix Cement Works,Stromberger Str. 201,59269,DE,4,Mineral Processing,51.76024596,8.073171242,DEA,DEA38,0.3983,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.3983 </td>
+ </table>
+",POINT (8.073171242000001 51.76024596)
+87,88,HeidelbergCement AG,Zur Anneliese 9,59320,DE,4,Mineral Processing,51.85826096,8.030571862,DEA,DEA38,0.7966,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.7966 </td>
+ </table>
+",POINT (8.030571862 51.85826096)
+88,89,HeidelbergCement AG,Am Atlaswerk 16,33106,DE,4,Mineral Processing,51.69898847,8.747040907,DEA,DEA47,0.2948,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.2948 </td>
+ </table>
+",POINT (8.747040907000001 51.69898847)
+89,90,Dyckerhoff AG (Buzzi Unicem),Schneidweg 28-30,59590,DE,4,Mineral Processing,51.62256052,8.504392881,DEA,DEA5B,0.3187,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.3187 </td>
+ </table>
+",POINT (8.504392880999999 51.62256052)
+90,91,Portland Zementwerke Gebr. Seibel GmbH & Co KG,Bahnhofstraße 40,59597,DE,4,Mineral Processing,51.59721014,8.334681945,DEA,DEA5B,0.4382,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.4382 </td>
+ </table>
+",POINT (8.334681945 51.59721014)
+91,92,Schwenk Zementwerk Bernburg GmbH,Altenburger Chaussee 3,6406,DE,4,Mineral Processing,51.81637521,11.7496466,DEE,DEE0C,0.6851,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.6851 </td>
+ </table>
+",POINT (11.7496466 51.81637521)
+92,93,Lafarge Zement Karsdorf GmbH,Straße der Einheit 25,6638,DE,4,Mineral Processing,51.27111178,11.65470263,DEE,DEE08,1.5136,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>1.5136 </td>
+ </table>
+",POINT (11.65470263 51.27111178)
+93,94,Schwenk Zementwerke KG,Fabrikstraße 62,89604,DE,4,Mineral Processing,48.33198628,9.730468748,DE1,DE145,0.7966,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.7966 </td>
+ </table>
+",POINT (9.730468748 48.33198628)
+94,95,Dyckerhoff AG (Buzzi Unicem),Dyckerhoff Straße 1,67307,DE,4,Mineral Processing,49.60101885,8.041377942,DEB,DEB3D,0.6373,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.6373 </td>
+ </table>
+",POINT (8.041377942 49.60101885)
+95,96,Holcim (Deutschland),Hannoversche Straße 28,31319,DE,4,Mineral Processing,52.3498313,9.885933871,DE9,DE929,0.7966,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.7966 </td>
+ </table>
+",POINT (9.885933871000001 52.3498313)
+96,97,Spenner Zement GmbH & Co KG,Hüchtchenweg 1,59597,DE,4,Mineral Processing,51.60112073,8.33612643,DEA,DEA5B,0.7966,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.7966 </td>
+ </table>
+",POINT (8.33612643 51.60112073)
+97,98,Portlandzementwerk Wittekind Hugo Miebach Söhne,Hüchtchenweg 1,59597,DE,4,Mineral Processing,51.59468474,8.33490652,DEA,DEA5B,0.7966,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.7966 </td>
+ </table>
+",POINT (8.334906520000001 51.59468474)
+98,99,Cemex OstZement GmbH,Frankfurter Chaussee,15562,DE,4,Mineral Processing,52.48906926,13.83692917,DE4,DE409,1.9119,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>1.9119 </td>
+ </table>
+",POINT (13.83692917 52.48906926)
+99,100,Deuna Zement GmbH (Dyckerhoff / Buzzi Unicem),Industriestr. 7,37355,DE,4,Mineral Processing,51.36275973,10.48356827,DEG,DEG06,1.0356,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>1.0356 </td>
+ </table>
+",POINT (10.48356827 51.36275973)
+100,101,Portlandzementwerk Wotan H Schneider KG,Industriestraße,54579,DE,4,Mineral Processing,50.33399006,6.766828137,DEB,DEB24,0.1195,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.1195 </td>
+ </table>
+",POINT (6.766828137 50.33399006)
+101,102,Zement und Kalkwerke Otterbein GmbH & Co KG,Georg-Otterbein-Straße 123,36137,DE,4,Mineral Processing,50.58452444,9.509518927,DE7,DE732,0.1593,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.1593 </td>
+ </table>
+",POINT (9.509518927 50.58452444)
+102,103,Südbayerisches Portland-Zementwerk,Sinning 1,83101,DE,4,Mineral Processing,47.79081962,12.18159007,DE2,DE21K,0.717,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.717 </td>
+ </table>
+",POINT (12.18159007 47.79081962)
+103,104,HeidelbergCement AG,Schmidmühlener Str. 30,93133,DE,4,Mineral Processing,49.21283244,12.02825695,DE2,DE239,0.8763,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.8763 </td>
+ </table>
+",POINT (12.02825695 49.21283244)
+104,105,Solnhofer Portland Zementwerke GmbH,Frauenberger Weg 20,91807,DE,4,Mineral Processing,48.88491246,10.99769729,DE2,DE25C,0.3346,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.3346 </td>
+ </table>
+",POINT (10.99769729 48.88491246)
+105,106,HeidelbergCement AG,Homburger Straße 41,97855,DE,4,Mineral Processing,49.808461,9.617891279,DE2,DE26A,0.7966,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.7966 </td>
+ </table>
+",POINT (9.617891279 49.808461)
+106,107,Schwenk Zementwerke KG,Laudenbacher Weg 5,97753,DE,4,Mineral Processing,49.95500488,9.768510452,DE2,DE26A,0.956,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.956 </td>
+ </table>
+",POINT (9.768510451999999 49.95500488)
+107,108,Märker Zementwerk GmbH,Oskar-Märker-Straße 24,86655,DE,4,Mineral Processing,48.77673247,10.70031679,DE2,DE27D,0.7966,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.7966 </td>
+ </table>
+",POINT (10.70031679 48.77673247)
+108,109,Schwenk Zementwerke KG,Hainenbachstr. 30,89522,DE,4,Mineral Processing,48.65368683,10.16246767,DE1,DE11C,0.7966,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.7966 </td>
+ </table>
+",POINT (10.16246767 48.65368683)
+109,110,HeidelbergCement AG,Rohrbacher Str. 95,69181,DE,4,Mineral Processing,49.35767939,8.685832398,DE1,DE128,0.6373,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.6373 </td>
+ </table>
+",POINT (8.685832398000001 49.35767939)
+110,111,Lafarge Zement Wössingen GmbH,Bruchsaler Straße 56,75045,DE,4,Mineral Processing,49.01841298,8.612489731,DE1,DE123,0.5577,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.5577 </td>
+ </table>
+",POINT (8.612489731 49.01841298)
+111,112,HeidelbergCement AG,Zementwerk 1  1,89601,DE,4,Mineral Processing,48.36860312,9.7346784,DE1,DE145,1.1153,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>1.1153 </td>
+ </table>
+",POINT (9.7346784 48.36860312)
+112,113,Holcim Baden-Württemberg GmbH,Dormettinger Straße 25,72359,DE,4,Mineral Processing,48.22704121,8.779096108,DE1,DE143,0.6214,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.6214 </td>
+ </table>
+",POINT (8.779096107999999 48.22704121)
+113,114,HeidelbergCement,Lohweg 34 ,30559,DE,4,Mineral Processing,52.376283,9.879815,DE9,DE929,0.717,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>3.5</td> <td>0.717 </td>
+ </table>
+",POINT (9.879815000000001 52.376283)
+114,115,Holcim (Deutschland),Sandweg 10,25566,DE,4,Mineral Processing,53.87416492,9.583268596,DEF,DEF0E,1.3657,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Clinker</td> <td>4.0</td> <td>1.3657 </td>
+ </table>
+",POINT (9.583268596 53.87416492)
+115,116,Zement- und Kalkwerke Otterbein GmbH & Co. KG,Anlage zum Herstellen von Kalk,GROSSENLÜDER,70520,,Mineral Processing,50.58432,9.509245,,,0.0495,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0495 </td>
+ </table>
+",POINT (9.509245 50.58432)
+116,117,Wünschendorfer Dolomitwerk GmbH,Schachtofenanlage Wünschendorf,WÜNSCHENDORF,112942,,Mineral Processing,50.808852,12.09295,,,0.0793,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0793 </td>
+ </table>
+",POINT (12.09295 50.808852)
+117,118,Fels-Werke GmbH,Fels KG NSO,KATLENBURG-LINDAU,52001,,Mineral Processing,51.647707,10.087452,,,0.0365,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0365 </td>
+ </table>
+",POINT (10.087452 51.647707)
+118,119,Fels-Werke GmbH,Fels KÜ GGR 5,RÜDERSDORF,199807,,Mineral Processing,52.490088,13.838051,,,0.1404,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.1404 </td>
+ </table>
+",POINT (13.838051 52.490088)
+119,120,Fels-Werke GmbH   ,Fels KM NSO 1-4,SEESEN,324305,,Mineral Processing,51.844586,10.18979,,,0.2278,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.2278 </td>
+ </table>
+",POINT (10.18979 51.844586)
+120,121,Fels-Werke GmbH,Fels KA NSO RSO,SAAL A.D. DONAU,296114,,Mineral Processing,48.89095,11.93212,,,0.208,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.208 </td>
+ </table>
+",POINT (11.93212 48.89095)
+121,122,Kalkwerke  H. Oetelshofen GmbH & Co. KG,Kalkbrennofenanlage  bestehend aus RSÖ (Altanlage) und  GGR (Neuanlage) ,WUPPERTAL,243056,,Mineral Processing,51.247683,7.044583,,,0.1707,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.1707 </td>
+ </table>
+",POINT (7.044583 51.247683)
+122,123,Fels-Werke GmbH,Fels KK GGR 6,RÜBELAND,820582,,Mineral Processing,51.755471,10.825817,,,0.5765,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.5765 </td>
+ </table>
+",POINT (10.825817 51.755471)
+123,124,HeidelbergCement AG/ Lhoist?,HeidelbergCement AG  Kalkwerk Istein,EFRINGEN-KIRCHEN,179910,,Mineral Processing,47.658803,7.546019,,,0.1264,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.1264 </td>
+ </table>
+",POINT (7.546019 47.658803)
+124,125,Kalkwerk Rygol GmbH & Co. KG,Erdgasbefeuerter Ringschachtofen (ID:RSO),PAINTEN B. KELHEIM,296114,,Mineral Processing,49.008715,11.824687,,,0.208,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.208 </td>
+ </table>
+",POINT (11.824687 49.008715)
+125,126,Grevenbrücker Kalkwerk GmbH & Co. KG,Dolomitbrennanlage Grevenbrück,LENNESTADT,51979,,Mineral Processing,51.14033,8.025404,,,0.0365,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0365 </td>
+ </table>
+",POINT (8.025404 51.14033)
+126,127,Schaefer Kalk GmbH & Co. KG,Kalkbrennanlage Steeden,RUNKEL/LAHN,289205,,Mineral Processing,50.419099,8.1118,,,0.2032,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.2032 </td>
+ </table>
+",POINT (8.111800000000001 50.419099)
+127,128,Schaefer Kalk GmbH & Co. KG,Kalkbrennanlage Hahnstätten,HAHNSTÄTTEN,311796,,Mineral Processing,50.317605,8.065701,,,0.219,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.219 </td>
+ </table>
+",POINT (8.065701000000001 50.317605)
+128,129,Warsteiner Kalkwerk GmbH & Co KG,Warsteiner Kalkwerk ,WARSTEIN,147823,,Mineral Processing,51.436859,8.373872,,,0.1038,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.1038 </td>
+ </table>
+",POINT (8.373872 51.436859)
+129,130,Walhalla Kalk GmbH & Co KG,Walhalla Kalk GmbH & Co KG,REGENSBURG,166483,,Mineral Processing,49.029909,12.1388,,,0.117,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.117 </td>
+ </table>
+",POINT (12.1388 49.029909)
+130,131,Nikolaus Müller  Kalkwerk und Natursteinwerke  GmbH & Co. KG,Mehrkammer-Schachtofen,ÜXHEIM,54319,,Mineral Processing,50.334174,6.766811,,,0.0382,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0382 </td>
+ </table>
+",POINT (6.766811 50.334174)
+131,132,Kalk- und Mergelwerke Heinrich Müller GmbH & Co. KG,Kalkschachtofen,HALLE/WESTFALEN,9506,,Mineral Processing,52.040867,8.399409,,,0.0067,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0067 </td>
+ </table>
+",POINT (8.399409 52.040867)
+132,133,"Rheinkalk Akdolit GmbH & Co. KG,  Werk Pelm","Werk Pelm,  Anlage zum Brennen von Dolomit  Schachtofen",PELM,274,,Mineral Processing,50.230564,6.682924,,,0.0002,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0002 </td>
+ </table>
+",POINT (6.682924 50.230564)
+133,134,Rheinkalk GmbH,"Werk Flandersbach, Anlage zum Brennen von Kalkstein",WÜLFRATH,1941442,,Mineral Processing,51.296801,7.014936,,,1.3639,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>1.3639 </td>
+ </table>
+",POINT (7.014936 51.296801)
+134,135,Rheinkalk Messinghausen GmbH & Co. KG  Rheinkalk Messinghausen Verwaltungs GmbH,Anlage zum Brennen von Kalkstein  Kalk-Schachtöfen I-III,BRILON,69237,,Mineral Processing,51.394949,8.684995,,,0.0486,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0486 </td>
+ </table>
+",POINT (8.684995000000001 51.394949)
+135,136,Rheinkalk GmbH,"Werk Hönnetal, Anlage zum Brennen von Kalkstein",MENDEN,838146,,Mineral Processing,51.397085,7.840698,,,0.5888,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.5888 </td>
+ </table>
+",POINT (7.840698 51.397085)
+136,137,Rheinkalk GmbH,"Werk Salzhemmendorf, Anlage zum Brennen von Dolomitgestein",SALZHEMMENDORF,10388,,Mineral Processing,52.059197,9.588666,,,0.0073,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0073 </td>
+ </table>
+",POINT (9.588666 52.059197)
+137,138,Kalkwerke Otto Breckweg GmbH & Co. KG,Anlage zum Brennen von Kalk,RHEINE,25219,,Mineral Processing,52.264047,7.396877,,,0.0177,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0177 </td>
+ </table>
+",POINT (7.396877 52.264047)
+138,139,Märker Kalk GmbH,Kalkwerk Harburg,HARBURG,167821,,Mineral Processing,48.775785,10.699442,,,0.1179,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.1179 </td>
+ </table>
+",POINT (10.699442 48.775785)
+139,140,Schencking Kalk und Kalksandsteinwerke GmbH & Co KG,Kalkwerk Lienen,LIENEN,152410,,Mineral Processing,52.162646,7.968648,,,0.1071,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.1071 </td>
+ </table>
+",POINT (7.968648 52.162646)
+140,141,Johann Bergmann GmbH & Co.,Bergmann Kalkofen 2,KASENDORF,3504,,Mineral Processing,50.027914,11.308923,,,0.0025,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0025 </td>
+ </table>
+",POINT (11.308923 50.027914)
+141,142,Nordzucker AG,Kalkbrennanlage Nordstemmen,NORDSTEMMEN,134041,,Mineral Processing,52.170477,9.79339,,,0.0942,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0942 </td>
+ </table>
+",POINT (9.79339 52.170477)
+142,143,Nordzucker AG,Kalkbrennanlage Schladen,SCHLADEN,66204,,Mineral Processing,52.023237,10.545917,,,0.0465,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0465 </td>
+ </table>
+",POINT (10.545917 52.023237)
+143,144,Nordzucker AG,Kalkbrennanlage Klein Wanzleben,KLEIN WANZLEBEN,107887,,Mineral Processing,52.07113,11.385048,,,0.0758,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0758 </td>
+ </table>
+",POINT (11.385048 52.07113)
+144,145,Nordzucker AG,Kalkbrennanlage Uelzen,UELZEN,160986,,Mineral Processing,52.977112,10.558518,,,0.1131,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.1131 </td>
+ </table>
+",POINT (10.558518 52.977112)
+145,146,Nordzucker AG,Kalkbrennanlage Clauen,HOHENHAMELN,57209,,Mineral Processing,52.233195,10.034605,,,0.0402,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0402 </td>
+ </table>
+",POINT (10.034605 52.233195)
+146,147,Köhler Kalk GmbH,Kalkwerk,MEISSNER,49916,,Mineral Processing,51.205803,9.907445,,,0.0351,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0351 </td>
+ </table>
+",POINT (9.907444999999999 51.205803)
+147,148,Märker Kalk GmbH,RCE-Ofen  Herrlingen,BLAUSTEIN,148774,,Mineral Processing,48.423419,9.904178,,,0.1045,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.1045 </td>
+ </table>
+",POINT (9.904178 48.423419)
+148,149,Hermann Trollius GmbH  Kalk- & Schotterwerk,Kalkofen Trollius,LAUTERHOFEN,50915,,Mineral Processing,49.364916,11.604835,,,0.0358,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0358 </td>
+ </table>
+",POINT (11.604835 49.364916)
+149,150,Zuckerfabrik Jülich AG,Zuckerfabrik Jülich - Kalkofen,JÜLICH,180683,,Mineral Processing,50.915255,6.371579,,,0.1269,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.1269 </td>
+ </table>
+",POINT (6.371579 50.915255)
+150,151,Pfeifer & Langen Kommanditgesellschaft,Kalkofen Zuckerfabrik Euskirchen,EUSKIRCHEN,88667,,Mineral Processing,50.657406,6.810538,,,0.0623,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0623 </td>
+ </table>
+",POINT (6.810538 50.657406)
+151,152,Pfeifer & Langen Kommanditgesellschaft,Kalkofen Zuckerfabrik Lage,LAGE,45700,,Mineral Processing,51.985916,8.807548,,,0.0321,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0321 </td>
+ </table>
+",POINT (8.807548000000001 51.985916)
+152,153,Pfeifer & Langen Kommanditgesellschaft,Kalkofen Zuckerfabrik Appeldorn,KALKAR-APPELDORN,45114,,Mineral Processing,51.729121,6.359061,,,0.0317,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0317 </td>
+ </table>
+",POINT (6.359061 51.729121)
+153,154,Pfeifer & Langen Kommanditgesellschaft,Kalkofen Zuckerfabrik Könnern,KÖNNERN,109999,,Mineral Processing,51.698058,11.757585,,,0.0773,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0773 </td>
+ </table>
+",POINT (11.757585 51.698058)
+154,155,Spenner Zement GmbH & Co. KG,Spenner Zement Kalkofenanlage Felsenfest,ERWITTE,121802,,Mineral Processing,51.597331,8.341176,,,0.0856,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0856 </td>
+ </table>
+",POINT (8.341176000000001 51.597331)
+155,156,ArcelorMittal Eisenhüttenstadt GmbH,Kalkbrennmahlanlage,EISENHÜTTENSTADT,153036,,Mineral Processing,52.16949,14.626637,,,0.1075,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.1075 </td>
+ </table>
+",POINT (14.626637 52.16949)
+156,157,Wünschendorfer Dolomitwerk GmbH,Schachtofen Caaschwitz,CAASCHWITZ,69603,,Mineral Processing,50.944514,11.988065,,,0.0489,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0489 </td>
+ </table>
+",POINT (11.988065 50.944514)
+157,158,Danisco Sugar GmbH,Anlage zur Erzeugung von Weißzucker aus Rüben,ANKLAM,82789,,Mineral Processing,53.853903,13.708684,,,0.0582,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0582 </td>
+ </table>
+",POINT (13.708684 53.853903)
+158,159,Südzucker AG Mannheim/Ochsenfurt,"Zuckerfabrik Warburg, Kalkofen",WARBURG,34096,,Mineral Processing,51.491359,9.165684,,,0.024,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.024 </td>
+ </table>
+",POINT (9.165684000000001 51.491359)
+159,160,Südzucker AG Mannheim/Ochsenfurt,"Zuckerfabrik Wabern, Kalkofen",WABERN,42092,,Mineral Processing,51.10218,9.360121,,,0.0296,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0296 </td>
+ </table>
+",POINT (9.360120999999999 51.10218)
+160,161,Südzucker AG Mannheim/Ochsenfurt,Zuckerfabrik Offenau - Kalkofen,OFFENAU,76837,,Mineral Processing,49.243552,9.180513,,,0.054,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.054 </td>
+ </table>
+",POINT (9.180512999999999 49.243552)
+161,162,Südzucker AG Mannheim/Ochsenfurt,"Kalkofen, Zuckerfabrik Ochsenfurt",OCHSENFURT,144993,,Mineral Processing,49.665721,10.080457,,,0.1019,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.1019 </td>
+ </table>
+",POINT (10.080457 49.665721)
+162,163,Südzucker AG Mannheim/Ochsenfurt,Kalkofen der Anlage zur Herstellung von Zucker,ZEITZ,283017,,Mineral Processing,51.053932,12.110927,,,0.1988,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.1988 </td>
+ </table>
+",POINT (12.110927 51.053932)
+163,164,Südzucker AG Mannheim / Ochsenfurt,Kalkofen der Zuckerfabrik Brottewitz,BROTTEWITZ,72412,,Mineral Processing,51.459829,13.223213,,,0.0509,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0509 </td>
+ </table>
+",POINT (13.223213 51.459829)
+164,165,Südzucker AG Mannheim/Ochsenfurt,Zuckerfabrik Rain Kalkofen,RAIN,79651,,Mineral Processing,48.69791,10.909583,,,0.056,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.056 </td>
+ </table>
+",POINT (10.909583 48.69791)
+165,166,Südzucker AG Mannheim/Ochsenfurt,Kalkofen Zuckerfabrik Offstein,OBRIGHEIM,142764,,Mineral Processing,49.599577,8.219661,,,0.1003,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.1003 </td>
+ </table>
+",POINT (8.219661 49.599577)
+166,167,Südzucker AG Mannheim/Ochsenfurt,Zuckerfabrik Plattling  Kalkofen,PLATTLING,125572,,Mineral Processing,48.78676,12.882771,,,0.0882,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Lime burning</td> <td>3.7</td> <td>0.0882 </td>
+ </table>
+",POINT (12.882771 48.78676)
+167,168,Papierfabrik Palm GmbH & Co.KG,Neukochen 10,73432,DE,3,Paper and printing,48.82369772,10.11424128,DE1,DE11D,0.3674,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1207 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0938 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.1182 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0347 </td>
+ </table>
+",POINT (10.11424128 48.82369772)
+168,169,Stora Enso Maxau GmbH,Mitscherlichstr. 24,76187,DE,3,Paper and printing,49.04257677,8.313258649,DE1,DE122,0.7268,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.696 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0308 </td>
+ </table>
+",POINT (8.313258649 49.04257677)
+169,170,SCA Hygiene Products GmbH Consumer Products,Sandhofer Str. 176,68305,DE,3,Paper and printing,49.53549864,8.457079832,DE1,DE126,0.365,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0126 </td>
+ <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.3524 </td>
+ </table>
+",POINT (8.457079832 49.53549864)
+170,171,Papierfabrik August Koehler SE,Hauptstraße 2,77704,DE,3,Paper and printing,48.52681204,8.086229012,DE1,DE134,0.1886,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0179 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.1707 </td>
+ </table>
+",POINT (8.086229012 48.52681204)
+171,172,Arctic Paper Mochenwangen GmbH,Fabrikstr. 62,88284,DE,3,Paper and printing,47.88217208,9.644004128,DE1,DE148,0.1164,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0179 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0985 </td>
+ </table>
+",POINT (9.644004128000001 47.88217208)
+172,173,Nordland Papier GmbH,Nordlandallee 1,26892,DE,3,Paper and printing,52.97774872,7.362360281,DE9,DE949,1.9041,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>1.9041 </td>
+ </table>
+",POINT (7.362360281 52.97774872)
+173,174,Smurfit Kappa Hoya Papier und Karton GmbH,Von-dem-Bussche-Strasse 1,27318,DE,3,Paper and printing,52.81137987,9.150202248,DE9,DE927,0.4,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1341 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.2056 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0509 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0094 </td>
+ </table>
+",POINT (9.150202247999999 52.81137987)
+174,175,Sappi Alfeld GmbH,Mühlenmasch 1,31061,DE,3,Paper and printing,51.98596257,9.820763204,DE9,DE925,0.2726,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.2145 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0045 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0536 </td>
+ </table>
+",POINT (9.820763204 51.98596257)
+175,176,Papier- u. Kartonfabrik Varel GmbH & Co. KG,Dangaster Str. 38,26316,DE,3,Paper and printing,53.40305598,8.13281587,DE9,DE94A,0.654,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.2681 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.2681 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0901 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0277 </td>
+ </table>
+",POINT (8.13281587 53.40305598)
+176,177,Schoeller Technocell GmbH & Co. KG,Burg Gretesch,49086,DE,3,Paper and printing,52.27459178,8.120623703,DE9,DE944,0.1022,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.083 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0192 </td>
+ </table>
+",POINT (8.120623703 52.27459178)
+177,178,Ahlstrom Osnabrück GmbH,Römereschstrasse 33,49090,DE,3,Paper and printing,52.29476531,8.024236849,DE9,DE944,0.1238,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0018 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0447 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0313 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.046 </td>
+ </table>
+",POINT (8.024236848999999 52.29476531)
+178,179,Smurfit Kappa Zülpich Papier,Bessenicher Weg -,53909,DE,3,Paper and printing,50.70659185,6.653005912,DEA,DEA28,0.482,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.2324 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1966 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.053 </td>
+ </table>
+",POINT (6.653005912 50.70659185)
+179,180,Metsä Board Zanders GmbH,An der Gohrsmühle 25,51465,DE,3,Paper and printing,50.98890726,7.127073466,DEA,DEA2B,0.0657,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0657 </td>
+ </table>
+",POINT (7.127073466 50.98890726)
+180,181,Heinr. Aug. Schoeller Söhne GmbH & Co. KG Papierfabrik Schoellershammer,Kreuzauer Strasse 18,52355,DE,3,Paper and printing,50.77651655,6.48949128,DEA,DEA26,0.3289,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0804 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1162 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0804 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0263 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0256 </td>
+ </table>
+",POINT (6.48949128 50.77651655)
+181,182,Reno De Medici Arnsberg GmbH,Hellefelderstr. 51,59821,DE,3,Paper and printing,51.39113486,8.073864881,DEA,DEA57,0.2025,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1787 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0205 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0033 </td>
+ </table>
+",POINT (8.073864881 51.39113486)
+182,183,SCA Packaging Containerboard Deutschland GmbH,Kasseler Landstrasse 23,37213,DE,3,Paper and printing,51.31796131,9.848409446,DE7,DE737,0.3792,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1072 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1966 </td>
+ <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0378 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0376 </td>
+ </table>
+",POINT (9.848409446 51.31796131)
+183,184,Papierfabrik A. Jass GmbH & Co.KG,Hermann-Muth-Strasse 6,36039,DE,3,Paper and printing,50.56751056,9.681619259,DE7,DE732,0.5029,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.2234 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.2234 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0561 </td>
+ </table>
+",POINT (9.681619259 50.56751056)
+184,185,Moritz J. Weig GmbH & Co. KG,Polcher Str. 113,56727,DE,3,Paper and printing,50.31356522,7.220829085,DEB,DEB17,0.1624,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0357 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0635 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0632 </td>
+ </table>
+",POINT (7.220829085 50.31356522)
+185,186,Palm Papierfabrik GmbH & Co. KG,Am Oberwald 2,76744,DE,3,Paper and printing,49.04987873,8.260298012,DEB,DEB3E,0.6528,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.3128 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.2681 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0719 </td>
+ </table>
+",POINT (8.260298012 49.04987873)
+186,187,LEIPA Georg Leinfelder GmbH,Aichacher Str. 8,86529,DE,3,Paper and printing,48.55670596,11.26240193,DE2,DE21I,0.0491,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0188 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0164 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0139 </td>
+ </table>
+",POINT (11.26240193 48.55670596)
+187,188,UPM GmbH Werk Schongau,Friedrich-Haindl-Str. 10,86956,DE,3,Paper and printing,47.80727577,10.90003999,DE2,DE21N,1.0612,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.998 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0632 </td>
+ </table>
+",POINT (10.90003999 47.80727577)
+188,189,MD Papier GmbH,Nicolausstr. 7,94447,DE,3,Paper and printing,48.79748509,12.86590778,DE2,DE224,1.029,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>1.0243 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0047 </td>
+ </table>
+",POINT (12.86590778 48.79748509)
+189,190,DS Smith Paper Deutschland GmbH,Weichertstrasse 7,63741,DE,3,Paper and printing,49.98817874,9.155849305,DE2,DE261,0.3863,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0894 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.2547 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0422 </td>
+ </table>
+",POINT (9.155849305 49.98817874)
+190,191,Sappi Deutschland Holding GmbH,Obernburger Str. 1-9,63811,DE,3,Paper and printing,49.9777578,9.069009637,DE2,DE264,0.5844,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.5844 </td>
+ </table>
+",POINT (9.069009637000001 49.9777578)
+191,192,UPM GmbH Werk Augsburg,Georg-Haindl-Str. 4,86153,DE,3,Paper and printing,48.37989394,10.90143467,DE2,DE271,0.6721,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.6566 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0155 </td>
+ </table>
+",POINT (10.90143467 48.37989394)
+192,193,Gebr.Lang GmbH Papierfabrik,Fabrikstr. 4,86833,DE,3,Paper and printing,48.10991594,10.66638933,DE2,DE27C,0.5512,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0804 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0804 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.3677 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0227 </td>
+ </table>
+",POINT (10.66638933 48.10991594)
+193,194,LEIPA Georg Leinfelder GmbH Werk Schwedt,Kuhheide 34,16303,DE,3,Paper and printing,53.07909943,14.31976578,DE4,DE40I,0.9789,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.2145 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.6829 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0676 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0139 </td>
+ </table>
+",POINT (14.31976578 53.07909943)
+194,195,Hans Kolb Papierfabrik GmbH & Co. KG,Adelindastrasse 15 ,87600,DE,3,Paper and printing,47.89716,10.620157,DE2,DE272,0.0653,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0313 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0268 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0072 </td>
+ </table>
+",POINT (10.620157 47.89716)
+195,196,Papierfabrik Scheufelen GmbH + Co. KG,Adolf-Scheufelen-Strasse 26,73252,DE,3,Paper and printing,48.552484,9.470935,DE1,DE113,0.1818,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0045 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.1773 </td>
+ </table>
+",POINT (9.470935000000001 48.552484)
+196,197,Papierfabrik Fritz Peters GmbH & Co. KG,Alfred-Zingler-Strasse 15 ,45881,DE,3,Paper and printing,51.540634,7.082504,DEA,DEA32,0.1762,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1207 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0223 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0232 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.01 </td>
+ </table>
+",POINT (7.082504 51.540634)
+197,198,Wepa Leuna GmbH,An der B 91 Alter Maienweg ,6237,DE,3,Paper and printing,51.2868501,11.9841974,DEE,DEE0B,0.0755,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0755 </td>
+ </table>
+",POINT (11.9841974 51.2868501)
+198,199,Hamburger Rieger GmbH,An der Heide B5,3130,DE,3,Paper and printing,51.520729,14.340244,DE4,DE40G,0.2651,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.2234 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0328 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0089 </td>
+ </table>
+",POINT (14.340244 51.520729)
+199,200,Smurfit Kappa Herzberger Papierfabrik GmbH,Andreasberger Straße 1 ,37412,DE,3,Paper and printing,51.661314,10.35317,DE9,DE91C,0.0863,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0287 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0288 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0288 </td>
+ </table>
+",POINT (10.35317 51.661314)
+200,201,Gebr. Grünewald GmbH & Co. KG,Antoniusstr. 15 ,57399,DE,3,Paper and printing,51.074862,8.071722,DEA,DEA59,0.0418,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0402 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0016 </td>
+ </table>
+",POINT (8.071721999999999 51.074862)
+201,202,Neenah Lahnstein GmbH,Auf Brühl 15-27 ,56112,DE,3,Paper and printing,50.305658,7.604617,DEB,DEB1A,0.0179,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0179 </td>
+ </table>
+",POINT (7.604617 50.305658)
+202,203,Papierfabrik Vreden GmbH,Ausbacherstr. 9 ,48691,DE,3,Paper and printing,52.035862,6.823648,DEA,DEA34,0.0945,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0295 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0545 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0105 </td>
+ </table>
+",POINT (6.823648 52.035862)
+203,204,Flexipack International Wunderlich GmbH + Co. KG,Äußerer Ring 40 ,85107,DE,3,Paper and printing,48.686869,11.473823,DE2,DE21J,0.0006,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0006 </td>
+ </table>
+",POINT (11.473823 48.686869)
+204,205,Hollingsworth & Vose GmbH,Berleburger Strasse 71 ,35116,DE,3,Paper and printing,50.992984,8.548049,DE7,DE736,0.0145,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0145 </td>
+ </table>
+",POINT (8.548049000000001 50.992984)
+205,206,Rhein Papier GmbH,Bertrams Jagdweg 12 ,50354,DE,3,Paper and printing,50.858821,6.83673,DEA,DEA27,0.4427,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.4071 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0356 </td>
+ </table>
+",POINT (6.83673 50.858821)
+206,207,Sappi Ehingen GmbH,Biberacher Str. 73 ,89584,DE,3,Paper and printing,48.269691,9.726699,DE1,DE145,0.3611,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.3611 </td>
+ </table>
+",POINT (9.726699 48.269691)
+207,208,Hakle GmbH,Bonner Str. 201 ,40589,DE,3,Paper and printing,51.165209,6.849338,DEA,DEA11,0.0629,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0629 </td>
+ </table>
+",POINT (6.849338 51.165209)
+208,209,Papierfabrik Adolf Jass Schwarza GmbH,Breitscheidstrasse 143 ,7407,DE,3,Paper and printing,50.706146,11.323559,DEG,DEG0I,0.4516,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1341 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.2681 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0494 </td>
+ </table>
+",POINT (11.323559 50.706146)
+209,210,Koehler Kehl GmbH,Bremenwörtstrasse 4 ,77704,DE,3,Paper and printing,48.530712,8.0784,DE1,DE134,0.364,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0357 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.3283 </td>
+ </table>
+",POINT (8.0784 48.530712)
+210,211,Kimberly-Clark GmbH,Carl-Spaeter-Strasse 17 ,56070,DE,3,Paper and printing,50.392437,7.587742,DEB,DEB11,0.1086,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0478 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0045 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0322 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0241 </td>
+ </table>
+",POINT (7.587742 50.392437)
+211,212,Klingele Papierwerke GmbH & Co. KG,Dr.-Werner-Klingele-Str. 1 ,26826,DE,3,Paper and printing,53.173081,7.366553,DE9,DE94C,0.2512,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1341 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0894 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0277 </td>
+ </table>
+",POINT (7.366553 53.173081)
+212,213,FS-Karton GmbH,Düsseldorfer Strasse 182-184 ,41460,DE,3,Paper and printing,51.224163,6.698742,DEA,DEA1D,0.1957,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1609 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0348 </td>
+ </table>
+",POINT (6.698742 51.224163)
+213,214,A. Obenauf GmbH Co. KG,Eckertal ,38667,DE,3,Paper and printing,51.900499,10.648865,DE9,DE916,0.0017,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0017 </td>
+ </table>
+",POINT (10.648865 51.900499)
+214,215,Smurfit Kappa Baden Karton GmbH,Fabrikstr. 1 ,76593,DE,3,Paper and printing,48.73716,8.345085,DE1,DE124,0.0283,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0132 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0151 </td>
+ </table>
+",POINT (8.345084999999999 48.73716)
+215,216,Carl Macher GmbH & Co. KG,Fabrikstraße 14 ,95189,DE,3,Paper and printing,50.35104697,11.86527729,DE2,DE249,0.0245,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0123 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0122 </td>
+ </table>
+",POINT (11.86527729 50.35104697)
+216,217,SCA Hygiene Products GmbH Neuss,Flosshafenstrasse 16 ,41460,DE,3,Paper and printing,51.209944,6.717124,DEA,DEA1D,0.1576,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.1321 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0134 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0121 </td>
+ </table>
+",POINT (6.717124 51.209944)
+217,218,Wepa Hygieneprodukte GmbH,Gassnerallee 45-47,55120,DE,3,Paper and printing,50.030603,8.228521,DEB,DEB35,0.0826,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0755 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0071 </td>
+ </table>
+",POINT (8.228521000000001 50.030603)
+218,219,Drewsen Spezialpapiere GmbH & Co. KG,Georg-Drewsen-Weg 2,29331,DE,3,Paper and printing,52.626005,10.247708,DE9,DE931,0.2346,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0179 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.2167 </td>
+ </table>
+",POINT (10.247708 52.626005)
+219,220,Abelan Viersen Paperboard GmbH,Grefrather Strasse 120 ,41749,DE,3,Paper and printing,51.294353,6.365365,DEA,DEA1E,0.0133,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0067 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0066 </td>
+ </table>
+",POINT (6.365365 51.294353)
+220,221,FRIPA Papierfabrik Albert Friedrich KG,Grossheubacher Strasse 4 ,63897,DE,3,Paper and printing,49.707186,9.242099,DE2,DE269,0.1354,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0327 </td>
+ <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.1007 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.002 </td>
+ </table>
+",POINT (9.242099 49.707186)
+221,222,Kartonfabrik Kaierde GmbH & Co. Produktions-KG,Hagentalstraße 2 ,31073,DE,3,Paper and printing,51.923957,9.773968,DE9,DE926,0.0045,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0023 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0022 </td>
+ </table>
+",POINT (9.773968 51.923957)
+222,223,SCA Hygiene Products GmbH,Hauptstraße 1 ,55246,DE,3,Paper and printing,50.004612,8.317989,DE7,DE714,0.2198,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.2089 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0109 </td>
+ </table>
+",POINT (8.317989000000001 50.004612)
+223,224,Katz GmbH & Co. KG,Hauptstraße 2 ,76599,DE,3,Paper and printing,48.723723,8.355844,DE1,DE124,0.0254,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.025 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0004 </td>
+ </table>
+",POINT (8.355843999999999 48.723723)
+224,225,Papierwerk Sundern GmbH,Hauptstraße 20 ,59846,DE,3,Paper and printing,51.333365,8.001196,DEA,DEA57,0.0292,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0277 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0015 </td>
+ </table>
+",POINT (8.001196 51.333365)
+225,226,Glatfelter Gernsbach GmbH & Co. KG,Hoerdenderstr. 3 - 7 ,76593,DE,3,Paper and printing,48.763639,8.337992,DE1,DE124,0.0375,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0375 </td>
+ </table>
+",POINT (8.337992 48.763639)
+226,227,J. Tönnesmann & Vogel GmbH & Co. Papierfabrik,Hönnetalstr. 53 ,58710,DE,3,Paper and printing,51.394695,7.845351,DEA,DEA58,0.02,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0134 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0066 </td>
+ </table>
+",POINT (7.845351 51.394695)
+227,228,Erfurt & Sohn KG,Hugo-Erfurt-Str. 1 ,42399,DE,3,Paper and printing,51.256866,7.277243,DEA,DEA56,0.0393,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0393 </td>
+ </table>
+",POINT (7.277243 51.256866)
+228,229,Mitsubishi HiTec Paper Europe GmbH,Husumer Strasse 12 ,24941,DE,3,Paper and printing,54.778758,9.432049,DEF,DEF01,0.046,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.046 </td>
+ </table>
+",POINT (9.432048999999999 54.778758)
+229,230,Neu Kaliss Spezialpapier GmbH,Industriegebiet Am Alten Postweg 1 ,19294,DE,3,Paper and printing,53.1844057,11.2747604,DE8,DE80O,0.1072,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1072 </td>
+ </table>
+",POINT (11.2747604 53.1844057)
+230,231,Papierfabrik Palm GmbH & Co. KG,Industriestraße 23 ,97483,DE,3,Paper and printing,49.982951,10.657704,DE2,DE267,0.7705,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.7091 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0614 </td>
+ </table>
+",POINT (10.657704 49.982951)
+231,232,Cordier Spezialpapier GmbH,Jägerthal 7 ,67098,DE,3,Paper and printing,49.463294,8.170506,DEB,DEB3C,0.1072,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1072 </td>
+ </table>
+",POINT (8.170506 49.463294)
+232,233,Cordier Spezialpapier GmbH,Kaiserslauterer Str. 405 ,67098,DE,3,Paper and printing,49.464617,8.109641,DEB,DEB3C,0.042,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0336 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0084 </td>
+ </table>
+",POINT (8.109641 49.464617)
+233,234,Interface Solutions Altenkirchen GmbH,Koblenzer Strasse ,57602,DE,3,Paper and printing,50.677269,7.635923,DEB,DEB13,0.0179,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0179 </td>
+ </table>
+",POINT (7.635923 50.677269)
+234,235,Karl Kurz GmbH & Co. KG,Kocherweg 10 ,74538,DE,3,Paper and printing,49.088785,9.736354,DE1,DE11A,0.0057,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0045 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0012 </td>
+ </table>
+",POINT (9.736354 49.088785)
+235,236,Katharina Tillmann Papier und Wellpappenfabrik e.K.,Kommerner Str. 78 ,53909,DE,3,Paper and printing,50.643771,6.7096,DEA,DEA28,0.0662,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0366 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0223 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0073 </td>
+ </table>
+",POINT (6.7096 50.643771)
+236,237,UPM GmbH,Kuhheide 1 ,16303,DE,3,Paper and printing,53.076403,14.30924,DE4,DE40I,0.414,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.3808 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0332 </td>
+ </table>
+",POINT (14.30924 53.076403)
+237,238,Propapier PM1 GmbH,Lindenallee 28 ,39288,DE,3,Paper and printing,52.252431,11.885426,DEE,DEE06,0.3216,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.2288 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0572 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0356 </td>
+ </table>
+",POINT (11.885426 52.252431)
+238,239,Pappenfabrik Nierfeld Joseph Piront GmbH & Co. KG,Luxemburger Straße 16 ,53937,DE,3,Paper and printing,50.570667,6.499234,DEA,DEA28,0.0019,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.001 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0009 </td>
+ </table>
+",POINT (6.499234 50.570667)
+239,240,Koehler Greiz GmbH & Co. KG,Mylauer Strasse 4 ,7973,DE,3,Paper and printing,50.642902,12.199094,DEG,DEG0L,0.0428,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0394 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0034 </td>
+ </table>
+",POINT (12.199094 50.642902)
+240,241,Schoeller Technocell GmbH & Co.KG,Nicolausstr. 10 ,87634,DE,3,Paper and printing,47.820822,10.434107,DE2,DE27B,0.0527,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0527 </td>
+ </table>
+",POINT (10.434107 47.820822)
+241,242,Mitsubishi HiTec Paper Europe GmbH,Niedernholz 23 ,33699,DE,3,Paper and printing,51.99992,8.613958,DEA,DEA41,0.197,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.197 </td>
+ </table>
+",POINT (8.613958 51.99992)
+242,243,KANZAN Spezialpapiere GmbH,Nippesstrasse 5 ,52349,DE,3,Paper and printing,50.792704,6.483999,DEA,DEA26,0.0788,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0788 </td>
+ </table>
+",POINT (6.483999 50.792704)
+243,244,Mayr-Melnhof Gernsbach GmbH,Obertsroter Straße 9 ,76593,DE,3,Paper and printing,48.746475,8.34568,DE1,DE124,0.0498,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0238 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.026 </td>
+ </table>
+",POINT (8.34568 48.746475)
+244,245,Propapier PM 2 GmbH,Oderlandstrasse 110 ,15890,DE,3,Paper and printing,52.142681,14.649353,DE4,DE40C,0.6525,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1162 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.4647 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0716 </td>
+ </table>
+",POINT (14.649353 52.142681)
+245,246,Sprick GmbH Bielefelder Papier- u. Wellpappenwerke,Orpethaler Str. 26 ,34474,DE,3,Paper and printing,51.505234,8.976375,DE7,DE736,0.0705,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0313 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0179 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0134 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0079 </td>
+ </table>
+",POINT (8.976375000000001 51.505234)
+246,247,Smurfit Kappa C.D. Haupt Papier- und Pappenfabrik GmbH,Orpethaler Str. 50 ,34474,DE,3,Paper and printing,51.506282,8.9794,DE7,DE736,0.2439,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.2056 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0089 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0294 </td>
+ </table>
+",POINT (8.9794 51.506282)
+247,248,Neenah Gessner GmbH,Otto-von-Steinbeis-Str. 14 ,83052,DE,3,Paper and printing,47.880114,11.895465,DE2,DE21K,0.1072,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1072 </td>
+ </table>
+",POINT (11.895465 47.880114)
+248,249,Gebr. Hoffsümmer Spezialpapier GmbH Co. KG,Papiermühle 52-58 ,52349,DE,3,Paper and printing,50.799813,6.454175,DEA,DEA26,0.0599,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0599 </td>
+ </table>
+",POINT (6.454175 50.799813)
+249,250,Stora Enso Uetersen GmbH,Pinnau Allee 3 ,25436,DE,3,Paper and printing,53.685161,9.669827,DEF,DEF09,0.0447,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0447 </td>
+ </table>
+",POINT (9.669827 53.685161)
+250,251,Stora Enso Uetersen GmbH,Pinnau Allee 3 ,25436,DE,3,Paper and printing,53.685161,9.669827,DEF,DEF09,0.2301,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0045 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0089 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.2167 </td>
+ </table>
+",POINT (9.669827 53.685161)
+251,252,Pucaro Elektro-Isolierstoffe GmbH,Pucarostrasse 1 ,74255,DE,3,Paper and printing,49.362481,9.343665,DE1,DE118,0.2144,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1072 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1072 </td>
+ </table>
+",POINT (9.343665 49.362481)
+252,253,Cordier Spezialpapier GmbH,Rheinstr.38 ,64367,DE,3,Paper and printing,49.463294,8.170506,DEB,DEB3C,0.0167,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0036 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0131 </td>
+ </table>
+",POINT (8.170506 49.463294)
+253,254,Spezialpapierfabrik Oberschmitten GmbH,Rhönstrasse 13 ,63667,DE,3,Paper and printing,50.445422,9.03348,DE7,DE71E,0.0112,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0112 </td>
+ </table>
+",POINT (9.033480000000001 50.445422)
+254,255,Papierwerke Lenk AG,Richard-Lenk-Str. 19-23 ,77876,DE,3,Paper and printing,48.596218,8.115736,DE1,DE134,0.0368,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0357 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0011 </td>
+ </table>
+",POINT (8.115736 48.596218)
+255,256,Hamburger Rieger GmbH,Riegerstr. 4,83308,DE,3,Paper and printing,48.023145,12.541613,DE2,DE21M,0.1471,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1287 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0184 </td>
+ </table>
+",POINT (12.541613 48.023145)
+256,257,Texon Möckmühl GmbH,Roigheimer Strasse 69-72 ,74219,DE,3,Paper and printing,49.327659,9.353696,DE1,DE118,0.0134,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0134 </td>
+ </table>
+",POINT (9.353695999999999 49.327659)
+257,258,Wepa Hygieneprodukte GmbH,Rönkhauser Str. 26 ,59757,DE,3,Paper and printing,51.409287,7.9925,DEA,DEA57,0.0883,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0566 </td>
+ <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0239 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0078 </td>
+ </table>
+",POINT (7.9925 51.409287)
+258,259,Baiersbronn Frischfaser Karton GmbH,Sägmühleweg 18 ,72270,DE,3,Paper and printing,48.497131,8.374716,DE1,DE12C,0.0715,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0715 </td>
+ </table>
+",POINT (8.374715999999999 48.497131)
+259,260,DELIPAPIER GmbH,Schönfelder Strasse 1 ,39596,DE,3,Paper and printing,52.674454,12.003502,DEE,DEE0D,0.1291,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0536 </td>
+ <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0755 </td>
+ </table>
+",POINT (12.003502 52.674454)
+260,261,Munksjö Dettingen GmbH,Schwalbenstadt 1 ,72581,DE,3,Paper and printing,48.515906,9.361831,DE1,DE141,0.0708,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0179 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0525 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0004 </td>
+ </table>
+",POINT (9.361831 48.515906)
+261,262,Stora Enso Kabel GmbH & Co. KG,Schwerter Strasse 263 ,58099,DE,3,Paper and printing,51.391714,7.465925,DEA,DEA53,0.65,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.65 </td>
+ </table>
+",POINT (7.465925 51.391714)
+262,263,Julius Glatz GmbH,Staatstrasse 37-41 ,67488,DE,3,Paper and printing,49.389297,8.046563,DEB,DEB3C,0.0316,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.025 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0066 </td>
+ </table>
+",POINT (8.046563000000001 49.389297)
+263,264,Steinbeis Papier GmbH,Stadtstr.20 ,25348,DE,3,Paper and printing,53.780944,9.428941,DEF,DEF0E,0.3852,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.2167 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.1445 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.024 </td>
+ </table>
+",POINT (9.428941 53.780944)
+264,265,Pappenfabrik Trauchgau GmbH & Co. KG,Stockingen 2 ,87642,DE,3,Paper and printing,47.642118,10.818257,DE2,DE27B,0.0038,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0019 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0019 </td>
+ </table>
+",POINT (10.818257 47.642118)
+265,266,Norske Skog Walsum GmbH,Theodor-Heuss-Strasse 228 ,47179,DE,3,Paper and printing,51.522712,6.714658,DEA,DEA12,0.2626,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.2626 </td>
+ </table>
+",POINT (6.714658 51.522712)
+266,267,Metsä Tissue GmbH,Theo-Strepp-Str. 2-6 ,52372,DE,3,Paper and printing,50.746855,6.489329,DEA,DEA26,0.2809,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0289 </td>
+ <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0126 </td>
+ <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.1674 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0054 </td>
+ <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0315 </td>
+ <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0315 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0036 </td>
+ </table>
+",POINT (6.489329 50.746855)
+267,268,Werra Papier Wernshausen GmbH,Unterm Bahnhof 10 ,98590,DE,3,Paper and printing,50.722923,10.355408,DEG,DEG0B,0.1156,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0868 </td>
+ <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0189 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0099 </td>
+ </table>
+",POINT (10.355408 50.722923)
+268,269,RA Dr. Mark Boddenberg InsV Reflex Premium Papier AG,Veldener Strasse 121-131 ,52349,DE,3,Paper and printing,50.808235,6.475587,DEA,DEA26,0.0442,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0263 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0179 </td>
+ </table>
+",POINT (6.475587 50.808235)
+269,270,Kraftwerks-Gesellschaft Unterkochen GmbH,Waldhäuser Str. 41,73432,DE,3,Paper and printing,48.816304,10.134352,DE1,DE11D,0.0804,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0804 </td>
+ </table>
+",POINT (10.134352 48.816304)
+270,271,Buchmann GmbH,Wasgaustraße 5 ,76855,DE,3,Paper and printing,49.208284,7.936921,DEB,DEB3H,0.0134,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0134 </td>
+ </table>
+",POINT (7.936921 49.208284)
+271,272,Papierfabrik Niederauer Mühle GmbH,Windener Weg 1 ,52372,DE,3,Paper and printing,50.742363,6.482907,DEA,DEA26,0.3519,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.3128 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0391 </td>
+ </table>
+",POINT (6.482907 50.742363)
+272,273,Neukölln Spezialpapier NK GmbH & Co.KG,Woermannkehre 2 ,12359,DE,3,Paper and printing,52.461989,13.452845,DE3,DE300,0.0223,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0223 </td>
+ </table>
+",POINT (13.452845 52.461989)
+273,274,Kartonfabrik Buchmann,Wasgaustraße 5,76855,DE,3,Paper and printing,49.20929,7.93561,DEB,DEB3H,0.1429,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0357 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1072 </td>
+ </table>
+",POINT (7.93561 49.20929)
+274,275,Brücher GmbH,Nibelungenstraße 381,64625,DE,3,Paper and printing,49.696829,8.666576,DE7,DE715,0.2144,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1072 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1072 </td>
+ </table>
+",POINT (8.666575999999999 49.696829)
+275,276,Hahnemühle FineArt GmbH,Hahnestraße 5,37586,DE,3,Paper and printing,51.780068,9.691753,DE9,DE918,0.0066,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0027 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0039 </td>
+ </table>
+",POINT (9.691753 51.780068)
+276,277,Neenah Gessner GmbH,Weidacher Str. 30,83620,DE,3,Paper and printing,47.892579,11.843464,DE2,DE21K,0.0268,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0268 </td>
+ </table>
+",POINT (11.843464 47.892579)
+277,278,Julius Glatz,Staatsstraße 37 - 41,67468,DE,3,Paper and printing,49.373208,8.0467,DEB,DEB3C,0.0152,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0152 </td>
+ </table>
+",POINT (8.0467 49.373208)
+278,279,Papierfabrik Louisenthal GmbH,Louisenthal 1,83703,DE,3,Paper and printing,47.75727,11.74438,DE2,DE21F,0.0066,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0066 </td>
+ </table>
+",POINT (11.74438 47.75727)
+279,280,Büttenpapierfabrik Gmund GmbH & Co. KG,Mangfallstraße 5,83703,DE,3,Paper and printing,47.7546,11.74162,DE2,DE21F,0.0066,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0066 </td>
+ </table>
+",POINT (11.74162 47.7546)
+280,281,Baron-Well GmbH,Wolfenbütteler Str. 44,38640,DE,3,Paper and printing,51.9111,10.48467,DE9,DE916,0.0013,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0013 </td>
+ </table>
+",POINT (10.48467 51.9111)
+281,282,Papierfabrik Zerkall Renker & Söhne GmbH & Co. KG,Gustav-Renker-Straße 5,52393,DE,3,Paper and printing,50.68909,6.44732,DEA,DEA26,0.1707,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.1576 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0131 </td>
+ </table>
+",POINT (6.44732 50.68909)
+282,283,Hellbut & Co. GmbH,Ilfelder Tal 1,99768,DE,3,Paper and printing,51.588003,10.782994,DEG,DEG07,0.0045,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0045 </td>
+ </table>
+",POINT (10.782994 51.588003)
+283,284,Krempel,Am Kanaldamm 17,76456,DE,3,Paper and printing,48.836482,8.245109,DE1,DE124,0.1072,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1072 </td>
+ </table>
+",POINT (8.245108999999999 48.836482)
+284,285,WEPA,Unterm Klausknapp 5,34431,DE,3,Paper and printing,51.41948,8.81011,DEA,DEA57,0.1197,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.112 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0077 </td>
+ </table>
+",POINT (8.81011 51.41948)
+285,286,Papierfabrik Nettemühle GmbH & Co. KG,August-Horch-Straße 17,56736,DE,3,Paper and printing,50.321416,7.234259,DEB,DEB17,0.0076,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0076 </td>
+ </table>
+",POINT (7.234259 50.321416)
+286,287,Melitta Haushaltsprodukte GmbH & Co. KG,Melittastraße 44,32427,DE,3,Paper and printing,52.29885,8.90597,DEA,DEA46,0.0279,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0268 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0011 </td>
+ </table>
+",POINT (8.90597 52.29885)
+287,288,Delkeskamp,Hauptstraße 14,49638,DE,3,Paper and printing,52.61724,7.859373,DE9,DE94E,0.1308,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0778 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0384 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0146 </td>
+ </table>
+",POINT (7.859373 52.61724)
+288,289,Mondi,Angererstraße 25,83064,DE,3,Paper and printing,47.79584,12.1193,DE2,DE21K,0.2183,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1341 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0626 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0216 </td>
+ </table>
+",POINT (12.1193 47.79584)
+289,290,Pfleiderer Spezialpapiere,Adolf-Pfleiderer-Straße 19,94244,DE,3,Paper and printing,49.04242,13,DE2,DE229,0.0338,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0338 </td>
+ </table>
+",POINT (13 49.04242)
+290,291,Panther Packaging,Altonaerstraße 40,25436,DE,3,Paper and printing,53.69535,9.71502,DEF,DEF09,0.0705,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0518 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0107 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.008 </td>
+ </table>
+",POINT (9.715020000000001 53.69535)
+291,292,Froeb-Verpackungen,Lehestener Str. 63,7343,DE,3,Paper and printing,50.455332,11.530805,DEG,DEG0K,0.0007,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0007 </td>
+ </table>
+",POINT (11.530805 50.455332)
+292,293,Kartonfabrik Porstendorf,Fabrikstraße,07778,DE,3,Paper and printing,50.97563,11.64217,DEG,DEG0J,0.0166,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0056 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0055 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0055 </td>
+ </table>
+",POINT (11.64217 50.97563)
+293,294,Albert Köhler,Grünstraße 4,77723,DE,3,Paper and printing,48.40364,8.01008,DE1,DE134,0.0208,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0052 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0052 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0052 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0052 </td>
+ </table>
+",POINT (8.01008 48.40364)
+294,295,W & M Pappen GmbH & Co. KG,Pappmühle 2,32676,DE,3,Paper and printing,51.91245,9.25262,DEA,DEA45,0.0008,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0008 </td>
+ </table>
+",POINT (9.25262 51.91245)
+295,296,Hellbut & Co. GmbH,Ilfelder Tal 1,99768,DE,3,Paper and printing,51.58787,10.78304,DEG,DEG07,0.0045,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0045 </td>
+ </table>
+",POINT (10.78304 51.58787)
+296,297,Illig'sche Papierfabrik,Rheinstr. 38,64367,DE,3,Paper and printing,49.8189,8.67893,DE7,DE716,0.0108,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0036 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0036 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0036 </td>
+ </table>
+",POINT (8.678929999999999 49.8189)
+297,298,Sofidel,Unterm Bahnhof 10,98574,DE,3,Paper and printing,50.72413,10.35602,DEG,DEG0B,0.0304,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0304 </td>
+ </table>
+",POINT (10.35602 50.72413)
+298,299,Papierfabrik Carl Lenz GmbH & Co.,Hauptstraße 40,79664,DE,3,Paper and printing,47.62791,7.90486,DE1,DE13A,0.0007,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0007 </td>
+ </table>
+",POINT (7.90486 47.62791)
+299,300,Flexipack International Wunderlich GmbH + Co KG,Papiermacherstr. 2,57482,DE,3,Paper and printing,50.979,7.83623,DEA,DEA59,0.0017,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0017 </td>
+ </table>
+",POINT (7.83623 50.979)
+300,301,Krempel,Bahnhofstraße 3,9380,DE,3,Paper and printing,50.693651,12.845634,DED,DED42,0.009,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0045 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0045 </td>
+ </table>
+",POINT (12.845634 50.693651)
+301,302,Grünperga Papier GmbH,Am Güterbahnhof 3 ,9579,DE,3,Paper and printing,50.778814,13.158782,DED,DED42,0.1072,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.1072 </td>
+ </table>
+",POINT (13.158782 50.778814)
+302,303,Kübler & Niethammer Papierf Kriebstein AG,Bauhofstr. 1 ,9648,DE,3,Paper and printing,51.051032,13.016598,DED,DED43,0.0268,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0268 </td>
+ </table>
+",POINT (13.016598 51.051032)
+303,304,Papierfabrik Louisenthal GmbH,Bielatalstrasse 91-93 ,1824,DE,3,Paper and printing,50.91518,14.071538,DED,DED2F,0.0098,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0098 </td>
+ </table>
+",POINT (14.071538 50.91518)
+304,305,Schoeller Technocell GmbH & Co.KG,Flinschstr 7,9322,DE,3,Paper and printing,50.932741,12.711226,DED,DED43,0.0268,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0268 </td>
+ </table>
+",POINT (12.711226 50.932741)
+305,306,Julius Schulte Trebsen GmbH & Co. KG,Pauschwitzer Str. 45 ,4687,DE,3,Paper and printing,51.282307,12.766139,DED,DED52,0.1519,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0983 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0536 </td>
+ </table>
+",POINT (12.766139 51.282307)
+306,307,Glatfelter Dresden GmbH,Pirnaer Str. 31-33 ,1809,DE,3,Paper and printing,50.971327,13.880082,DED,DED2F,0.0536,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0536 </td>
+ </table>
+",POINT (13.880082 50.971327)
+307,308,Hellbut & Co. GmbH,Muldenweg 1,9629,DE,3,Paper and printing,51.021793,13.339231,DED,DED43,0.0044,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0022 </td>
+ <tr> <td nowrap>Board & packaging paper</td> <td>4.9</td> <td>0.0022 </td>
+ </table>
+",POINT (13.339231 51.021793)
+308,309,Stora Enso Sachsen GmbH,Am Schanzberg 1,4838,DE,3,Paper and printing,51.46461046,12.59136792,DED,DED53,0.4202,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.4202 </td>
+ </table>
+",POINT (12.59136792 51.46461046)
+309,310,Kübler & Niethammer Papierf Kriebstein AG,Bauhofstr. 1 ,9648,DE,3,Paper and printing,51.051032,13.016598,DED,DED43,0.1116,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.1116 </td>
+ </table>
+",POINT (13.016598 51.051032)
+310,311,Papierfabrik Hainsberg GmbH,Dresdner Str. 321 ,1705,DE,3,Paper and printing,50.986513,13.639801,DED,DED2F,0.0642,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.046 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0131 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0051 </td>
+ </table>
+",POINT (13.639801 50.986513)
+311,312,Schönfelder Papierfabrik GmbH,Tannenberger Str. 4 ,9456,DE,3,Paper and printing,50.60471,12.99164,DED,DED42,0.0656,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0328 </td>
+ <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.0328 </td>
+ </table>
+",POINT (12.99164 50.60471)
+312,313,Felix Schoeller,Fabrikstraße 1,9600,DE,3,Paper and printing,50.87638,13.39566,DED,DED43,0.1379,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Graphic paper</td> <td>7.2</td> <td>0.1379 </td>
+ </table>
+",POINT (13.39566 50.87638)
+313,314,Wepa Papierfabrik Sachsen GmbH,An der Zschopau 2 ,9648,DE,3,Paper and printing,51.046293,13.018068,DED,DED43,0.107,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.0063 </td>
+ <tr> <td nowrap>Tissue paper</td> <td>6.9</td> <td>0.1007 </td>
+ </table>
+",POINT (13.018068 51.046293)
+314,315,Stora Enso Sachsen GmbH,Am Schanzberg 1,4838,DE,3,Paper and printing,51.46461046,12.59136792,DED,DED53,0.0432,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0432 </td>
+ </table>
+",POINT (12.59136792 51.46461046)
+315,316,Lunzenauer Papier- und Pappenfabrik GmbH & Co.KG,Altenburger Str. 3 ,9328,DE,3,Paper and printing,50.959523,12.755561,DED,DED43,0.0011,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0011 </td>
+ </table>
+",POINT (12.755561 50.959523)
+316,317,Kübler & Niethammer Papierf Kriebstein AG,Bauhofstr. 1 ,9648,DE,3,Paper and printing,51.051032,13.016598,DED,DED43,0.011,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.011 </td>
+ </table>
+",POINT (13.016598 51.051032)
+317,319,Julius Schulte Trebsen GmbH & Co. KG,Pauschwitzer Str. 45 ,4687,DE,3,Paper and printing,51.282307,12.766139,DED,DED52,0.0191,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0191 </td>
+ </table>
+",POINT (12.766139 51.282307)
+318,320,Glatfelter Dresden GmbH,Pirnaer Str. 31-33 ,1809,DE,3,Paper and printing,50.971327,13.880082,DED,DED2F,0.001,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.001 </td>
+ </table>
+",POINT (13.880082 50.971327)
+319,321,Schumacher Packaging GmbH,Raschauer Weg 30 ,8340,DE,3,Paper and printing,50.53467,12.8089599,DED,DED42,0.01,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.005 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.005 </td>
+ </table>
+",POINT (12.8089599 50.53467)
+320,322,Schönfelder Papierfabrik GmbH,Tannenberger Str. 4 ,9456,DE,3,Paper and printing,50.60471,12.99164,DED,DED42,0.0053,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0053 </td>
+ </table>
+",POINT (12.99164 50.60471)
+321,323,PAKA,Altenberger Str. 25,01768,DE,3,Paper and printing,50.84686,13.77371,DED,DED2F,0.0044,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0011 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0011 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0011 </td>
+ <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0011 </td>
+ </table>
+",POINT (13.77371 50.84686)
+322,324,Krempel,Annaberger Str. 67,8297,DE,3,Paper and printing,50.62553,12.82877,DED,DED42,0.0006,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Recovered fibers</td> <td>0.5</td> <td>0.0006 </td>
+ </table>
+",POINT (12.82877 50.62553)
+323,325,Sappi Ehingen GmbH,Biberacher Str. 73 ,89584,DE,3,Paper and printing,48.269691,9.726699,DE1,DE145,0.2848,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chemical pulp</td> <td>10.3</td> <td>0.2848 </td>
+ </table>
+",POINT (9.726699 48.269691)
+324,326,Mercer Group,Goldbecker Strasse 1,39596,DE,3,Paper and printing,52.69062,11.9859,DEE,DEE0D,1.3197,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chemical pulp</td> <td>10.3</td> <td>1.3197 </td>
+ </table>
+",POINT (11.9859 52.69062)
+325,327,Zellstoff- und Papierfabrik Rosenthal GmbH,Hauptstraße 16 ,7366,DE,3,Paper and printing,50.402363,11.700325,DEG,DEG0K,0.7066,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chemical pulp</td> <td>10.3</td> <td>0.7066 </td>
+ </table>
+",POINT (11.700325 50.402363)
+326,328,Sappi Alfeld GmbH,Mühlenmasch 1,31061,DE,3,Paper and printing,51.98596257,9.820763204,DE9,DE925,0.2452,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chemical pulp</td> <td>10.3</td> <td>0.2452 </td>
+ </table>
+",POINT (9.820763204 51.98596257)
+327,329,Sappi Deutschland Holding GmbH,Obernburger Str. 1-9,63811,DE,3,Paper and printing,49.9777578,9.069009637,DE2,DE264,0.3265,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chemical pulp</td> <td>10.3</td> <td>0.3265 </td>
+ </table>
+",POINT (9.069009637000001 49.9777578)
+328,330,SCA Hygiene Products GmbH Consumer Products,Sandhofer Str. 176,68305,DE,3,Paper and printing,49.53549864,8.457079832,DE1,DE126,0.4494,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Chemical pulp</td> <td>10.3</td> <td>0.4494 </td>
+ </table>
+",POINT (8.457079832 49.53549864)
+329,331,Saarstahl AG,Bismarckstr. 57-59,66333,DE,1,Metal Processing,49.25200518,6.84706277,DEC,DEC01,0.1945,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0171 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.138 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0137 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.012 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0137 </td>
+ </table>
+",POINT (6.84706277 49.25200518)
+330,332,AG der Dillinger Hüttenwerke,Werkstraße 1,66763,DE,1,Metal Processing,49.35717217,6.754136982,DEC,DEC04,0.6695,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.594 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0171 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0171 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0199 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0214 </td>
+ </table>
+",POINT (6.754136982 49.35717217)
+331,333,ArcelorMittal Hamburg GmbH,Dradenaustraße 33,21129,DE,1,Metal Processing,53.52478497,9.900051078,DE6,DE600,0.3401,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.3258 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0143 </td>
+ </table>
+",POINT (9.900051078000001 53.52478497)
+332,334,Salzgitter Flachstahl GmbH Abt. Umweltschutz / 08 TUI,Eisenhüttenstr. 99,38239,DE,1,Metal Processing,52.15476492,10.40307531,DE9,DE912,1.7359,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>1.6556 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0205 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0256 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0171 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0171 </td>
+ </table>
+",POINT (10.40307531 52.15476492)
+333,335,Peiner Träger GmbH,Gerhard-Lucas-Meyer-Str. 10,31226,DE,1,Metal Processing,52.31635646,10.23818612,DE9,DE91A,0.5372,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.2108 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.2989 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0128 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0143 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0004 </td>
+ </table>
+",POINT (10.23818612 52.31635646)
+334,336,Georgsmarienhütte Holding GmbH,Neue Hüttenstraße 1,49124,DE,1,Metal Processing,52.2091444,8.049501107,DE9,DE94E,0.3201,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.3066 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0135 </td>
+ </table>
+",POINT (8.049501106999999 52.2091444)
+335,337,ArcelorMittal Bremen GmbH,Carl-Benz-Straße 30,28237,DE,1,Metal Processing,53.12493044,8.68672853,DE5,DE501,1.9335,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>1.8779 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0556 </td>
+ </table>
+",POINT (8.68672853 53.12493044)
+336,338,Hüttenwerke Krupp Mannesmann GmbH,Ehinger Str. 200,47259,DE,1,Metal Processing,51.36823117,6.712267332,DEA,DEA12,0.121,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0199 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0171 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0157 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0256 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0427 </td>
+ </table>
+",POINT (6.712267332 51.36823117)
+337,339,ThyssenKrupp Steel Europe AG,Kaiser - Wilhelm - Straße 100,47166,DE,1,Metal Processing,51.5036903,6.735907484,DEA,DEA12,7.0926,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0479 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.6898 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>1.2647 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.4829 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.2759 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0285 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.7665 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.7818 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.3679 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.041 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>2.2995 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0462 </td>
+ </table>
+",POINT (6.735907484 51.5036903)
+338,340,ArcelorMittal Ruhrort GmbH,Vohwinkelstraße 107,47137,DE,1,Metal Processing,51.4608318,6.749172902,DEA,DEA12,0.5299,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.2299 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.2644 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0199 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0157 </td>
+ </table>
+",POINT (6.749172902 51.4608318)
+339,341,Deutsche Edelstahlwerke GmbH,Obere Kaiserstraße -,57078,DE,1,Metal Processing,50.9173709,8.014246705,DEA,DEA5A,0.0086,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0086 </td>
+ </table>
+",POINT (8.014246705 50.9173709)
+340,342,Buderus Edelstahl GmbH,Buderusstraße 25,35576,DE,1,Metal Processing,50.57494118,8.489228686,DE7,DE722,0.1974,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.0326 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.115 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.0498 </td>
+ </table>
+",POINT (8.489228686000001 50.57494118)
+341,343,Lech-Stahlwerke GmbH,Industriestr. 1,86405,DE,1,Metal Processing,48.51211887,10.85935053,DE2,DE276,0.3989,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.2874 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0071 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0086 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.0958 </td>
+ </table>
+",POINT (10.85935053 48.51211887)
+342,344,H.E.S.Hennigsdorfer Elektrostahlwerke GmbH,Wolfgang-Küntscher-Straße 18,16761,DE,1,Metal Processing,52.65326784,13.211427,DE4,DE40A,0.5124,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0071 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0071 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.4982 </td>
+ </table>
+",POINT (13.211427 52.65326784)
+343,345,ArcelorMittal Eisenhüttenstadt GmbH,Werkstraße 1,15890,DE,1,Metal Processing,52.16614052,14.61768224,DE4,DE40C,0.8461,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.8048 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0071 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0342 </td>
+ </table>
+",POINT (14.61768224 52.16614052)
+344,346,B.E.S. Brandenburger Elektrostahlwerke GmbH,Woltersdorfer Str. 40,14770,DE,1,Metal Processing,52.40195019,12.49888566,DE4,DE401,0.521,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.4982 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0114 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0114 </td>
+ </table>
+",POINT (12.49888566 52.40195019)
+345,347,Stahlwerk Thüringen GmbH,Kronacher Str. 6,7333,DE,1,Metal Processing,50.65350467,11.43428826,DEG,DEG0I,0.3975,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.3832 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0143 </td>
+ </table>
+",POINT (11.43428826 50.65350467)
+346,348,ESF Elbe-Stahlwerke Feralpi GmbH,Gröbaer Straße 3,1591,DE,1,Metal Processing,51.3130646,13.27783005,DED,DED2E,0.2929,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0093 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.2836 </td>
+ </table>
+",POINT (13.27783005 51.3130646)
+347,349,BGH Edelstahl Freital GmbH,Am Stahlwerk 1 ,1705,DE,1,Metal Processing,50.998987,13.644266,DED,DED2F,0.0778,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.0307 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0011 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.046 </td>
+ </table>
+",POINT (13.644266 50.998987)
+348,350,Deutsche Edelstahlwerke GmbH,Auestraße 4 ,58452,DE,1,Metal Processing,51.434468,7.326471,DEA,DEA56,0.0064,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0064 </td>
+ </table>
+",POINT (7.326471 51.434468)
+349,351,MSW Moselstahlwerk GmbH,Eltzstrasse 65 ,54293,DE,1,Metal Processing,49.785423,6.689694,DEB,DEB21,0.1987,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.1916 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0071 </td>
+ </table>
+",POINT (6.689694 49.785423)
+350,352,Outokumpu VDM GmbH,Formerstrasse 17 ,59425,DE,1,Metal Processing,51.562733,7.703186,DEA,DEA5C,0.0004,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0004 </td>
+ </table>
+",POINT (7.703186 51.562733)
+351,353,Badische Stahlwerke GmbH,Graudenzerstr. 45 ,77694,DE,1,Metal Processing,48.594136,7.822683,DE1,DE134,0.8554,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0157 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.2491 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.5749 </td>
+ <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0157 </td>
+ </table>
+",POINT (7.822683 48.594136)
+352,354,Benteler Steel/Tube GmbH,Niederdarmer Str. 5,49811,DE,1,Metal Processing,52.469038,7.315341,DE9,DE949,0.0083,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0083 </td>
+ </table>
+",POINT (7.315341 52.469038)
+353,355,Stahlwerk Bous GmbH,Saarstraße 1 ,66359,DE,1,Metal Processing,49.274184,6.794735,DEC,DEC04,0.0014,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Casting (slab, bloom, billets)</td> <td>0.1</td> <td>0.0014 </td>
+ </table>
+",POINT (6.794735 49.274184)
+354,357,WALZWERKE EINSAL,Altenaer Str. 85,58769,DE,1,Metal Processing,51.32251,7.64489,DEA,DEA58,0.0096,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.0096 </td>
+ </table>
+",POINT (7.64489 51.32251)
+355,362,WW-K WARMWALZWERK KÖNIGSWINTER,Am Ziegelofen 22,53639,DE,1,Metal Processing,50.68737,7.18916,DEA,DEA2C,0.023,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.023 </td>
+ </table>
+",POINT (7.18916 50.68737)
+356,363,GUSTAV THEIS KALTWALZWERKE GMBH,Bandstahlstraße 14-18,58093,DE,1,Metal Processing,51.38438,7.5077,DEA,DEA53,0.069,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.069 </td>
+ </table>
+",POINT (7.5077 51.38438)
+357,366,STAHLWERK ANNAHÜTTE,Max-Aicher-Allee 1+2,83404,DE,1,Metal Processing,47.79459,12.9507,DE2,DE215,0.0422,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.0422 </td>
+ </table>
+",POINT (12.9507 47.79459)
+358,370,HFP BANDSTAHL GMBH,Schäfergasse 1,36433,DE,1,Metal Processing,50.81291,10.22286,DEG,DEG0P,0.0341,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.0138 </td>
+ <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.0203 </td>
+ </table>
+",POINT (10.22286 50.81291)
+359,371,MUHR u. BENDER KG,Mubea-Platz 1,57439,DE,1,Metal Processing,51.11732,7.90068,DEA,DEA59,0.023,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Profile rolling</td> <td>2.1</td> <td>0.023 </td>
+ </table>
+",POINT (7.90068 51.11732)
+360,372,"TRIMET ALUMINIUM SE, Niederlassung Hamburg",Aluminiumstraße -,21129,DE,2,Non-ferrous metals,53.51239548,9.887209802,DE6,DE600,0.8008,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Aluminum, primary</td> <td>25.0</td> <td>0.8008 </td>
+ </table>
+",POINT (9.887209801999999 53.51239548)
+361,373,Hydro Aluminium Rolled Products GmbH,Koblenzer Str. 122,41468,DE,2,Non-ferrous metals,51.14887655,6.781833437,DEA,DEA1D,1.3643,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Aluminum, primary</td> <td>25.0</td> <td>1.3643 </td>
+ </table>
+",POINT (6.781833437 51.14887655)
+362,374,TRIMET Aluminium SE,Aluminiumallee 1,45356,DE,2,Non-ferrous metals,51.49004917,6.968169748,DEA,DEA13,1.0084,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Aluminum, primary</td> <td>25.0</td> <td>1.0084 </td>
+ </table>
+",POINT (6.968169748 51.49004917)
+363,375,TRIMET Aluminium SE,Schleusenstr. 11,46562,DE,2,Non-ferrous metals,51.62553605,6.615408557,DEA,DEA1F,0.5695,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Aluminum, primary</td> <td>25.0</td> <td>0.5695 </td>
+ </table>
+",POINT (6.615408557 51.62553605)
+364,376,ROGESA Roheisengesellschaft Saar mbH,Werkstraße 1,66763,DE,1,"Steel, primary",49.35213699,6.743652603,DEC,DEC04,7.9152,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Steel, primary</td> <td>6.8</td> <td>3.6278 </td>
+ <tr> <td nowrap>Steel, primary</td> <td>6.8</td> <td>4.2874 </td>
+ </table>
+",POINT (6.743652603 49.35213699)
+365,378,Salzgitter Flachstahl GmbH Abt. Umweltschutz / 08 TUI,Eisenhüttenstr. 99,38239,DE,1,"Steel, primary",52.15476492,10.40307531,DE9,DE912,7.9152,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Steel, primary</td> <td>6.8</td> <td>1.3192 </td>
+ <tr> <td nowrap>Steel, primary</td> <td>6.8</td> <td>3.298 </td>
+ <tr> <td nowrap>Steel, primary</td> <td>6.8</td> <td>3.298 </td>
+ </table>
+",POINT (10.40307531 52.15476492)
+366,379,ArcelorMittal Bremen GmbH,Carl-Benz-Straße 30,28237,DE,1,"Steel, primary",53.12493044,8.68672853,DE5,DE501,6.5301,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Steel, primary</td> <td>6.8</td> <td>4.172 </td>
+ <tr> <td nowrap>Steel, primary</td> <td>6.8</td> <td>2.3581 </td>
+ </table>
+",POINT (8.68672853 53.12493044)
+367,380,Hüttenwerke Krupp Mannesmann GmbH,Ehinger Str. 200,47259,DE,1,"Steel, primary",51.36823117,6.712267332,DEA,DEA12,8.5748,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Steel, primary</td> <td>6.8</td> <td>4.1225 </td>
+ <tr> <td nowrap>Steel, primary</td> <td>6.8</td> <td>4.4523 </td>
+ </table>
+",POINT (6.712267332 51.36823117)
+368,381,ThyssenKrupp Steel Europe AG,Kaiser - Wilhelm - Straße 100,47166,DE,1,"Steel, primary",51.5036903,6.735907484,DEA,DEA12,19.1284,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Steel, primary</td> <td>6.8</td> <td>3.298 </td>
+ <tr> <td nowrap>Steel, primary</td> <td>6.8</td> <td>2.8033 </td>
+ <tr> <td nowrap>Steel, primary</td> <td>6.8</td> <td>5.7715 </td>
+ <tr> <td nowrap>Steel, primary</td> <td>6.8</td> <td>7.2556 </td>
+ </table>
+",POINT (6.735907484 51.5036903)
+369,377,DK Recycling und Roheisen GmbH,Werthauser Str. 182,47053,DE,1,"Steel, primary",51.42228298,6.741991278,DEA,DEA12,0.4947,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Steel, primary</td> <td>6.8</td> <td>0.4947 </td>
+ </table>
+",POINT (6.741991278 51.42228298)
+370,382,ArcelorMittal Eisenhüttenstadt GmbH,Werkstraße 1,15890,DE,1,"Steel, primary",52.16614052,14.61768224,DE4,DE40C,0.8245,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Steel, primary</td> <td>6.8</td> <td>0.8245 </td>
+ </table>
+",POINT (14.61768224 52.16614052)
+371,383,ArcelorMittal Duisburg GmbH,Dradenaustraße 33,21129,DE,1,"Steel, primary",53.52478497,9.900051078,DE6,DE600,0.816,"<table class=""tooltip-table"">
+ <tr> <th>Process</th> <th nowrap>SEC [GJ/t]</th> <th nowrap>H2-Potential [TWh]</th> </tr> <tr> <td nowrap>Steel, primary</td> <td>6.8</td> <td>0.816 </td>
+ </table>
+",POINT (9.900051078000001 53.52478497)

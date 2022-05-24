@@ -1,0 +1,13 @@
+name,co2_emissions
+Hydrogen,0
+Run_of_River,0
+Biomass,0
+Water_Reservoir,0
+Pumped_Storage,0
+Solar,0
+Wind_Offshore,0
+Wind_Onshore,0
+Gas,0.2
+Coal,0.34
+Lignite,0.41
+Oil,0.27
