@@ -94,11 +94,11 @@ def get_hydrogen_data(scenario_h2, years_h2):
 
 # choose which year to simulate
 
-years = [2030]  # [2030] or [2040] or [2050]
+years = [2050]  # [2030] or [2040] or [2050]
 
 # choose which hydrogen demand scenario to simulate
 
-h2_scenario_demand = "TN-H2-G"  # "TN-H2-G" or "TN-PtG-PtL" or "TN-Strom"
+h2_scenario_demand = "TN-Strom"  # "TN-H2-G" or "TN-PtG-PtL" or "TN-Strom"
 
 freq = "24"
 
@@ -147,6 +147,8 @@ link_names = [s + ' Electrolysis' for s in link_buses]
 electrolysis_cap_cost = 0
 electrolysis_efficiency = 0
 
+# electrolysis capital cost and efficiency are based on DEA agency data and pypsa methodology calculations
+
 if years == [2030]:
     electrolysis_cap_cost = 1886
     electrolysis_efficiency = 0.68
@@ -173,8 +175,7 @@ def hydrogen_constraints(n, snapshots):
     electrolysis_index = n.links.query('carrier == "Hydrogen"').index
     electrolysis_vars = get_var(n, 'Link', 'p').loc[n.snapshots[:], electrolysis_index]
     lhs = linexpr((1, electrolysis_vars)).sum().sum()
-    h2_value_data = get_hydrogen_data(h2_scenario_demand, years)['h2_demand_value']
-    total_production = h2_value_data
+    total_production = h2_data['h2_demand_value']
 
     define_constraints(n, lhs, '>=', total_production, 'Link', 'global_hydrogen_production_goal')
 
