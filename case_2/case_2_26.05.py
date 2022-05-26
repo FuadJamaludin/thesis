@@ -119,7 +119,7 @@ def get_hydrogen_data(scenario_h2, years_h2):
 
 # choose which year to simulate
 
-years = [2040]  # [2030] or [2040] or [2050]
+years = [2030]  # [2030] or [2040] or [2050]
 
 # choose which hydrogen demand scenario to simulate
 
