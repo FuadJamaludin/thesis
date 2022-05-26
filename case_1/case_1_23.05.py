@@ -194,7 +194,7 @@ if years == [2030]:
 elif years == [2040]:
     electrolysis_cap_cost = 1238.41
     electrolysis_efficiency = 0.72
-elif years == [2040]:
+elif years == [2050]:
     electrolysis_cap_cost = 1012.85
     electrolysis_efficiency = 0.75
 

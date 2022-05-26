@@ -119,7 +119,7 @@ def get_hydrogen_data(scenario_h2, years_h2):
 
 # choose which year to simulate
 
-years = [2030]  # [2030] or [2040] or [2050]
+years = [2040]  # [2030] or [2040] or [2050]
 
 # choose which hydrogen demand scenario to simulate
 
@@ -195,7 +195,7 @@ if years == [2030]:
 elif years == [2040]:
     electrolysis_cap_cost = 1238.41
     electrolysis_efficiency = 0.72
-elif years == [2040]:
+elif years == [2050]:
     electrolysis_cap_cost = 1012.85
     electrolysis_efficiency = 0.75
 
