@@ -80,25 +80,52 @@ def get_hydrogen_data(scenario_h2, years_h2):
 
     ac_loads_h2_links = []
 
-    for column_count in df_ac_loads_h2_loads_dist.columns:
-        for distance_count in range(len(df_ac_loads_h2_loads_dist[column_count])):
-            if df_ac_loads_h2_loads_dist[column_count][distance_count] == df_ac_loads_h2_loads_dist[column_count].min():
-                ac_loads_h2_links.append(df_ac_loads_h2_loads_dist.index[distance_count])
+    for column_count_x in df_ac_loads_h2_loads_dist.columns:
+        for distance_count_x in range(len(df_ac_loads_h2_loads_dist[column_count_x])):
+            if df_ac_loads_h2_loads_dist[column_count_x][distance_count_x] == \
+                    df_ac_loads_h2_loads_dist[column_count_x].min():
+                ac_loads_h2_links.append(df_ac_loads_h2_loads_dist.index[distance_count_x])
 
     ac_loads_h2_links = list(dict.fromkeys(ac_loads_h2_links))
 
-    dict_h2_data = {'h2_links': ac_loads_h2_links, 'h2_dataframe': df_h2_demand, 'h2_demand_value': round(sum(df_h2_demand['demand_value']) * 1e6, 2)}
+    df_h2_buses_load = pd.DataFrame(index=ac_loads_h2_links, columns={'h2_load': [], 'x': [], 'y': []})
+
+    for buses_count in range(len(network.buses.index)):
+        for h2_buses_count in range(len(df_h2_buses_load.index)):
+            if network.buses.index[buses_count] == df_h2_buses_load.index[h2_buses_count]:
+                df_h2_buses_load['x'][h2_buses_count] = network.buses['x'][buses_count]
+                df_h2_buses_load['y'][h2_buses_count] = network.buses['y'][buses_count]
+
+    df_h2_buses_load.fillna(0, inplace=True)
+
+    for column_count_y, i_count_y in zip(df_ac_loads_h2_loads_dist.columns, range(len(df_h2_demand['location_name']))):
+        for distance_count_y in range(len(df_ac_loads_h2_loads_dist[column_count_y])):
+            if df_ac_loads_h2_loads_dist[column_count_y][distance_count_y] == \
+                    df_ac_loads_h2_loads_dist[column_count_y].min():
+                h2_load_value = df_h2_demand[df_h2_demand['location_name'] == column_count_y]['demand_value'][
+                                      i_count_y] * 1e6  # in MWh
+                h2_demand_loc = df_ac_loads_h2_loads_dist.index[distance_count_y]
+                if df_h2_buses_load.at[h2_demand_loc, 'h2_load'] == 0:
+                    df_h2_buses_load.at[h2_demand_loc, 'h2_load'] = h2_load_value
+                else:
+                    df_h2_buses_load.at[h2_demand_loc, 'h2_load'] = df_h2_buses_load.at[h2_demand_loc, 'h2_load'] + \
+                                                                    h2_load_value
+
+    dict_h2_data = {'h2_links': ac_loads_h2_links,
+                    'h2_dataframe': df_h2_demand,
+                    'h2_buses_load': df_h2_buses_load,
+                    'h2_demand_value_total': round(sum(df_h2_demand['demand_value']) * 1e6, 2)}  # in MWh
 
     return dict_h2_data
 
 
 # choose which year to simulate
 
-years = [2050]  # [2030] or [2040] or [2050]
+years = [2030]  # [2030] or [2040] or [2050]
 
 # choose which hydrogen demand scenario to simulate
 
-h2_scenario_demand = "TN-Strom"  # "TN-H2-G" or "TN-PtG-PtL" or "TN-Strom"
+h2_scenario_demand = "TN-H2-G"  # "TN-H2-G" or "TN-PtG-PtL" or "TN-Strom"
 
 freq = "24"
 
@@ -113,18 +140,31 @@ for year in years:
 
 network.snapshots = pd.MultiIndex.from_arrays([snapshots.year, snapshots])
 
-network.snapshots
+# network.snapshots
 
 network.loads_t.p_set = pd.DataFrame(index=network.snapshots,
                                      columns=network.loads.index,
                                      data=100 * np.random.rand(len(network.snapshots), len(network.loads)))
 
+'''
+
+Nyears value depends on the snapshot resolution freq variable
+current freq = 24 with Nyears value of = 0.041666666666666664
+Change of Nyears value will affect the calculation of capital cost using pypsa-eur methodology from 
+the add_electricity script
+
+costs["capital_cost"] = ((annuity(costs["lifetime"], costs["discount rate"]) + 
+                            costs["FOM"]/100.) *
+                            costs["investment"] * Nyears)
+                            
+'''
 # Nyears = network.snapshot_weightings.objective.sum() / 8760
 # Nyears
 
 pmaxpu_generators = network.generators[
-    (network.generators['carrier'] == 'Solar') | (network.generators['carrier'] == 'Wind_Offshore') | (
-            network.generators['carrier'] == 'Wind_Onshore')]
+    (network.generators['carrier'] == 'Solar') |
+    (network.generators['carrier'] == 'Wind_Offshore') |
+    (network.generators['carrier'] == 'Wind_Onshore')]
 
 network.generators_t.p_max_pu = network.generators_t.p_max_pu.reindex(columns=pmaxpu_generators.index)
 
@@ -134,7 +174,6 @@ network.generators_t.p_max_pu.loc[:, pmaxpu_generators.index] = pd.DataFrame(ind
                                                                                                  len(pmaxpu_generators)))
 
 h2_data = get_hydrogen_data(h2_scenario_demand, years)
-h2_demand_dataframe = pd.DataFrame(h2_data['h2_dataframe'])
 
 # connect between electrical buses and hydrogen bus via link (as electrolysis unit)
 
@@ -144,10 +183,10 @@ link_buses = h2_data['h2_links']
 
 link_names = [s + ' Electrolysis' for s in link_buses]
 
+# electrolysis capital cost and efficiency are based on DEA agency data and pypsa methodology calculations
+
 electrolysis_cap_cost = 0
 electrolysis_efficiency = 0
-
-# electrolysis capital cost and efficiency are based on DEA agency data and pypsa methodology calculations
 
 if years == [2030]:
     electrolysis_cap_cost = 1886
@@ -168,14 +207,14 @@ network.madd('Link',
              bus1='Hydrogen',
              efficiency=electrolysis_efficiency)
 
-network.add('Store', 'Store Hydrogen', bus='Hydrogen', carrier='Hydrogen', e_nom_extendable=True)
+network.add('Store', 'Store_Hydrogen', bus='Hydrogen', carrier='Hydrogen', e_nom_extendable=True)
 
 
 def hydrogen_constraints(n, snapshots):
     electrolysis_index = n.links.query('carrier == "Hydrogen"').index
     electrolysis_vars = get_var(n, 'Link', 'p').loc[n.snapshots[:], electrolysis_index]
     lhs = linexpr((1, electrolysis_vars)).sum().sum()
-    total_production = h2_data['h2_demand_value']
+    total_production = h2_data['h2_demand_value_total']
 
     define_constraints(n, lhs, '>=', total_production, 'Link', 'global_hydrogen_production_goal')
 
@@ -186,9 +225,3 @@ def extra_functionality(n, snapshots):
 
 network.lopf(extra_functionality=extra_functionality, pyomo=False, solver_name='gurobi')
 
-# network.generators.p_nom_opt
-
-# network.generators_t.p
-
-# network.generators.p_nom_opt.plot.bar(ylabel='MW', figsize=(15, 10))
-# plt.tight_layout()
