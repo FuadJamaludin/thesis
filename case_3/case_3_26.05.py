@@ -5,59 +5,59 @@ from geopy import distance
 from geopy.geocoders import Nominatim
 
 
-
 def get_electrical_data(years_elect):
     if years_elect == [2030]:
-        return "C:/Users/work/pypsa_thesis/data/electrical/1_case_1_2030"
+        return "C:/Users/work/pypsa_thesis/data/electrical/1_2030"
     elif years_elect == [2040]:
-        return "C:/Users/work/pypsa_thesis/data/electrical/2_case_1_2040"
+        return "C:/Users/work/pypsa_thesis/data/electrical/2_2040"
     elif years_elect == [2050]:
-        return "C:/Users/work/pypsa_thesis/data/electrical/3_case_1_2050"
+        return "C:/Users/work/pypsa_thesis/data/electrical/3_2050"
 
 
 def get_hydrogen_data(scenario_h2, years_h2):
     if scenario_h2 == 'TN-H2-G':
         if years_h2 == [2030]:
-            load_data = pd.read_excel("C:/Users/work/pypsa_thesis/data/hydrogen/TN-H2-G/BW_2030.xlsx",
+            load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-H2-G/BW_2030.csv",
                                       index_col=0)
 
         elif years_h2 == [2040]:
-            load_data = pd.read_excel("C:/Users/work/pypsa_thesis/data/hydrogen/TN-H2-G/BW_2040.xlsx",
+            load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-H2-G/BW_2040.csv",
                                       index_col=0)
 
         elif years_h2 == [2050]:
-            load_data = pd.read_excel("C:/Users/work/pypsa_thesis/data/hydrogen/TN-H2-G/BW_2050.xlsx",
+            load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-H2-G/BW_2050.csv",
                                       index_col=0)
 
     elif scenario_h2 == 'TN-PtG-PtL':
         if years_h2 == [2030]:
-            load_data = pd.read_excel("C:/Users/work/pypsa_thesis/data/hydrogen/TN-PtG-PtL/BW_2030.xlsx",
+            load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-PtG-PtL/BW_2030.csv",
                                       index_col=0)
 
         elif years_h2 == [2040]:
-            load_data = pd.read_excel("C:/Users/work/pypsa_thesis/data/hydrogen/TN-PtG-PtL/BW_2040.xlsx",
+            load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-PtG-PtL/BW_2040.csv",
                                       index_col=0)
 
         elif years_h2 == [2050]:
-            load_data = pd.read_excel("C:/Users/work/pypsa_thesis/data/hydrogen/TN-PtG-PtL/BW_2050.xlsx",
+            load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-PtG-PtL/BW_2050.csv",
                                       index_col=0)
 
     elif scenario_h2 == 'TN-Strom':
         if years_h2 == [2030]:
-            load_data = pd.read_excel("C:/Users/work/pypsa_thesis/data/hydrogen/TN-Strom/BW_2030.xlsx",
+            load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-Strom/BW_2030.csv",
                                       index_col=0)
 
         elif years_h2 == [2040]:
-            load_data = pd.read_excel("C:/Users/work/pypsa_thesis/data/hydrogen/TN-Strom/BW_2040.xlsx",
+            load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-Strom/BW_2040.csv",
                                       index_col=0)
 
         elif years_h2 == [2050]:
-            load_data = pd.read_excel("C:/Users/work/pypsa_thesis/data/hydrogen/TN-Strom/BW_2050.xlsx",
+            load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-Strom/BW_2050.csv",
                                       index_col=0)
 
     df_h2_demand = pd.DataFrame(load_data)
     df_h2_demand.index.names = ['location_name']
     df_h2_demand.reset_index(inplace=True)
+    df_h2_demand.dropna(subset=['location_name'], inplace=True)
 
     for loc_count in range(len(df_h2_demand['location_name'])):
         geolocator = Nominatim(user_agent="locate_h2_demand")
@@ -109,29 +109,56 @@ def get_hydrogen_data(scenario_h2, years_h2):
                     df_h2_buses_load.at[h2_demand_loc, 'h2_load'] = df_h2_buses_load.at[h2_demand_loc, 'h2_load'] + \
                                                                     h2_load_value
 
-    df_h2_pipelines = pd.DataFrame(index=ac_loads_h2_links, columns=ac_loads_h2_links)
+    df_h2_pipelines_dist = pd.DataFrame(index=ac_loads_h2_links, columns=ac_loads_h2_links)
 
-    for column_count_z in range(len(list(df_h2_pipelines.index))):
-        for row_count_z in range(len(list(df_h2_pipelines.columns))):
-            if df_h2_pipelines.index[column_count_z] != df_h2_pipelines.columns[row_count_z]:
+    for column_count_z in range(len(list(df_h2_pipelines_dist.index))):
+        for row_count_z in range(len(list(df_h2_pipelines_dist.columns))):
+            if df_h2_pipelines_dist.index[column_count_z] != df_h2_pipelines_dist.columns[row_count_z]:
                 loc_1 = (df_h2_buses_load['y'][column_count_z], df_h2_buses_load['x'][column_count_z])
                 loc_2 = (df_h2_buses_load['y'][row_count_z], df_h2_buses_load['x'][row_count_z])
                 dist_loc_1_loc_2 = distance.distance(loc_1, loc_2).km
-                df_h2_pipelines.at[df_h2_pipelines.columns[row_count_z], df_h2_pipelines.index[column_count_z]] = \
+                df_h2_pipelines_dist.at[
+                    df_h2_pipelines_dist.columns[row_count_z], df_h2_pipelines_dist.index[column_count_z]] = \
                     dist_loc_1_loc_2
 
-    df_h2_pipelines.fillna(0, inplace=True)
+    h2_pipe_row_list = []
+    h2_bus_0_list = []
+    h2_bus_1_list = []
+    bus_0_list = []
+    bus_1_list = []
+    distance_km_list = []
 
-    for column_count_p in list(df_h2_pipelines.columns):
-        for row_count_p in range(len(list(df_h2_pipelines.index))):
+    for city_count_p in list(df_h2_pipelines_dist.columns):
+        for city_count_q in range(len(list(df_h2_pipelines_dist.index))):
+            if df_h2_pipelines_dist[city_count_p][city_count_q] == \
+                    df_h2_pipelines_dist[city_count_p].min():
+                h2_pipe_row_list.append('{}_{}_h2_pipe'.format(city_count_p, df_h2_pipelines_dist.index[city_count_q]))
+                h2_bus_0_list.append('{}_H2_Bus'.format(city_count_p))
+                h2_bus_1_list.append('{}_H2_Bus'.format(df_h2_pipelines_dist.index[city_count_q]))
+                bus_0_list.append(city_count_p)
+                bus_1_list.append(df_h2_pipelines_dist.index[city_count_q])
+                distance_km_list.append(df_h2_pipelines_dist[city_count_p].min())
 
+    df_h2_pipelines = pd.DataFrame(index=h2_pipe_row_list)
+    df_h2_pipelines.index.names = ['H2_pipelines']
 
-    print('a')
-    print('b')
+    df_h2_pipelines['bus_0'] = h2_bus_0_list
+    df_h2_pipelines['bus_1'] = h2_bus_1_list
+    df_h2_pipelines['distance_km'] = distance_km_list
+
+    all_bus_list = bus_0_list + bus_1_list
+    connected_list = []
+
+    for city_check in ac_loads_h2_links:
+        if city_check not in all_bus_list:
+            print('{} not connected to any bus'.format(city_check))
+        else:
+            connected_list.append('{} is connected to a H2 bus'.format(city_check))
 
     dict_h2_data = {'h2_links': ac_loads_h2_links,
                     'h2_dataframe': df_h2_demand,
                     'h2_buses_load': df_h2_buses_load,
+                    'h2_pipelines': df_h2_pipelines,
                     'h2_demand_value_total': round(sum(df_h2_demand['demand_value']) * 1e6, 2)}  # in MWh
 
     return dict_h2_data
@@ -192,10 +219,11 @@ h2_data = get_hydrogen_data(h2_scenario_demand, years)
 # connect between electrical buses and hydrogen bus via link (as electrolysis unit)
 
 df_h2_buses_load = pd.DataFrame(h2_data['h2_buses_load'])
+df_h2_pipes = pd.DataFrame(h2_data['h2_pipelines'])
 
 h2_buses_names = list(df_h2_buses_load.index)
 
-h2_buses = [x + '_Hydrogen' for x in h2_buses_names]
+h2_buses = [x + '_H2_Bus' for x in h2_buses_names]
 
 network.madd('Bus',
              h2_buses,
@@ -229,6 +257,24 @@ network.madd('Link',
              bus0=h2_buses_names,
              bus1=h2_buses,
              efficiency=electrolysis_efficiency)
+
+if years == [2030]:
+    h2_pipe_cap_cost = 982.88
+elif years == [2040]:
+    h2_pipe_cap_cost = 903.61
+elif years == [2050]:
+    h2_pipe_cap_cost = 825.29
+
+network.madd("Link",
+             df_h2_pipes.index,
+             bus0=list(df_h2_pipes['bus_0']),
+             bus1=list(df_h2_pipes['bus_1']),
+             p_min_pu=-1,
+             p_nom_extendable=True,
+             length=list(df_h2_pipes['distance_km']),
+             capital_cost=h2_pipe_cap_cost * df_h2_pipes['distance_km'],
+             efficiency=0.98,  # value from pypsa-eur
+             carrier="Hydrogen")
 
 h2_stores = [y + '_H2_Store' for y in h2_buses_names]
 
