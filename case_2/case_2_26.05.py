@@ -383,6 +383,6 @@ ac_loads = network.loads[(network.loads['carrier'] == 'AC')]
 
 network.loads_t.p_set = pd.DataFrame(index=network.snapshots,
                                      columns=ac_loads.index,
-                                     data=100 * np.random.rand(len(network.snapshots), len(ac_loads)))
+                                     data=1000 * np.random.rand(len(network.snapshots), len(ac_loads)))
 
 network.lopf(pyomo=False, solver_name='gurobi')
