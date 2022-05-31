@@ -317,7 +317,7 @@ network.generators_t.p_max_pu.loc[:, pmaxpu_generators.index] = pd.DataFrame(ind
                                                                              data=np.random.rand(len(network.snapshots),
                                                                                                  len(pmaxpu_generators)))
 
-h2_data = get_hydrogen_data(h2_scenario_demand, years)
+h2_data = get_hydrogen_data(h2_scenario_demand, years, h2_pipe_config)
 
 # connect between electrical buses and hydrogen bus via link (as electrolysis unit)
 
