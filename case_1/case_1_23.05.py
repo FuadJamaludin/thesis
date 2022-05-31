@@ -375,5 +375,3 @@ def extra_functionality(n, snapshots):
 
 network.lopf(extra_functionality=extra_functionality, pyomo=False, solver_name='gurobi')
 
-print('view dataframe')
-print('view dataframe')
