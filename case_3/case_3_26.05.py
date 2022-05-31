@@ -14,45 +14,45 @@ def get_electrical_data(years_elect):
         return "C:/Users/work/pypsa_thesis/data/electrical/3_2050"
 
 
-def get_hydrogen_data(scenario_h2, years_h2):
+def get_hydrogen_data(scenario_h2, years_h2, h2_config):
     if scenario_h2 == 'TN-H2-G':
         if years_h2 == [2030]:
             load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-H2-G/BW_2030.csv",
-                                      index_col=0)
+                                    index_col=0)
 
         elif years_h2 == [2040]:
             load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-H2-G/BW_2040.csv",
-                                      index_col=0)
+                                    index_col=0)
 
         elif years_h2 == [2050]:
             load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-H2-G/BW_2050.csv",
-                                      index_col=0)
+                                    index_col=0)
 
     elif scenario_h2 == 'TN-PtG-PtL':
         if years_h2 == [2030]:
             load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-PtG-PtL/BW_2030.csv",
-                                      index_col=0)
+                                    index_col=0)
 
         elif years_h2 == [2040]:
             load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-PtG-PtL/BW_2040.csv",
-                                      index_col=0)
+                                    index_col=0)
 
         elif years_h2 == [2050]:
             load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-PtG-PtL/BW_2050.csv",
-                                      index_col=0)
+                                    index_col=0)
 
     elif scenario_h2 == 'TN-Strom':
         if years_h2 == [2030]:
             load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-Strom/BW_2030.csv",
-                                      index_col=0)
+                                    index_col=0)
 
         elif years_h2 == [2040]:
             load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-Strom/BW_2040.csv",
-                                      index_col=0)
+                                    index_col=0)
 
         elif years_h2 == [2050]:
             load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/hydrogen/TN-Strom/BW_2050.csv",
-                                      index_col=0)
+                                    index_col=0)
 
     df_h2_demand = pd.DataFrame(load_data)
     df_h2_demand.index.names = ['location_name']
@@ -121,30 +121,113 @@ def get_hydrogen_data(scenario_h2, years_h2):
                     df_h2_pipelines_dist.columns[row_count_z], df_h2_pipelines_dist.index[column_count_z]] = \
                     dist_loc_1_loc_2
 
-    h2_pipe_row_list = []
-    h2_bus_0_list = []
-    h2_bus_1_list = []
-    bus_0_list = []
-    bus_1_list = []
-    distance_km_list = []
+    if h2_config == 'short':
 
-    for city_count_p in list(df_h2_pipelines_dist.columns):
-        for city_count_q in range(len(list(df_h2_pipelines_dist.index))):
-            if df_h2_pipelines_dist[city_count_p][city_count_q] == \
-                    df_h2_pipelines_dist[city_count_p].min():
-                h2_pipe_row_list.append('{}_{}_h2_pipe'.format(city_count_p, df_h2_pipelines_dist.index[city_count_q]))
-                h2_bus_0_list.append('{}_H2_Bus'.format(city_count_p))
-                h2_bus_1_list.append('{}_H2_Bus'.format(df_h2_pipelines_dist.index[city_count_q]))
-                bus_0_list.append(city_count_p)
-                bus_1_list.append(df_h2_pipelines_dist.index[city_count_q])
-                distance_km_list.append(df_h2_pipelines_dist[city_count_p].min())
+        h2_pipe_row_list = []
+        h2_bus_0_list = []
+        h2_bus_1_list = []
+        bus_0_list = []
+        bus_1_list = []
+        distance_km_list = []
 
-    df_h2_pipelines = pd.DataFrame(index=h2_pipe_row_list)
-    df_h2_pipelines.index.names = ['H2_pipelines']
+        for city_count_p in list(df_h2_pipelines_dist.columns):
+            for city_count_q in range(len(list(df_h2_pipelines_dist.index))):
+                if df_h2_pipelines_dist[city_count_p][city_count_q] == \
+                        df_h2_pipelines_dist[city_count_p].min():
+                    h2_pipe_row_list.append(
+                        '{}_{}_h2_pipe'.format(city_count_p, df_h2_pipelines_dist.index[city_count_q]))
+                    h2_bus_0_list.append('{}_H2_Bus'.format(city_count_p))
+                    h2_bus_1_list.append('{}_H2_Bus'.format(df_h2_pipelines_dist.index[city_count_q]))
+                    bus_0_list.append(city_count_p)
+                    bus_1_list.append(df_h2_pipelines_dist.index[city_count_q])
+                    distance_km_list.append(df_h2_pipelines_dist[city_count_p].min())
 
-    df_h2_pipelines['bus_0'] = h2_bus_0_list
-    df_h2_pipelines['bus_1'] = h2_bus_1_list
-    df_h2_pipelines['distance_km'] = distance_km_list
+        df_h2_pipelines = pd.DataFrame(index=h2_pipe_row_list)
+        df_h2_pipelines.index.names = ['H2_pipelines']
+
+        df_h2_pipelines['bus_0'] = h2_bus_0_list
+        df_h2_pipelines['bus_1'] = h2_bus_1_list
+        df_h2_pipelines['distance_km'] = distance_km_list
+
+        df_h2_pipelines.drop_duplicates(subset=['distance_km'], inplace=True)
+
+    elif h2_config == 'all':
+
+        h2_pipe_row_list = []
+        h2_bus_0_list = []
+        h2_bus_1_list = []
+        bus_0_list = []
+        bus_1_list = []
+        distance_km_list = []
+
+        for city_count_r in list(df_h2_pipelines_dist.columns):
+            for city_count_s, i_count_s in zip(list(df_h2_pipelines_dist.index), range(len(list(df_h2_pipelines_dist.index)))):
+                if city_count_r != city_count_s:
+                    h2_pipe_row_list.append(
+                        '{}_{}_h2_pipe'.format(city_count_r, city_count_s))
+                    h2_bus_0_list.append('{}_H2_Bus'.format(city_count_r))
+                    h2_bus_1_list.append('{}_H2_Bus'.format(city_count_s))
+                    bus_0_list.append(city_count_r)
+                    bus_1_list.append(city_count_s)
+                    distance_km_list.append(df_h2_pipelines_dist[city_count_r][i_count_s])
+
+        df_h2_pipelines = pd.DataFrame(index=h2_pipe_row_list)
+        df_h2_pipelines.index.names = ['H2_pipelines']
+
+        df_h2_pipelines['bus_0'] = h2_bus_0_list
+        df_h2_pipelines['bus_1'] = h2_bus_1_list
+        df_h2_pipelines['distance_km'] = distance_km_list
+
+        df_h2_pipelines.drop_duplicates(subset=['distance_km'], inplace=True)
+
+    elif h2_config == 'short_fnb_2030':
+
+        h2_pipe_row_list = []
+        h2_bus_0_list = []
+        h2_bus_1_list = []
+        bus_0_list = []
+        bus_1_list = []
+        distance_km_list = []
+
+        for city_count_a in list(df_h2_pipelines_dist.columns):
+            for city_count_b in range(len(list(df_h2_pipelines_dist.index))):
+                if df_h2_pipelines_dist[city_count_a][city_count_b] == \
+                        df_h2_pipelines_dist[city_count_a].min():
+                    h2_pipe_row_list.append(
+                        '{}_{}_h2_pipe'.format(city_count_a, df_h2_pipelines_dist.index[city_count_b]))
+                    h2_bus_0_list.append('{}_H2_Bus'.format(city_count_a))
+                    h2_bus_1_list.append('{}_H2_Bus'.format(df_h2_pipelines_dist.index[city_count_b]))
+                    bus_0_list.append(city_count_a)
+                    bus_1_list.append(df_h2_pipelines_dist.index[city_count_b])
+                    distance_km_list.append(df_h2_pipelines_dist[city_count_a].min())
+
+        # below connections currently for BW
+        fnb_2030_add = [['Eichstetten_110kV', 'Lorrach_110kV'],
+                        ['KarlsruheWest_110kV', 'HeidelburgSud_110kV'],
+                        ['HeidelburgSud_110kV', 'Grossgartach_110kV'],
+                        ['Grossgartach_110kV', 'Kupferzell_110kV'],
+                        ['Sindelfingen_110kV', 'Birkenfeld_110kV'],
+                        ['Sindelfingen_110kV', 'Oberjettingen_110kV'],
+                        ['Reutlingen_110kV', 'Laufen_an_der_Eyach_110kV'],
+                        ['Sipplingen_110kV', 'Markdorf_110kV'],
+                        ['Biberach_110kV', 'Ravensburg_110kV'],
+                        ['Goldshofe_110kV', 'Giengen_110kV']]
+
+        for city_add in range(len(fnb_2030_add)):
+            h2_pipe_row_list.append('{}_{}_h2_pipe'.format(fnb_2030_add[city_add][0], fnb_2030_add[city_add][1]))
+            h2_bus_0_list.append('{}_H2_Bus'.format(fnb_2030_add[city_add][0]))
+            h2_bus_1_list.append('{}_H2_Bus'.format(fnb_2030_add[city_add][1]))
+            bus_0_list.append(fnb_2030_add[city_add][0])
+            distance_km_list.append(df_h2_pipelines_dist.at[fnb_2030_add[city_add][0], fnb_2030_add[city_add][1]])
+
+        df_h2_pipelines = pd.DataFrame(index=h2_pipe_row_list)
+        df_h2_pipelines.index.names = ['H2_pipelines']
+
+        df_h2_pipelines['bus_0'] = h2_bus_0_list
+        df_h2_pipelines['bus_1'] = h2_bus_1_list
+        df_h2_pipelines['distance_km'] = distance_km_list
+
+        df_h2_pipelines.drop_duplicates(subset=['distance_km'], inplace=True)
 
     all_bus_list = bus_0_list + bus_1_list
     connected_list = []
@@ -164,6 +247,12 @@ def get_hydrogen_data(scenario_h2, years_h2):
     return dict_h2_data
 
 
+# user input for:
+# years to simulate
+# which h2 demand scenario
+# which h2 pipeline connection configuration
+# resolution in 1 year simulation - current: 24 hours / daily
+
 # choose which year to simulate
 
 years = [2030]  # [2030] or [2040] or [2050]
@@ -172,7 +261,19 @@ years = [2030]  # [2030] or [2040] or [2050]
 
 h2_scenario_demand = "TN-H2-G"  # "TN-H2-G" or "TN-PtG-PtL" or "TN-Strom"
 
+# choose configuration of h2 pipelines connection:
+# 'short' - buses which have h2 demand (which is h2 buses), will connect to any h2 buses in the shortest distance
+# 'all' - each h2 buses will connect to all other h2 buses regardless of short/long distances
+# 'short_fnb_2030' - connects using 'short' config first and then follows roughly similar to proposed h2 pipeline
+#                    connection based on FNB gas network development plan 2020 - 2030
+
+h2_pipe_config = 'short'
+
+# choose resolution
+
 freq = "24"
+
+### case - 3 ###
 
 network = pypsa.Network(get_electrical_data(years))
 
@@ -194,13 +295,14 @@ current freq = 24 with Nyears value of = 0.041666666666666664
 Change of Nyears value will affect the calculation of capital cost using pypsa-eur methodology from 
 the add_electricity script
 
+Nyears = network.snapshot_weightings.objective.sum() / 8760
+Nyears
+
 costs["capital_cost"] = ((annuity(costs["lifetime"], costs["discount rate"]) + 
                             costs["FOM"]/100.) *
                             costs["investment"] * Nyears)
                             
 '''
-# Nyears = network.snapshot_weightings.objective.sum() / 8760
-# Nyears
 
 pmaxpu_generators = network.generators[
     (network.generators['carrier'] == 'Solar') |
@@ -214,7 +316,7 @@ network.generators_t.p_max_pu.loc[:, pmaxpu_generators.index] = pd.DataFrame(ind
                                                                              data=np.random.rand(len(network.snapshots),
                                                                                                  len(pmaxpu_generators)))
 
-h2_data = get_hydrogen_data(h2_scenario_demand, years)
+h2_data = get_hydrogen_data(h2_scenario_demand, years, h2_pipe_config)
 
 # connect between electrical buses and hydrogen bus via link (as electrolysis unit)
 
@@ -299,6 +401,6 @@ ac_loads = network.loads[(network.loads['carrier'] == 'AC')]
 
 network.loads_t.p_set = pd.DataFrame(index=network.snapshots,
                                      columns=ac_loads.index,
-                                     data=100 * np.random.rand(len(network.snapshots), len(ac_loads)))
+                                     data=1000 * np.random.rand(len(network.snapshots), len(ac_loads)))
 
 network.lopf(pyomo=False, solver_name='gurobi')
