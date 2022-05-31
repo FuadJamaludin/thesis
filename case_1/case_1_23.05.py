@@ -293,7 +293,7 @@ network.snapshots = pd.MultiIndex.from_arrays([snapshots.year, snapshots])
 
 network.loads_t.p_set = pd.DataFrame(index=network.snapshots,
                                      columns=network.loads.index,
-                                     data=100 * np.random.rand(len(network.snapshots), len(network.loads)))
+                                     data=1000 * np.random.rand(len(network.snapshots), len(network.loads)))
 
 '''
 
@@ -375,3 +375,5 @@ def extra_functionality(n, snapshots):
 
 network.lopf(extra_functionality=extra_functionality, pyomo=False, solver_name='gurobi')
 
+print('view dataframe')
+print('view dataframe')
