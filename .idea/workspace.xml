@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ad24113-f5b6-47cc-a67e-eab40e74234f" name="Changes" comment="file renamed">
+      <change afterPath="$PROJECT_DIR$/case_1/case_1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_2/case_2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_3/case_3.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_3/case_3_all.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_3/case_3_short_fnb_2030.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_1/.ipynb_checkpoints/case_1_23.05-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_1/case_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/case_1/case_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_1/case_1_23.05.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_2/.ipynb_checkpoints/case_2_26.05-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_2/case_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/case_2/case_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_2/case_2_26.05.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_3/.ipynb_checkpoints/case_3_26.05-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_3/.ipynb_checkpoints/case_3_26.05_short_fnb_2030-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_3/case_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/case_3/case_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_3/case_3_26.05.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_3/case_3_26.05_short_fnb_2030.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/case_1/case_1.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/case_2/case_2.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/case_3/case_3.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/extract_pypsa_eur/elec_s_256_ec_lcopt_Co2L-24H.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29C4lufw56fJlbpCKydEGzfMcPs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/work/miniconda3/envs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\work\pypsa_thesis\case_1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.case_1_23.05">
+    <configuration name="case_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pypsa_thesis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\work\pypsa_thesis\case_1\case_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="case_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pypsa_thesis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\work\pypsa_thesis\case_2\case_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="case_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pypsa_thesis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case_3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\work\pypsa_thesis\case_3\case_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="elec_s_256_ec_lcopt_Co2L-24H" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pypsa_thesis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extract_pypsa_eur" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extract_pypsa_eur/elec_s_256_ec_lcopt_Co2L-24H.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="filter_h2_demand_state" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pypsa_thesis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case_1/filter_h2_demand_state.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.elec_s_256_ec_lcopt_Co2L-24H" />
+      <item itemvalue="Python.case_2_26.05" />
+      <item itemvalue="Python.case_3_26.05" />
+      <item itemvalue="Python.case_1_23.05" />
+      <item itemvalue="Python.filter_h2_demand_state" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.case_1_23.05" />
+        <item itemvalue="Python.case_3_26.05" />
+        <item itemvalue="Python.case_2_26.05" />
+        <item itemvalue="Python.elec_s_256_ec_lcopt_Co2L-24H" />
+        <item itemvalue="Python.filter_h2_demand_state" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ad24113-f5b6-47cc-a67e-eab40e74234f" name="Changes" comment="" />
+      <created>1652603890164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652603890164</updated>
+      <workItem from="1652603892655" duration="4155000" />
+      <workItem from="1652684067753" duration="18550000" />
+      <workItem from="1653302551504" duration="50238000" />
+      <workItem from="1653519560366" duration="59831000" />
+      <workItem from="1653696655698" duration="3105000" />
+      <workItem from="1653904990135" duration="50156000" />
+    </task>
+    <task id="LOCAL-00001" summary="save file">
+      <created>1652681948624</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652681948624</updated>
+    </task>
+    <task id="LOCAL-00002" summary="save main  file&#10;save testing geopy">
+      <created>1652690523194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652690523194</updated>
+    </task>
+    <task id="LOCAL-00003" summary="some changes">
+      <created>1652691245533</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652691245533</updated>
+    </task>
+    <task id="LOCAL-00004" summary="split changes">
+      <created>1652691831309</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652691831309</updated>
+    </task>
+    <task id="LOCAL-00005" summary="minor changes">
+      <created>1653292858907</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653292858907</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new file">
+      <created>1653293146183</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653293146183</updated>
+    </task>
+    <task id="LOCAL-00007" summary="find distance between ac loads and h2 loads">
+      <created>1653302323224</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653302323224</updated>
+    </task>
+    <task id="LOCAL-00008" summary="append short distance between ac node and h2 node">
+      <created>1653306204111</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653306204111</updated>
+    </task>
+    <task id="LOCAL-00009" summary="created some functions to get electrical and h2 data">
+      <created>1653320653877</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653320653877</updated>
+    </task>
+    <task id="LOCAL-00010" summary="rename file">
+      <created>1653391160275</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653391160275</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix TypeError">
+      <created>1653407117438</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653407117438</updated>
+    </task>
+    <task id="LOCAL-00012" summary="script to re-filter raw file based on years&#10;created separate functions for case 1">
+      <created>1653426217414</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653426217414</updated>
+    </task>
+    <task id="LOCAL-00013" summary="create dictionary for h2 data, delete rows with zero values">
+      <created>1653434810172</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1653434810172</updated>
+    </task>
+    <task id="LOCAL-00014" summary="hydrogen constraint no need to call again get h2 function">
+      <created>1653565852430</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1653565852430</updated>
+    </task>
+    <task id="LOCAL-00015" summary="modified get hydrogen data function to adapt case 1, case 2">
+      <created>1653582720009</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1653582720009</updated>
+    </task>
+    <task id="LOCAL-00016" summary="case 2 code">
+      <created>1653582789008</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1653582789008</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fixed the years' selection for electrolysis capital cost and efficiency">
+      <created>1653585436260</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1653585436260</updated>
+    </task>
+    <task id="LOCAL-00018" summary="minor changes">
+      <created>1653599693821</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1653599693821</updated>
+    </task>
+    <task id="LOCAL-00019" summary="new file for case 3">
+      <created>1653599723384</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1653599723384</updated>
+    </task>
+    <task id="LOCAL-00020" summary="changes for csv file reading, get h2 functions, completed test simulation for all 3 years, for all 3 h2 scenarios">
+      <created>1653667267046</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1653667267046</updated>
+    </task>
+    <task id="LOCAL-00021" summary="rename folders, change xslx to csv format">
+      <created>1653667344342</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1653667344342</updated>
+    </task>
+    <task id="LOCAL-00022" summary="done test simulate for all years, all h2 scenarios">
+      <created>1653673529569</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1653673529569</updated>
+    </task>
+    <task id="LOCAL-00023" summary="done test simulate for all years, all h2 scenarios">
+      <created>1653692052370</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1653692052370</updated>
+    </task>
+    <task id="LOCAL-00024" summary="notebook files for case 1, 2 and 3">
+      <created>1653692166724</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1653692166724</updated>
+    </task>
+    <task id="LOCAL-00025" summary="change to latest pypsa version">
+      <created>1653700012489</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1653700012489</updated>
+    </task>
+    <task id="LOCAL-00026" summary="changes for diff h2 pipe config - short/all/short_fnb">
+      <created>1653948814481</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1653948814483</updated>
+    </task>
+    <task id="LOCAL-00027" summary="segregated h2 data based on all 16 German states">
+      <created>1653948944943</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1653948944943</updated>
+    </task>
+    <task id="LOCAL-00028" summary="added folium and plot to diff short vs short_fnb">
+      <created>1653949247934</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1653949247935</updated>
+    </task>
+    <task id="LOCAL-00029" summary="files housekeeping, new files">
+      <created>1653950095414</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1653950095414</updated>
+    </task>
+    <task id="LOCAL-00030" summary="simulated for all years after changes of get h2 data">
+      <created>1653980124673</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1653980124673</updated>
+    </task>
+    <task id="LOCAL-00031" summary="housekeeping">
+      <created>1653981349295</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1653981349295</updated>
+    </task>
+    <task id="LOCAL-00032" summary="housekeeping">
+      <created>1653981440682</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1653981440682</updated>
+    </task>
+    <task id="LOCAL-00033" summary="housekeeping">
+      <created>1653981590642</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1653981590642</updated>
+    </task>
+    <task id="LOCAL-00034" summary="minor changes">
+      <created>1653982271088</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1653982271088</updated>
+    </task>
+    <task id="LOCAL-00035" summary="minor changes">
+      <created>1653982405442</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1653982405442</updated>
+    </task>
+    <task id="LOCAL-00036" summary="sample simulated network from pypsa-eur for reference">
+      <created>1653986881286</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1653986881286</updated>
+    </task>
+    <task id="LOCAL-00037" summary="increased loads_t.p_set rand values 0-1000, optimization successful for all years">
+      <created>1653987199016</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1653987199016</updated>
+    </task>
+    <task id="LOCAL-00038" summary="minor changes">
+      <created>1653987265419</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1653987265419</updated>
+    </task>
+    <task id="LOCAL-00039" summary="optimization okay with increased ac loads 0-1000">
+      <created>1653988825188</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1653988825188</updated>
+    </task>
+    <task id="LOCAL-00040" summary="optimization okay with increased ac loads 0-1000">
+      <created>1654002684098</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1654002684098</updated>
+    </task>
+    <task id="LOCAL-00041" summary="file renamed">
+      <created>1654004053585</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1654004053585</updated>
+    </task>
+    <task id="LOCAL-00042" summary="explanation for pypsa capital cost calculation">
+      <created>1654065643142</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1654065643142</updated>
+    </task>
+    <task id="LOCAL-00043" summary="explanation for pypsa capital cost calculation">
+      <created>1654065840828</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1654065840828</updated>
+    </task>
+    <task id="LOCAL-00044" summary="cosmetic changes">
+      <created>1654065856874</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1654065856874</updated>
+    </task>
+    <task id="LOCAL-00045" summary="p_nom_extendable changes">
+      <created>1654093410120</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1654093410120</updated>
+    </task>
+    <task id="LOCAL-00046" summary="case 1 output run files on 01.06.2022">
+      <created>1654093895232</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1654093895232</updated>
+    </task>
+    <task id="LOCAL-00047" summary="file renamed">
+      <created>1654093931893</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1654093931893</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
+    <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="startingDirectory" value="C:\Users\HP Elitebook 840" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hydrogen constraint no need to call again get h2 function" />
+    <MESSAGE value="modified get hydrogen data function to adapt case 1, case 2" />
+    <MESSAGE value="case 2 code" />
+    <MESSAGE value="fixed the years' selection for electrolysis capital cost and efficiency" />
+    <MESSAGE value="new file for case 3" />
+    <MESSAGE value="changes for csv file reading, get h2 functions, completed test simulation for all 3 years, for all 3 h2 scenarios" />
+    <MESSAGE value="rename folders, change xslx to csv format" />
+    <MESSAGE value="done test simulate for all years, all h2 scenarios" />
+    <MESSAGE value="notebook files for case 1, 2 and 3" />
+    <MESSAGE value="change to latest pypsa version" />
+    <MESSAGE value="changes for diff h2 pipe config - short/all/short_fnb" />
+    <MESSAGE value="segregated h2 data based on all 16 German states" />
+    <MESSAGE value="added folium and plot to diff short vs short_fnb" />
+    <MESSAGE value="files housekeeping, new files" />
+    <MESSAGE value="simulated for all years after changes of get h2 data" />
+    <MESSAGE value="housekeeping" />
+    <MESSAGE value="sample simulated network from pypsa-eur for reference" />
+    <MESSAGE value="increased loads_t.p_set rand values 0-1000, optimization successful for all years" />
+    <MESSAGE value="minor changes" />
+    <MESSAGE value="optimization okay with increased ac loads 0-1000" />
+    <MESSAGE value="explanation for pypsa capital cost calculation" />
+    <MESSAGE value="cosmetic changes" />
+    <MESSAGE value="p_nom_extendable changes" />
+    <MESSAGE value="case 1 output run files on 01.06.2022" />
+    <MESSAGE value="file renamed" />
+    <option name="LAST_COMMIT_MESSAGE" value="file renamed" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/case_1/case_1_test_53_15.05.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/case_1/case_1_test_53_15.05.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/case_1/case_1_test_53_15.05.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/case_1/case_1_test_53_15.05.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/case_1/case_1_test_53_15.05.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/case_1/locate_coor_geopy.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/extract_pypsa_eur/elec_s_256_ec_lcopt_Co2L-24H.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/extract_pypsa_eur/elec_s_256_ec_lcopt_Co2L-24H.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/case_1/case_1.py</url>
+          <line>377</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/case_1/case_1.py</url>
+          <line>378</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/case_2/case_2.py</url>
+          <line>389</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/case_2/case_2.py</url>
+          <line>390</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/case_3/case_3.py</url>
+          <line>407</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/case_3/case_3.py</url>
+          <line>408</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="network" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pypsa_thesis$case_1_test_53_23_05.coverage" NAME="case_1_23.05 Coverage Results" MODIFIED="1653434536949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_1" />
+    <SUITE FILE_PATH="coverage/pypsa_thesis$main.coverage" NAME="main Coverage Results" MODIFIED="1652605275906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pypsa_thesis$elec_s_256_ec_lcopt_Co2L_24H.coverage" NAME="elec_s_256_ec_lcopt_Co2L-24H Coverage Results" MODIFIED="1653983670016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extract_pypsa_eur" />
+    <SUITE FILE_PATH="coverage/pypsa_thesis$locate_coor_geopy.coverage" NAME="locate_coor_geopy Coverage Results" MODIFIED="1652703110255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_1" />
+    <SUITE FILE_PATH="coverage/pypsa_thesis$case_1_23_05.coverage" NAME="case_1 Coverage Results" MODIFIED="1654073222077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_1" />
+    <SUITE FILE_PATH="coverage/pypsa_thesis$test_53_15_05.coverage" NAME="test_53_15.05 Coverage Results" MODIFIED="1652688778651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_1" />
+    <SUITE FILE_PATH="coverage/pypsa_thesis$filter_h2_demand_state.coverage" NAME="filter_h2_demand_state Coverage Results" MODIFIED="1653432304390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_1" />
+    <SUITE FILE_PATH="coverage/pypsa_thesis$case_3_26_05.coverage" NAME="case_3_26.05 Coverage Results" MODIFIED="1653999806251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_3" />
+    <SUITE FILE_PATH="coverage/pypsa_thesis$case_2_26_05.coverage" NAME="case_2_26.05 Coverage Results" MODIFIED="1653988065658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_2" />
+  </component>
+</project>
