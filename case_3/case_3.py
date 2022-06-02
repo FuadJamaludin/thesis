@@ -161,7 +161,8 @@ def get_hydrogen_data(scenario_h2, years_h2, h2_config):
         distance_km_list = []
 
         for city_count_r in list(df_h2_pipelines_dist.columns):
-            for city_count_s, i_count_s in zip(list(df_h2_pipelines_dist.index), range(len(list(df_h2_pipelines_dist.index)))):
+            for city_count_s, i_count_s in zip(list(df_h2_pipelines_dist.index),
+                                               range(len(list(df_h2_pipelines_dist.index)))):
                 if city_count_r != city_count_s:
                     h2_pipe_row_list.append(
                         '{}_{}_h2_pipe'.format(city_count_r, city_count_s))
@@ -267,7 +268,7 @@ h2_scenario_demand = "TN-H2-G"  # "TN-H2-G" or "TN-PtG-PtL" or "TN-Strom"
 # 'short_fnb_2030' - connects using 'short' config first and then follows roughly similar to proposed h2 pipeline
 #                    connection based on FNB gas network development plan 2020 - 2030
 
-h2_pipe_config = 'short'
+h2_pipe_config = 'short_fnb_2030'
 
 # choose resolution
 
@@ -329,7 +330,7 @@ h2_buses = [x + '_H2_Bus' for x in h2_buses_names]
 
 network.madd('Bus',
              h2_buses,
-             carrier='Hydrogen',
+             carrier='H2',
              x=list(df_h2_buses_load['x']),
              y=list(df_h2_buses_load['y'])
              )
@@ -353,7 +354,7 @@ h2_links = [s + '_Electrolysis' for s in h2_buses_names]
 
 network.madd('Link',
              h2_links,
-             carrier='Hydrogen',
+             carrier='H2',
              capital_cost=electrolysis_cap_cost,
              p_nom_extendable=True,
              bus0=h2_buses_names,
@@ -367,7 +368,7 @@ elif years == [2040]:
 elif years == [2050]:
     h2_pipe_cap_cost = 825.29
 
-network.madd("Link",
+network.madd('Link',
              df_h2_pipes.index,
              bus0=list(df_h2_pipes['bus_0']),
              bus1=list(df_h2_pipes['bus_1']),
@@ -376,14 +377,14 @@ network.madd("Link",
              length=list(df_h2_pipes['distance_km']),
              capital_cost=h2_pipe_cap_cost * df_h2_pipes['distance_km'],
              efficiency=0.98,  # value from pypsa-eur
-             carrier="Hydrogen")
+             carrier='H2')
 
 h2_stores = [y + '_H2_Store' for y in h2_buses_names]
 
 network.madd('Store',
              h2_stores,
              bus=h2_buses,
-             carrier='Hydrogen',
+             carrier='H2',
              e_nom_extendable=True)
 
 h2_loads = [z + '_H2_Load' for z in h2_buses_names]
@@ -391,16 +392,26 @@ h2_loads = [z + '_H2_Load' for z in h2_buses_names]
 network.madd('Load',
              h2_loads,
              bus=h2_buses,
-             p_set=list(df_h2_buses_load['h2_load']),
-             carrier='Hydrogen',
+             carrier='H2',
              x=list(df_h2_buses_load['x']),
              y=list(df_h2_buses_load['y'])
              )
 
 ac_loads = network.loads[(network.loads['carrier'] == 'AC')]
 
-network.loads_t.p_set = pd.DataFrame(index=network.snapshots,
-                                     columns=ac_loads.index,
-                                     data=1000 * np.random.rand(len(network.snapshots), len(ac_loads)))
+ac_loads_p_set = pd.DataFrame(index=network.snapshots,
+                              columns=ac_loads.index,
+                              data=1000 * np.random.rand(len(network.snapshots), len(ac_loads)))
+
+df_h2_p_set = pd.DataFrame(index=network.snapshots, columns=h2_loads)
+
+for i_load in range(len(df_h2_p_set.columns)):
+    df_h2_p_set['{}'.format(df_h2_p_set.columns[i_load])] = df_h2_buses_load['h2_load'][i_load] / len(network.snapshots)
+
+network.loads_t.p_set = pd.merge(ac_loads_p_set, df_h2_p_set, left_index=True, right_index=True)
+
 
 network.lopf(pyomo=False, solver_name='gurobi')
+
+print('view dataframe')
+print('view dataframe')
