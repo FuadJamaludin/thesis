@@ -413,5 +413,5 @@ network.loads_t.p_set = pd.merge(ac_loads_p_set, df_h2_p_set, left_index=True, r
 
 network.lopf(pyomo=False, solver_name='gurobi')
 
-print('view dataframe')
-print('view dataframe')
+print('view dataframe for debug')
+print('view dataframe for debug')
