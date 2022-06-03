@@ -1,0 +1,16 @@
+carrier,capital_costs ,marginal_costs ,efficiency
+Hydrogen,,,
+Run_of_River,12464.18,0,0.9
+Biomass,11586.79,14.89,0.47
+Water_Reservoir,,,
+Pumped_Storage,7389.38,0,0.75
+Solar,1621.44,0,1
+Wind_Offshore,6036.87,0,1
+Wind_Onshore,3767.16,0,1
+Gas,4034.61,38.17,0.59
+Coal,14582.36,28.2,0.33
+Lignite,14582.36,12.29,0.33
+Oil,1559.02,148.86,0.35
+Electrolysis,1238.41,0,0.72
+H2_pipeline_repurposed,0.42,0,
+H2_pipeline,0.9,0,
