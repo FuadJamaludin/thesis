@@ -12,7 +12,7 @@ user input for:
 '''
 
 years = '2030'  # subset of {'2030', '2040', '2050'}
-h2_scenario_demand = 'TN-H2-G'  # subset of {'TN-H2-G', 'TN-PtG-PtL', 'TN-Strom'}
+h2_scenario_demand = 'TN-PtG-PtL'  # subset of {'TN-H2-G', 'TN-PtG-PtL', 'TN-Strom'}
 freq = '24'
 discount_rate = 0.07
 
@@ -25,7 +25,7 @@ choose configuration of H2 pipelines connection (applicable for Case 3 only):
                       LIMITED ONLY for 'TN-H2-G' H2 scenario demand 
                     
 '''
-h2_pipe_config = 'short_fnb_2030'
+h2_pipe_config = 'short'
 
 ### Case - 3 ###
 

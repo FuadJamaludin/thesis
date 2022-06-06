@@ -104,12 +104,12 @@ def get_techno_econ_data(n_years, years_data, discount_rate, network):
     for carrier_z in list(df_tech_costs.index):
         if carrier_z in ('OCGT', 'CCGT', 'Coal', 'Lignite', 'Oil'):
             if carrier_z == 'OCGT' or carrier_z == 'CCGT':
-                co2_intensity = float(df_load_data[(df_load_data['technology'] == 'Gas') & (df_load_data['parameter'] == 'CO2 intensity')][
-                    'value'])
+                co2_intensity = float(df_load_data[(df_load_data['technology'] == 'Gas') &
+                                                   (df_load_data['parameter'] == 'CO2 intensity')]['value'])
                 df_tech_costs.at['{}'.format(carrier_z), 'co2_emissions'] = co2_intensity
             else:
-                co2_intensity = float(df_load_data[(df_load_data['technology'] == '{}'.format(carrier_z)) & (df_load_data['parameter'] == 'CO2 intensity')][
-                    'value'])
+                co2_intensity = float(df_load_data[(df_load_data['technology'] == '{}'.format(carrier_z)) &
+                                                   (df_load_data['parameter'] == 'CO2 intensity')]['value'])
                 df_tech_costs.at['{}'.format(carrier_z), 'co2_emissions'] = co2_intensity
 
     df_tech_costs.fillna(0, inplace=True)
@@ -310,17 +310,32 @@ def get_hydrogen_data(scenario_h2, years_h2, h2_config, network):
                     bus_1_list.append(df_h2_pipelines_dist.index[city_count_b])
                     distance_km_list.append(df_h2_pipelines_dist[city_count_a].min())
 
-        # below connections currently only for BW, only applicable for TN-H2-G scenario
-        fnb_2030_add = [['Eichstetten_110kV', 'Lorrach_110kV'],
-                        ['KarlsruheWest_110kV', 'HeidelburgSud_110kV'],
-                        ['HeidelburgSud_110kV', 'Grossgartach_110kV'],
-                        ['Grossgartach_110kV', 'Kupferzell_110kV'],
-                        ['Sindelfingen_110kV', 'Birkenfeld_110kV'],
-                        ['Sindelfingen_110kV', 'Oberjettingen_110kV'],
-                        ['Reutlingen_110kV', 'Laufen_an_der_Eyach_110kV'],
-                        ['Sipplingen_110kV', 'Markdorf_110kV'],
-                        ['Biberach_110kV', 'Ravensburg_110kV'],
-                        ['Goldshofe_110kV', 'Giengen_110kV']]
+        # after connecting the H2 pipelines based on shortest distance between the H2 buses
+        # limitation #3: the remaining end points are connected MANUALLY roughly based on proposed FNB H2 network
+        # below connections currently only for BW
+
+        if scenario_h2 == 'TN-H2-G':
+            fnb_2030_add = [['Eichstetten_110kV', 'Lorrach_110kV'],
+                            ['KarlsruheWest_110kV', 'HeidelburgSud_110kV'],
+                            ['Grossgartach_110kV', 'Kupferzell_110kV'],
+                            ['Sindelfingen_110kV', 'Birkenfeld_110kV'],
+                            ['Sindelfingen_110kV', 'Oberjettingen_110kV'],
+                            ['Sipplingen_110kV', 'Markdorf_110kV'],
+                            ['Biberach_110kV', 'Ravensburg_110kV'],
+                            ['Goldshofe_110kV', 'Giengen_110kV']]
+
+        elif scenario_h2 == 'TN-PtG-PtL':
+            fnb_2030_add = [['KarlsruheWest_110kV', 'GKMannheim_110kV'],
+                            ['KarlsruheWest_110kV', 'Sindelfingen_110kV'],
+                            ['Sipplingen_110kV', 'Schmiechen_110kV'],
+                            ['Pfahlbronn_110kV', 'Giengen_110kV']]
+
+        elif scenario_h2 == 'TN-Strom':
+            fnb_2030_add = [['Kuppenheim_110kV', 'Lorrach_110kV'],
+                            ['KarlsruheWest_110kV', 'GKMannheim_110kV'],
+                            ['KarlsruheWest_110kV', 'Stuttgart_110kV'],
+                            ['Schmiechen_110kV', 'Laufen_an_der_Eyach_110kV'],
+                            ['Pfahlbronn_110kV', 'Giengen_110kV']]
 
         for city_add in range(len(fnb_2030_add)):
             h2_pipe_row_list.append('{}_{}_h2_pipe'.format(fnb_2030_add[city_add][0], fnb_2030_add[city_add][1]))
