@@ -326,16 +326,16 @@ electricity distribution grid,lifetime,40,years,TODO, from old pypsa cost assump
 electricity grid connection,FOM,2,%/year,TODO, from old pypsa cost assumptions
 electricity grid connection,investment,140,EUR/kW,DEA, from old pypsa cost assumptions
 electricity grid connection,lifetime,40,years,TODO, from old pypsa cost assumptions
-Electrolysis,FOM,2,%/year,"Danish Energy Agency, data_sheets_for_renewable_fuels.xlsx",86 AEC 100MW:  Fixed O&M 
-Electrolysis,efficiency,0.75,per unit,"Danish Energy Agency, data_sheets_for_renewable_fuels.xlsx",86 AEC 100MW:  Hydrogen
-Electrolysis,investment,250,EUR/kW_e,"Danish Energy Agency, data_sheets_for_renewable_fuels.xlsx",86 AEC 100MW:  Specific investment
-Electrolysis,lifetime,35,years,"Danish Energy Agency, data_sheets_for_renewable_fuels.xlsx",86 AEC 100MW:  Technical lifetime
+Electrolysis,FOM,4,%/year,"Danish Energy Agency, data_sheets_for_renewable_fuels.xlsx",86 PEMEC 100MW:  Fixed O&M 
+Electrolysis,efficiency,0.71,per unit,"Danish Energy Agency, data_sheets_for_renewable_fuels.xlsx",86 PEMEC 100MW:  Hydrogen
+Electrolysis,investment,400,EUR/kW_e,"Danish Energy Agency, data_sheets_for_renewable_fuels.xlsx",86 PEMEC 100MW:  Specific investment
+Electrolysis,lifetime,30,years,"Danish Energy Agency, data_sheets_for_renewable_fuels.xlsx",86 PEMEC 100MW: Technical lifetime
 fuel cell,FOM,5,%/year,"Danish Energy Agency, technology_data_for_el_and_dh.xlsx",12 LT-PEMFC CHP:  Fixed O&M
 fuel cell,c_b,1.25,50oC/100oC,"Danish Energy Agency, technology_data_for_el_and_dh.xlsx",12 LT-PEMFC CHP:  Cb coefficient
 fuel cell,efficiency,0.5,per unit,"Danish Energy Agency, technology_data_for_el_and_dh.xlsx","12 LT-PEMFC CHP:  Electricity efficiency, annual average"
 fuel cell,investment,800,EUR/kW_e,"Danish Energy Agency, technology_data_for_el_and_dh.xlsx",12 LT-PEMFC CHP:  Nominal investment
 fuel cell,lifetime,10,years,"Danish Energy Agency, technology_data_for_el_and_dh.xlsx",12 LT-PEMFC CHP:  Technical lifetime
-gas,CO2 intensity,0.2,tCO2/MWh_th,Entwicklung der spezifischen Kohlendioxid-Emissionen des deutschen Strommix in den Jahren 1990 - 2018,
+Gas,CO2 intensity,0.2,tCO2/MWh_th,Entwicklung der spezifischen Kohlendioxid-Emissionen des deutschen Strommix in den Jahren 1990 - 2018,
 gas,fuel,20.1,EUR/MWh_th,BP 2019,
 gas storage,FOM,3.59,%,Danish Energy Agency,"150 Underground Storage of Gas, Operation and Maintenace, salt cavern (units converted)"
 gas storage,investment,0.03,EUR/kWh,Danish Energy Agency,"150 Underground Storage of Gas, Establishment of one cavern (units converted)"
