@@ -5,6 +5,11 @@ from geopy.geocoders import Nominatim
 
 
 def get_network(years_select):
+
+    # calls get_electrical_data to get string of the folder name containing the pypsa network csv files
+    # imports pypsa network csv files
+    # returns pypsa network to Case 1 / Case 2 / Case 3 script
+
     years_simulate = years_select
     network = pypsa.Network(get_electrical_data(years_simulate))
 
@@ -12,6 +17,9 @@ def get_network(years_select):
 
 
 def get_electrical_data(years_elect):
+
+    # returns string of the folder name containing the pypsa network csv files: buses, generators, storage_units & etc.
+
     if years_elect == '2030':
         return "C:/Users/work/pypsa_thesis/data/electrical/2030"
     elif years_elect == '2040':
@@ -21,8 +29,11 @@ def get_electrical_data(years_elect):
 
 
 def calculate_annuity(n, r):
-    """Calculate the annuity factor for an asset with lifetime n years and
-    discount rate of r, e.g. annuity(20, 0.05) * 20 = 1.6"""
+
+    # calculate the annuity factor for an asset with lifetime n years and
+    # discount rate of r, e.g. annuity(20, 0.05) * 20 = 1.6
+    # source: pypsa-eur add_electricity script
+    # returns calculated annuity factor for the capital costs' calculation in get_techno_econ_data function
 
     if isinstance(r, pd.Series):
         return pd.Series(1 / n, index=r.index).where(r == 0, r / (1. - 1. / (1. + r) ** n))
@@ -33,10 +44,16 @@ def calculate_annuity(n, r):
 
 
 def get_techno_econ_data(n_years, years_data, discount_rate, network):
+
+    # calculates capital costs, marginal costs for generators, storage units, electrolysis, H2 pipelines
+    # assign values for co2 emissions, efficiency
+    # returns dataframe consist of above mentioned data
+
     network = network
     discount_rate = discount_rate
     n_years = n_years
 
+    # loads techno economic parameters for different technologies based on pypsa technology-data repository
     if years_data == '2030':
         load_data = pd.read_csv("C:/Users/work/pypsa_thesis/data/techno_economic/pypsa_costs_2030.csv")
         df_load_data = pd.DataFrame(load_data)
@@ -50,10 +67,15 @@ def get_techno_econ_data(n_years, years_data, discount_rate, network):
     # correct units to MW
     df_load_data.loc[df_load_data.unit.str.contains("/kW"), "value"] *= 1e3
 
+    # creates df which stores capital costs, marginal costs, efficiency and co2 emissions for generators, storage units,
+    # electrolysis and H2 pipelines based on their 'carriers' names
     df_tech_costs = pd.DataFrame(columns=['carriers', 'capital_costs', 'marginal_costs', 'efficiency', 'co2_emissions'])
     df_tech_costs['carriers'] = list(network.carriers.index)
     df_tech_costs.set_index('carriers', inplace=True)
 
+    # calculation of capital costs for different generation technologies
+    # inspired from pypsa-eur add_electricity script
+    # assign efficiency for different generation technologies
     for carrier_x in list(df_tech_costs.index):
         if carrier_x != 'H2' or carrier_x != 'Water_Reservoir':
             if carrier_x in list(df_load_data['technology']):
@@ -77,6 +99,9 @@ def get_techno_econ_data(n_years, years_data, discount_rate, network):
                                                                           investment * n_years), 2)
                     df_tech_costs.at[carrier_x, 'efficiency'] = 1.0
 
+    # calculation of marginal costs for different generation technologies
+    # inspired from pypsa-eur add_electricity script
+    # assign efficiency for different generation technologies
     for carrier_y in list(df_tech_costs.index):
         if carrier_y in ('Biomass', 'CCGT', 'Coal', 'Lignite', 'Oil'):
             if carrier_y == 'CCGT':
@@ -101,6 +126,7 @@ def get_techno_econ_data(n_years, years_data, discount_rate, network):
                 efficiency_y = float(df_mar_cost[df_mar_cost['parameter'] == 'efficiency']['value'])
                 df_tech_costs.at[carrier_y, 'marginal_costs'] = round(VOM + fuel / efficiency_y, 2)
 
+    # assign co2 emissions values for different generation technologies
     for carrier_z in list(df_tech_costs.index):
         if carrier_z in ('OCGT', 'CCGT', 'Coal', 'Lignite', 'Oil'):
             if carrier_z == 'OCGT' or carrier_z == 'CCGT':
@@ -118,6 +144,10 @@ def get_techno_econ_data(n_years, years_data, discount_rate, network):
 
 
 def get_hydrogen_data(scenario_h2, years_h2, h2_config, network):
+
+    # loads raw H2 demand data from Fraunhofer
+
+
     network = network
     if scenario_h2 == 'TN-H2-G':
         if years_h2 == '2030':
