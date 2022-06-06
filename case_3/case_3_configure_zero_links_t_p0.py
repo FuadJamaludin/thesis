@@ -156,11 +156,11 @@ network.madd('Link',
              bus1=h2_buses,
              efficiency=electrolysis_efficiency)
 
-h2_pipe_cap_cost = techno_econ_data.at['H2_(g)_pipeline', 'capital_costs']
-h2_pipe_efficiency = techno_econ_data.at['H2_(g)_pipeline', 'efficiency']
+# h2_pipe_cap_cost = techno_econ_data.at['H2_(g)_pipeline', 'capital_costs']
+# h2_pipe_efficiency = techno_econ_data.at['H2_(g)_pipeline', 'efficiency']
 
-# h2_pipe_cap_cost = 0
-# h2_pipe_efficiency = 1
+h2_pipe_cap_cost = 0
+h2_pipe_efficiency = 1
 
 # attach and connect H2 pipelines between the H2 buses
 
@@ -235,7 +235,8 @@ for i_load in range(len(df_h2_p_set.columns)):
 
 network.loads_t.p_set = pd.merge(ac_loads_p_set, df_h2_p_set, left_index=True, right_index=True)
 
+print('view dataframe for debug')
+
 network.lopf(pyomo=False, solver_name='gurobi')
 
-print('view dataframe for debug')
 print('view dataframe for debug')
