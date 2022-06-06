@@ -7,8 +7,8 @@ from pypsa.linopt import get_var, linexpr, define_constraints
 user input for:
 1) years to simulate
 2) which h2 demand scenario
-3) freq resolution in 1 year simulation - current: 24 hours / daily
-4) discount rate for generators capital costs calculation
+3) freq resolution in 1 year simulation - e.g. timesteps of: 24h / 12h / 6h / 1h 
+4) annual discount rate of capital costs calculation for generators, storage units, electrolysis and H2 pipelines
 5) which h2 pipeline connection configuration (applicable for Case 3 only)
 '''
 
@@ -18,10 +18,10 @@ freq = '24'
 discount_rate = 0.07
 
 '''
-choose configuration of h2 pipelines connection (applicable for Case 3 only):
-1) 'short' - buses which have h2 demand (which is h2 buses), will connect to any h2 buses in the shortest distance
-2) 'all' - each h2 buses will connect to all other h2 buses regardless of short/long distances
-3) 'short_fnb_2030' - connects using 'short' config first and then follows roughly similar to proposed h2 pipeline
+choose configuration of H2 pipelines connection (applicable for Case 3 only):
+1) 'short' - buses which have H2 demand (which are H2 buses), will connect to any H2 buses in the shortest distance
+2) 'all' - each H2 buses will connect to all other H2 buses regardless of short/long distances
+3) 'short_fnb_2030' - connects using 'short' config first and then follows roughly similar to proposed H2 pipeline
                       connection based on FNB gas network development plan 2020 - 2030. This configuration currently
                       LIMITED ONLY for 'TN-H2-G' H2 scenario demand 
                     
@@ -61,13 +61,14 @@ costs["capital_cost"] = ((annuity(costs["lifetime"], costs["discount rate"]) +
 '''
 # calls get_techno_econ_data function to calculate capital costs, marginal costs, efficiency for generators,
 # storage_units, electrolysis and H2 pipeline
-# the function depends on input of Nyears (changes with value of 'freq' timesteps), years, discount rate
+# the function depends on Nyears (changes with the input value of 'freq' timesteps), years, discount rate
 
 techno_econ_data = get_techno_econ_data(Nyears, years, discount_rate, network)
 
 # append capital costs, marginal costs, efficiency and co2 emissions into network generators, storage_units and carriers
 # from techno_econ_data
 
+# capital costs, marginal costs, efficiency for generators
 for x_carrier in list(techno_econ_data.index):
     for y_carrier, y_loc in zip(list(network.generators['carrier']), list(network.generators.index)):
         if x_carrier == y_carrier:
@@ -78,6 +79,7 @@ for x_carrier in list(techno_econ_data.index):
             network.generators.at['{}'.format(y_loc), 'marginal_cost'] = mar_cost_x
             network.generators.at['{}'.format(y_loc), 'efficiency'] = gen_efficiency_x
 
+# capital costs, marginal costs, efficiency for storage units
 for p_carrier in list(techno_econ_data.index):
     for q_carrier, q_loc in zip(list(network.storage_units['carrier']), list(network.storage_units.index)):
         if p_carrier == q_carrier:
@@ -88,6 +90,7 @@ for p_carrier in list(techno_econ_data.index):
             network.storage_units.at['{}'.format(q_loc), 'marginal_cost'] = mar_cost_p
             network.storage_units.at['{}'.format(q_loc), 'efficiency'] = gen_efficiency_p
 
+# co2 emissions for each carriers
 for r_carrier in list(techno_econ_data.index):
     for s_carrier in list(network.carriers.index):
         if r_carrier == s_carrier:
@@ -109,20 +112,19 @@ network.generators_t.p_max_pu.loc[:, pmaxpu_generators.index] = pd.DataFrame(ind
                                                                              data=np.random.rand(len(network.snapshots),
                                                                                                  len(pmaxpu_generators)))
 
-# current limitation #2: generates random AC loads/demand for all Electrical Buses/Nodes
+# current limitation #2: generates random AC loads/demand for Electrical Buses/Nodes
 
 network.loads_t.p_set = pd.DataFrame(index=network.snapshots,
                                      columns=network.loads.index,
                                      data=1000 * np.random.rand(len(network.snapshots), len(network.loads)))
 
 # calls get_hydrogen_data function to:
-# acquire H2 demand data based on chosen H2 scenario demand 'h2_scenario_demand'
+# acquire H2 demand data based on chosen H2 scenario demand 'h2_scenario_demand' and 'years' to simulate
 # builds H2 pipeline configuration based on chosen H2 pipeline configuration 'h2_pipe_config
 
 h2_data = get_hydrogen_data(h2_scenario_demand, years, h2_pipe_config, network)
 
 # builds and connects H2 network with Electrical Buses/Nodes network
-
 # creates H2 bus
 
 network.add('Bus', 'Hydrogen', carrier='Hydrogen', x=8.5, y=49.0)
@@ -135,6 +137,9 @@ link_names = [s + '_Electrolysis' for s in link_buses]
 
 electrolysis_cap_cost = techno_econ_data.at['Electrolysis', 'capital_costs']
 electrolysis_efficiency = techno_econ_data.at['Electrolysis', 'efficiency']
+
+# electrolysis_cap_cost = 0
+# electrolysis_efficiency = 1
 
 # connects Electrical Buses/Nodes with H2 Bus using Electrolysis Links
 
@@ -151,7 +156,7 @@ network.madd('Link',
 
 network.add('Store', 'Store_Hydrogen', bus='Hydrogen', carrier='Hydrogen', e_nom_extendable=True)
 
-# inserts H2 total demand into the H2 constraint function
+# inserts H2 total demand based on Fraunhofer data into the H2 constraint function
 
 def hydrogen_constraints(n, snapshots):
     electrolysis_index = n.links.query('carrier == "Hydrogen"').index
