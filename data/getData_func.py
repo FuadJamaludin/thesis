@@ -50,7 +50,7 @@ def get_techno_econ_data(n_years, years_data, discount_rate, network):
     # correct units to MW
     df_load_data.loc[df_load_data.unit.str.contains("/kW"), "value"] *= 1e3
 
-    df_tech_costs = pd.DataFrame(columns=['carriers', 'capital_costs', 'marginal_costs', 'efficiency'])
+    df_tech_costs = pd.DataFrame(columns=['carriers', 'capital_costs', 'marginal_costs', 'efficiency', 'co2_emissions'])
     df_tech_costs['carriers'] = list(network.carriers.index)
     df_tech_costs.set_index('carriers', inplace=True)
 
@@ -101,6 +101,19 @@ def get_techno_econ_data(n_years, years_data, discount_rate, network):
                 efficiency_y = float(df_mar_cost[df_mar_cost['parameter'] == 'efficiency']['value'])
                 df_tech_costs.at[carrier_y, 'marginal_costs'] = round(VOM + fuel / efficiency_y, 2)
 
+    for carrier_z in list(df_tech_costs.index):
+        if carrier_z in ('OCGT', 'CCGT', 'Coal', 'Lignite', 'Oil'):
+            if carrier_z == 'OCGT' or carrier_z == 'CCGT':
+                co2_intensity = float(df_load_data[(df_load_data['technology'] == 'Gas') & (df_load_data['parameter'] == 'CO2 intensity')][
+                    'value'])
+                df_tech_costs.at['{}'.format(carrier_z), 'co2_emissions'] = co2_intensity
+            else:
+                co2_intensity = float(df_load_data[(df_load_data['technology'] == '{}'.format(carrier_z)) & (df_load_data['parameter'] == 'CO2 intensity')][
+                    'value'])
+                df_tech_costs.at['{}'.format(carrier_z), 'co2_emissions'] = co2_intensity
+
+    df_tech_costs.fillna(0, inplace=True)
+
     return df_tech_costs
 
 
@@ -149,13 +162,17 @@ def get_hydrogen_data(scenario_h2, years_h2, h2_config, network):
     df_h2_demand.index.names = ['location_name']
     df_h2_demand.reset_index(inplace=True)
     df_h2_demand.dropna(subset=['location_name'], inplace=True)
+    x_coor = []
+    y_coor = []
 
     for loc_count in range(len(df_h2_demand['location_name'])):
         geolocator = Nominatim(user_agent="locate_h2_demand")
         locate_h2_demand = geolocator.geocode(df_h2_demand['location_name'][loc_count].split(',')[0])
-        df_h2_demand['x'][loc_count] = locate_h2_demand.longitude
-        df_h2_demand['y'][loc_count] = locate_h2_demand.latitude
+        x_coor.append(locate_h2_demand.longitude)
+        y_coor.append(locate_h2_demand.latitude)
 
+    df_h2_demand['x'] = x_coor
+    df_h2_demand['y'] = y_coor
     df_ac_loads_h2_loads_dist = pd.DataFrame(index=network.loads.index, columns=df_h2_demand['location_name'])
 
     for city_count_x in range(len(network.loads.index)):
@@ -293,7 +310,7 @@ def get_hydrogen_data(scenario_h2, years_h2, h2_config, network):
                     bus_1_list.append(df_h2_pipelines_dist.index[city_count_b])
                     distance_km_list.append(df_h2_pipelines_dist[city_count_a].min())
 
-        # below connections currently for BW
+        # below connections currently only for BW, only applicable for TN-H2-G scenario
         fnb_2030_add = [['Eichstetten_110kV', 'Lorrach_110kV'],
                         ['KarlsruheWest_110kV', 'HeidelburgSud_110kV'],
                         ['HeidelburgSud_110kV', 'Grossgartach_110kV'],
