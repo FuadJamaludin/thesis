@@ -22,11 +22,16 @@ choose configuration of h2 pipelines connection (applicable for Case 3 only):
 1) 'short' - buses which have h2 demand (which is h2 buses), will connect to any h2 buses in the shortest distance
 2) 'all' - each h2 buses will connect to all other h2 buses regardless of short/long distances
 3) 'short_fnb_2030' - connects using 'short' config first and then follows roughly similar to proposed h2 pipeline
-                    connection based on FNB gas network development plan 2020 - 2030
+                      connection based on FNB gas network development plan 2020 - 2030. This configuration currently
+                      LIMITED ONLY for 'TN-H2-G' H2 scenario demand 
+                    
 '''
 h2_pipe_config = 'short_fnb_2030'
 
 ### Case - 1 ###
+
+# get electrical network from network csv files; generators, storage_units, lines, loads & etc.
+# create snapshots based on chosen 'years' and timesteps 'freq' to simulate
 
 network = get_network(years)
 
@@ -54,6 +59,9 @@ costs["capital_cost"] = ((annuity(costs["lifetime"], costs["discount rate"]) +
                             costs["investment"] * Nyears)
 
 '''
+# calls get_techno_econ_data function to calculate capital costs, marginal costs, efficiency for generators,
+# storage_units, electrolysis and H2 pipeline
+# the function depends on input of Nyears (changes with value of 'freq' timesteps), years, discount rate
 
 techno_econ_data = get_techno_econ_data(Nyears, years, discount_rate, network)
 
@@ -86,6 +94,9 @@ for r_carrier in list(techno_econ_data.index):
             co2_emi = techno_econ_data.at['{}'.format(r_carrier), 'co2_emissions']
             network.carriers.at['{}'.format(s_carrier), 'co2_emissions'] = co2_emi
 
+# current limitation #1: generates random p_max_pu values for renewable generators:
+# Solar, Wind Onshore and Wind Offshore
+
 pmaxpu_generators = network.generators[
     (network.generators['carrier'] == 'Solar') |
     (network.generators['carrier'] == 'Wind_Offshore') |
@@ -98,13 +109,21 @@ network.generators_t.p_max_pu.loc[:, pmaxpu_generators.index] = pd.DataFrame(ind
                                                                              data=np.random.rand(len(network.snapshots),
                                                                                                  len(pmaxpu_generators)))
 
+# current limitation #2: generates random AC loads/demand for all Electrical Buses/Nodes
+
 network.loads_t.p_set = pd.DataFrame(index=network.snapshots,
                                      columns=network.loads.index,
                                      data=1000 * np.random.rand(len(network.snapshots), len(network.loads)))
 
+# calls get_hydrogen_data function to:
+# acquire H2 demand data based on chosen H2 scenario demand 'h2_scenario_demand'
+# builds H2 pipeline configuration based on chosen H2 pipeline configuration 'h2_pipe_config
+
 h2_data = get_hydrogen_data(h2_scenario_demand, years, h2_pipe_config, network)
 
-# connect between electrical buses and hydrogen bus via link (as electrolysis unit)
+# builds and connects H2 network with Electrical Buses/Nodes network
+
+# creates H2 bus
 
 network.add('Bus', 'Hydrogen', carrier='Hydrogen', x=8.5, y=49.0)
 
@@ -117,6 +136,8 @@ link_names = [s + '_Electrolysis' for s in link_buses]
 electrolysis_cap_cost = techno_econ_data.at['Electrolysis', 'capital_costs']
 electrolysis_efficiency = techno_econ_data.at['Electrolysis', 'efficiency']
 
+# connects Electrical Buses/Nodes with H2 Bus using Electrolysis Links
+
 network.madd('Link',
              link_names,
              carrier='Hydrogen',
@@ -126,8 +147,11 @@ network.madd('Link',
              bus1='Hydrogen',
              efficiency=electrolysis_efficiency)
 
+# attach H2 Store to H2 Bus
+
 network.add('Store', 'Store_Hydrogen', bus='Hydrogen', carrier='Hydrogen', e_nom_extendable=True)
 
+# inserts H2 total demand into the H2 constraint function
 
 def hydrogen_constraints(n, snapshots):
     electrolysis_index = n.links.query('carrier == "Hydrogen"').index
