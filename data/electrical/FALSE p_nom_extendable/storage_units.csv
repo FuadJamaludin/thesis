@@ -1,0 +1,8 @@
+name,bus,p_nom,carrier,p_nom_extendable,capital_cost,marginal_cost,efficiency
+Rudolf_PS,Forbach_110kV,43,Pumped_Storage,FALSE,,,
+Wehr_PS,Kuhmoos_110kV,910,Pumped_Storage,FALSE,,,
+Sackingen_PS,Kuhmoos_110kV,360,Pumped_Storage,FALSE,,,
+Waldshut_PS,Tiengen_110kV,152,Pumped_Storage,FALSE,,,
+Witznau_PS,Gurtweil_110kV,220,Pumped_Storage,FALSE,,,
+Hausern_PS,Gurtweil_110kV,100,Pumped_Storage,FALSE,,,
+Glems_PS,Metzingen_110kV,90,Pumped_Storage,FALSE,,,
