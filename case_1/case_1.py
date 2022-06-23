@@ -170,8 +170,8 @@ def hydrogen_constraints(n, snapshots):
 def extra_functionality(n, snapshots):
     hydrogen_constraints(n, snapshots)
 
+print('view dataframe for debug')
 
 network.lopf(extra_functionality=extra_functionality, pyomo=False, solver_name='gurobi')
 
-print('view dataframe for debug')
 print('view dataframe for debug')

@@ -235,7 +235,8 @@ for i_load in range(len(df_h2_p_set.columns)):
 
 network.loads_t.p_set = pd.merge(ac_loads_p_set, df_h2_p_set, left_index=True, right_index=True)
 
+print('view dataframe for debug')
+
 network.lopf(pyomo=False, solver_name='gurobi')
 
-print('view dataframe for debug')
 print('view dataframe for debug')
