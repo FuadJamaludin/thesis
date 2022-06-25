@@ -61,55 +61,16 @@ costs["capital_cost"] = ((annuity(costs["lifetime"], costs["discount rate"]) +
 # calls get_techno_econ_data function to calculate capital costs, marginal costs, efficiency for generators,
 # storage_units, electrolysis and H2 pipeline
 # the function depends on Nyears (changes with the input value of 'freq' timesteps), years, discount rate
+# append capital costs, marginal costs, efficiency and co2 emissions into network generators, storage_units and carriers
+# the function returns network
 
 techno_econ_data = get_techno_econ_data(Nyears, years, discount_rate, network)
 
-# append capital costs, marginal costs, efficiency and co2 emissions into network generators, storage_units and carriers
-# from techno_econ_data
-
-# capital costs, marginal costs, efficiency for generators
-for x_carrier in list(techno_econ_data.index):
-    for y_carrier, y_loc in zip(list(network.generators['carrier']), list(network.generators.index)):
-        if x_carrier == y_carrier:
-            cap_cost_x = techno_econ_data.at['{}'.format(x_carrier), 'capital_costs']
-            mar_cost_x = techno_econ_data.at['{}'.format(x_carrier), 'marginal_costs']
-            gen_efficiency_x = techno_econ_data.at['{}'.format(x_carrier), 'efficiency']
-            network.generators.at['{}'.format(y_loc), 'capital_cost'] = cap_cost_x
-            network.generators.at['{}'.format(y_loc), 'marginal_cost'] = mar_cost_x
-            network.generators.at['{}'.format(y_loc), 'efficiency'] = gen_efficiency_x
-
-# capital costs, marginal costs, efficiency for storage units
-for p_carrier in list(techno_econ_data.index):
-    for q_carrier, q_loc in zip(list(network.storage_units['carrier']), list(network.storage_units.index)):
-        if p_carrier == q_carrier:
-            cap_cost_p = techno_econ_data.at['{}'.format(p_carrier), 'capital_costs']
-            mar_cost_p = techno_econ_data.at['{}'.format(p_carrier), 'marginal_costs']
-            gen_efficiency_p = techno_econ_data.at['{}'.format(p_carrier), 'efficiency']
-            network.storage_units.at['{}'.format(q_loc), 'capital_cost'] = cap_cost_p
-            network.storage_units.at['{}'.format(q_loc), 'marginal_cost'] = mar_cost_p
-            network.storage_units.at['{}'.format(q_loc), 'efficiency'] = gen_efficiency_p
-
-# co2 emissions for each carriers
-for r_carrier in list(techno_econ_data.index):
-    for s_carrier in list(network.carriers.index):
-        if r_carrier == s_carrier:
-            co2_emi = techno_econ_data.at['{}'.format(r_carrier), 'co2_emissions']
-            network.carriers.at['{}'.format(s_carrier), 'co2_emissions'] = co2_emi
-
-# current limitation #1: generates random p_max_pu values for renewable generators:
+# generates p_max_pu values for renewable generators based on data from open-power-system data repository:
+# current p_max_pu snapshots only applicable for 365 days snapshots length (24H freq) - note on 26.06.2022
 # Solar, Wind Onshore and Wind Offshore
 
-pmaxpu_generators = network.generators[
-    (network.generators['carrier'] == 'Solar') |
-    (network.generators['carrier'] == 'Wind_Offshore') |
-    (network.generators['carrier'] == 'Wind_Onshore')]
-
-network.generators_t.p_max_pu = network.generators_t.p_max_pu.reindex(columns=pmaxpu_generators.index)
-
-network.generators_t.p_max_pu.loc[:, pmaxpu_generators.index] = pd.DataFrame(index=network.snapshots,
-                                                                             columns=pmaxpu_generators.index,
-                                                                             data=np.random.rand(len(network.snapshots),
-                                                                                                 len(pmaxpu_generators)))
+set_re_profile(network)
 
 # calls get_hydrogen_data function to:
 # acquire H2 demand data based on chosen H2 scenario demand 'h2_scenario_demand' and 'years' to simulate
@@ -189,24 +150,7 @@ network.madd('Store',
 
 h2_loads = [z + '_H2_Load' for z in h2_buses_names]
 
-'''
-# static H2 load and series AC load
-network.madd('Load',
-             h2_loads,
-             bus=h2_buses,
-             p_set=list(df_h2_buses_load['h2_load']),
-             carrier='Hydrogen',
-             x=list(df_h2_buses_load['x']),
-             y=list(df_h2_buses_load['y'])
-             )
-
-ac_loads = network.loads[(network.loads['carrier'] == 'AC')]
-
-network.loads_t.p_set = pd.DataFrame(index=network.snapshots,
-                                     columns=ac_loads.index,
-                                     data=1000 * np.random.rand(len(network.snapshots), len(ac_loads)))
-'''
-# series AC and H2 load
+# time series AC and H2 load
 
 network.madd('Load',
              h2_loads,
@@ -216,7 +160,7 @@ network.madd('Load',
              y=list(df_h2_buses_load['y'])
              )
 
-# current limitation #2: generates random AC loads/demand for Electrical Buses/Nodes
+# current limitation #1: generates random AC loads/demand for Electrical Buses/Nodes
 
 ac_loads = network.loads[(network.loads['carrier'] == 'AC')]
 
@@ -235,8 +179,6 @@ for i_load in range(len(df_h2_p_set.columns)):
 
 network.loads_t.p_set = pd.merge(ac_loads_p_set, df_h2_p_set, left_index=True, right_index=True)
 
-print('view dataframe for debug')
-
 network.lopf(pyomo=False, solver_name='gurobi')
 
-print('view dataframe for debug')
+

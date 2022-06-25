@@ -140,6 +140,34 @@ def get_techno_econ_data(n_years, years_data, discount_rate, network):
 
     df_tech_costs.fillna(0, inplace=True)
 
+    for x_carrier in list(df_tech_costs.index):
+        for y_carrier, y_loc in zip(list(network.generators['carrier']), list(network.generators.index)):
+            if x_carrier == y_carrier:
+                cap_cost_x = df_tech_costs.at['{}'.format(x_carrier), 'capital_costs']
+                mar_cost_x = df_tech_costs.at['{}'.format(x_carrier), 'marginal_costs']
+                gen_efficiency_x = df_tech_costs.at['{}'.format(x_carrier), 'efficiency']
+                network.generators.at['{}'.format(y_loc), 'capital_cost'] = cap_cost_x
+                network.generators.at['{}'.format(y_loc), 'marginal_cost'] = mar_cost_x
+                network.generators.at['{}'.format(y_loc), 'efficiency'] = gen_efficiency_x
+
+    # capital costs, marginal costs, efficiency for storage units
+    for p_carrier in list(df_tech_costs.index):
+        for q_carrier, q_loc in zip(list(network.storage_units['carrier']), list(network.storage_units.index)):
+            if p_carrier == q_carrier:
+                cap_cost_p = df_tech_costs.at['{}'.format(p_carrier), 'capital_costs']
+                mar_cost_p = df_tech_costs.at['{}'.format(p_carrier), 'marginal_costs']
+                gen_efficiency_p = df_tech_costs.at['{}'.format(p_carrier), 'efficiency']
+                network.storage_units.at['{}'.format(q_loc), 'capital_cost'] = cap_cost_p
+                network.storage_units.at['{}'.format(q_loc), 'marginal_cost'] = mar_cost_p
+                network.storage_units.at['{}'.format(q_loc), 'efficiency'] = gen_efficiency_p
+
+    # co2 emissions for each carriers
+    for r_carrier in list(df_tech_costs.index):
+        for s_carrier in list(network.carriers.index):
+            if r_carrier == s_carrier:
+                co2_emi = df_tech_costs.at['{}'.format(r_carrier), 'co2_emissions']
+                network.carriers.at['{}'.format(s_carrier), 'co2_emissions'] = co2_emi
+
     return df_tech_costs
 
 
@@ -399,3 +427,41 @@ def get_hydrogen_data(scenario_h2, years_h2, h2_config, network):
                     'h2_demand_value_total': round(sum(df_h2_demand['demand_value']) * 1e6, 2)}  # in MWh
 
     return dict_h2_data
+
+
+def set_re_profile(network):
+
+    network = network
+
+    solar_data = pd.read_excel("C:/Users/work/pypsa_thesis/data/electrical/wind_solar_profile/solar_profile_2019.xlsx")
+    wind_data = pd.read_excel("C:/Users/work/pypsa_thesis/data/electrical/wind_solar_profile/wind_profile_2019.xlsx")
+
+    solar_profile = []
+    wind_profile = []
+    i_count = 0
+
+    for i in range(1, 8761):
+        if i % 24 == 0:
+            if i == 8761:
+                i = 8760
+            solar_profile.append(round(solar_data['DE'].iloc[i_count:i].sum() / 24, 5))
+            wind_profile.append(round(wind_data['DE'].iloc[i_count:i].sum() / 24, 5))
+            i_count = i
+
+    pmaxpu_generators = network.generators[
+        (network.generators['carrier'] == 'Solar') |
+        (network.generators['carrier'] == 'Wind_Offshore') |
+        (network.generators['carrier'] == 'Wind_Onshore')]
+
+    network.generators_t.p_max_pu = network.generators_t.p_max_pu.reindex(columns=pmaxpu_generators.index)
+
+    network.generators_t.p_max_pu.loc[:, pmaxpu_generators.index] = pd.DataFrame(index=network.snapshots,
+                                                                                 columns=pmaxpu_generators.index,
+                                                                                 )
+
+    for re_loc in list(network.generators_t.p_max_pu.columns):
+        if 'SOL' in re_loc.split('_'):
+            network.generators_t.p_max_pu[re_loc] = solar_profile
+
+        elif 'WON' in re_loc.split('_'):
+            network.generators_t.p_max_pu[re_loc] = wind_profile
