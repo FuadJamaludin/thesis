@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ad24113-f5b6-47cc-a67e-eab40e74234f" name="Changes" comment="thesis analysis runs on 23.6.22">
+    <list default="true" id="0ad24113-f5b6-47cc-a67e-eab40e74234f" name="Changes" comment="housekeeping">
       <change afterPath="$PROJECT_DIR$/.tmp.driveupload/62201" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.tmp.driveupload/62205" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.tmp.driveupload/62209" afterDir="false" />
@@ -693,27 +693,11 @@
       <change afterPath="$PROJECT_DIR$/.tmp.driveupload/64389" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.tmp.driveupload/64391" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.tmp.driveupload/64393" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general_scripts/import_pow_plant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general_scripts/sol_wind_profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pypsa_thesis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pypsa_thesis.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysis files/configure_zero_links_t_p0.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/analysis files/configure_zero_links_t_p0.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis files/thesis_analysis_18.06.22.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/analysis files/thesis_analysis_18.06.22.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_1/.ipynb_checkpoints/case_1-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/case_1/.ipynb_checkpoints/case_1-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_1/case_1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/case_1/case_1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_1/case_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/case_1/case_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_2/.ipynb_checkpoints/case_2-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/case_2/.ipynb_checkpoints/case_2-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_2/case_2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/case_2/case_2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_2/case_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/case_2/case_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_3/.ipynb_checkpoints/case_3-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/case_3/.ipynb_checkpoints/case_3-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case_3/.ipynb_checkpoints/case_3_configure_zero_links_t_p0-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/case_3/.ipynb_checkpoints/case_3_configure_zero_links_t_p0-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_3/case_3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/case_3/case_3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_3/case_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/case_3/case_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case_3/case_3_configure_zero_links_t_p0.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/case_3/case_3_configure_zero_links_t_p0.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case_3/case_3_configure_zero_links_t_p0.py" beforeDir="false" afterPath="$PROJECT_DIR$/case_3/case_3_configure_zero_links_t_p0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/getData_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/getData_func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extract_pypsa_eur/elec_s_256_ec_lcopt_Co2L-24H.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract_pypsa_eur/elec_s_256_ec_lcopt_Co2L-24H.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -997,49 +981,7 @@
       <workItem from="1656055127870" duration="1678000" />
       <workItem from="1656060953103" duration="7436000" />
       <workItem from="1656102287695" duration="3222000" />
-      <workItem from="1656181706253" duration="15129000" />
-    </task>
-    <task id="LOCAL-00050" summary="old files">
-      <created>1654094089664</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1654094089667</updated>
-    </task>
-    <task id="LOCAL-00051" summary="checkpoint files">
-      <created>1654094563862</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1654094563862</updated>
-    </task>
-    <task id="LOCAL-00052" summary="configuring zero p_nom_opt values for H2 pipeline links in network.links_t.p0">
-      <created>1654160743917</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1654160743917</updated>
-    </task>
-    <task id="LOCAL-00053" summary="configuring zero p_nom_opt values for H2 pipeline links in network.links_t.p0">
-      <created>1654160968398</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1654160968398</updated>
-    </task>
-    <task id="LOCAL-00054" summary="minor changes for H2 carriers">
-      <created>1654161773663</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1654161773663</updated>
-    </task>
-    <task id="LOCAL-00055" summary="case 2 output files after test runs">
-      <created>1654161812576</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1654161812576</updated>
+      <workItem from="1656181706253" duration="15538000" />
     </task>
     <task id="LOCAL-00056" summary="to refer for pypsa-eur configuration network">
       <created>1654161844544</created>
@@ -1342,7 +1284,49 @@
       <option name="project" value="LOCAL" />
       <updated>1655974423175</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="automate get data for generators capex, opex and wind/solar profile">
+      <created>1656200102683</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1656200102683</updated>
+    </task>
+    <task id="LOCAL-00100" summary="script to get wind and solar profile">
+      <created>1656200136754</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1656200136754</updated>
+    </task>
+    <task id="LOCAL-00101" summary="script to get all DE power plants from open data system repository">
+      <created>1656200177297</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1656200177297</updated>
+    </task>
+    <task id="LOCAL-00102" summary="housekeeping">
+      <created>1656200212827</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1656200212827</updated>
+    </task>
+    <task id="LOCAL-00103" summary="change of source file destination">
+      <created>1656200236435</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1656200236436</updated>
+    </task>
+    <task id="LOCAL-00104" summary="housekeeping">
+      <created>1656200254410</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1656200254411</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1390,11 +1374,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed pypsa slice warning, automate co2 emissions update into network" />
-    <MESSAGE value="changes for cap cost, mar cost, effi, co2 emi automatic update" />
-    <MESSAGE value="changes for capital cost calculation for h2 pipelines" />
-    <MESSAGE value="automate update of cap cost, mar cost, effi, co2 emi into network csv files" />
-    <MESSAGE value="added further comments for each code blocks" />
     <MESSAGE value="added comments" />
     <MESSAGE value="archiving old network files" />
     <MESSAGE value="new analysis files" />
@@ -1415,7 +1394,12 @@
     <MESSAGE value="new runs for thesis analysis on 23.06.22" />
     <MESSAGE value="output files for thesis analysis runs and insufficient Gen capacity runs" />
     <MESSAGE value="FALSE p_nom_extendable for generators and storage_units" />
-    <option name="LAST_COMMIT_MESSAGE" value="FALSE p_nom_extendable for generators and storage_units" />
+    <MESSAGE value="automate get data for generators capex, opex and wind/solar profile" />
+    <MESSAGE value="script to get wind and solar profile" />
+    <MESSAGE value="script to get all DE power plants from open data system repository" />
+    <MESSAGE value="change of source file destination" />
+    <MESSAGE value="housekeeping" />
+    <option name="LAST_COMMIT_MESSAGE" value="housekeeping" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1424,11 +1408,6 @@
           <url>file://$PROJECT_DIR$/general_scripts/locate_coor_geopy.py</url>
           <line>17</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/case_3/case_3.py</url>
-          <line>183</line>
-          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/extract_pypsa_eur/elec_s_256_ec_lcopt_Co2L-24H.py</url>
