@@ -2,10 +2,10 @@ import pandas as pd
 import pypsa
 from geopy import distance
 from geopy.geocoders import Nominatim
+from time import sleep
 
 
 def get_network(years_select):
-
     # calls get_electrical_data to get string of the folder name containing the pypsa network csv files
     # imports pypsa network csv files
     # returns pypsa network to Case 1 / Case 2 / Case 3 script
@@ -17,7 +17,6 @@ def get_network(years_select):
 
 
 def get_electrical_data(years_elect):
-
     # returns string of the folder name containing the pypsa network csv files: buses, generators, storage_units & etc.
 
     if years_elect == '2030':
@@ -29,7 +28,6 @@ def get_electrical_data(years_elect):
 
 
 def calculate_annuity(n, r):
-
     # calculate the annuity factor for an asset with lifetime n years and
     # discount rate of r, e.g. annuity(20, 0.05) * 20 = 1.6
     # source: pypsa-eur add_electricity script
@@ -44,7 +42,6 @@ def calculate_annuity(n, r):
 
 
 def get_techno_econ_data(n_years, years_data, discount_rate, network):
-
     # calculates capital costs, marginal costs for generators, storage units, electrolysis, H2 pipelines
     # assign values for co2 emissions, efficiency
     # returns dataframe consist of above mentioned data
@@ -117,7 +114,7 @@ def get_techno_econ_data(n_years, years_data, discount_rate, network):
                     df_load_data[(df_load_data['parameter'] == 'fuel') & (df_load_data['technology'] == carrier_y)][
                         'value'])
                 efficiency_y = float(df_load_data[(df_load_data['parameter'] == 'efficiency') & (
-                            df_load_data['technology'] == carrier_y)]['value'])
+                        df_load_data['technology'] == carrier_y)]['value'])
                 df_tech_costs.at[carrier_y, 'marginal_costs'] = round(fuel / efficiency_y, 2)
             else:
                 df_mar_cost = pd.DataFrame(df_load_data[df_load_data['technology'] == carrier_y])
@@ -172,9 +169,7 @@ def get_techno_econ_data(n_years, years_data, discount_rate, network):
 
 
 def get_hydrogen_data(scenario_h2, years_h2, h2_config, network):
-
     # loads raw H2 demand data from Fraunhofer
-
 
     network = network
     if scenario_h2 == 'TN-H2-G':
@@ -225,9 +220,11 @@ def get_hydrogen_data(scenario_h2, years_h2, h2_config, network):
 
     for loc_count in range(len(df_h2_demand['location_name'])):
         geolocator = Nominatim(user_agent="locate_h2_demand")
-        locate_h2_demand = geolocator.geocode(df_h2_demand['location_name'][loc_count].split(',')[0])
+        locate_h2_demand = geolocator.geocode(df_h2_demand['location_name'][loc_count].split(',')[0],
+                                              timeout=None)
         x_coor.append(locate_h2_demand.longitude)
         y_coor.append(locate_h2_demand.latitude)
+        sleep(1)
 
     df_h2_demand['x'] = x_coor
     df_h2_demand['y'] = y_coor
@@ -430,7 +427,6 @@ def get_hydrogen_data(scenario_h2, years_h2, h2_config, network):
 
 
 def set_re_profile(network):
-
     network = network
 
     solar_data = pd.read_excel("C:/Users/work/pypsa_thesis/data/electrical/wind_solar_profile/solar_profile_2019.xlsx")
