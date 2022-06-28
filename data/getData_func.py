@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import pypsa
 from geopy import distance
 from geopy.geocoders import Nominatim
@@ -66,7 +67,9 @@ def get_techno_econ_data(n_years, years_data, discount_rate, network):
 
     # creates df which stores capital costs, marginal costs, efficiency and co2 emissions for generators, storage units,
     # electrolysis and H2 pipelines based on their 'carriers' names
-    df_tech_costs = pd.DataFrame(columns=['carriers', 'capital_costs', 'marginal_costs', 'efficiency', 'co2_emissions'])
+    df_tech_costs = pd.DataFrame(columns=['carriers', 'capital_costs', 'marginal_costs',
+                                          'efficiency', 'efficiency_store',
+                                          'efficiency_dispatch', 'co2_emissions'])
     df_tech_costs['carriers'] = list(network.carriers.index)
     df_tech_costs.set_index('carriers', inplace=True)
 
@@ -76,7 +79,19 @@ def get_techno_econ_data(n_years, years_data, discount_rate, network):
     for carrier_x in list(df_tech_costs.index):
         if carrier_x != 'H2' or carrier_x != 'Water_Reservoir':
             if carrier_x in list(df_load_data['technology']):
-                if carrier_x not in ('Solar', 'Wind_Offshore', 'Wind_Onshore', 'H2_(g)_pipeline'):
+                if carrier_x == 'Pumped_Storage':
+                    df_cap_cost = pd.DataFrame(df_load_data[df_load_data['technology'] == carrier_x])
+                    lifetime = float(df_cap_cost[df_cap_cost['parameter'] == 'lifetime']['value'])
+                    FOM = float(df_cap_cost[df_cap_cost['parameter'] == 'FOM']['value'])
+                    investment = float(df_cap_cost[df_cap_cost['parameter'] == 'investment']['value'])
+                    efficiency_x = float(df_cap_cost[df_cap_cost['parameter'] == 'efficiency']['value'])
+                    df_tech_costs.at[carrier_x, 'capital_costs'] = round(((calculate_annuity(lifetime, discount_rate) +
+                                                                           FOM / 100.) *
+                                                                          investment * n_years), 2)
+                    df_tech_costs.at[carrier_x, 'efficiency_store'] = round(np.sqrt(efficiency_x), 2)
+                    df_tech_costs.at[carrier_x, 'efficiency_dispatch'] = round(np.sqrt(efficiency_x), 2)
+
+                elif carrier_x not in ('Solar', 'Wind_Offshore', 'Wind_Onshore', 'H2_(g)_pipeline'):
                     df_cap_cost = pd.DataFrame(df_load_data[df_load_data['technology'] == carrier_x])
                     lifetime = float(df_cap_cost[df_cap_cost['parameter'] == 'lifetime']['value'])
                     FOM = float(df_cap_cost[df_cap_cost['parameter'] == 'FOM']['value'])
@@ -86,6 +101,7 @@ def get_techno_econ_data(n_years, years_data, discount_rate, network):
                                                                            FOM / 100.) *
                                                                           investment * n_years), 2)
                     df_tech_costs.at[carrier_x, 'efficiency'] = efficiency_x
+
                 else:
                     df_cap_cost = pd.DataFrame(df_load_data[df_load_data['technology'] == carrier_x])
                     lifetime = float(df_cap_cost[df_cap_cost['parameter'] == 'lifetime']['value'])
@@ -153,10 +169,12 @@ def get_techno_econ_data(n_years, years_data, discount_rate, network):
             if p_carrier == q_carrier:
                 cap_cost_p = df_tech_costs.at['{}'.format(p_carrier), 'capital_costs']
                 mar_cost_p = df_tech_costs.at['{}'.format(p_carrier), 'marginal_costs']
-                gen_efficiency_p = df_tech_costs.at['{}'.format(p_carrier), 'efficiency']
+                efficiency_store = df_tech_costs.at['{}'.format(p_carrier), 'efficiency_store']
+                efficiency_dispatch = df_tech_costs.at['{}'.format(p_carrier), 'efficiency_dispatch']
                 network.storage_units.at['{}'.format(q_loc), 'capital_cost'] = cap_cost_p
                 network.storage_units.at['{}'.format(q_loc), 'marginal_cost'] = mar_cost_p
-                network.storage_units.at['{}'.format(q_loc), 'efficiency'] = gen_efficiency_p
+                network.storage_units.at['{}'.format(q_loc), 'efficiency_store'] = efficiency_store
+                network.storage_units.at['{}'.format(q_loc), 'efficiency_dispatch'] = efficiency_dispatch
 
     # co2 emissions for each carriers
     for r_carrier in list(df_tech_costs.index):
@@ -453,7 +471,7 @@ def set_re_profile(network):
     ac_data['timestamp'] = pd.to_datetime(ac_data['timestamp'])
     ac_data.drop(['Date', 'Time of day'], axis=1, inplace=True)
     ac_data = ac_data.set_index(pd.to_datetime(ac_data['timestamp']))
-    ac_data_daily = ac_data.resample('D').mean()
+    ac_data_daily = ac_data.resample('D').sum()
 
     for col in list(ac_data_daily.columns):
         ac_data_daily[col] = ac_data_daily[col].div(24)  # MWh to MW
@@ -468,11 +486,11 @@ def set_re_profile(network):
     wind_data = pd.read_excel("C:/Users/work/pypsa_thesis/data/electrical/wind_solar_profile/wind_profile_2019.xlsx")
 
     solar_data.set_index('start', inplace=True)
-    solar_data_daily = solar_data.resample('D').mean().where(lambda df: df <= 1., other=1.)
+    solar_data_daily = solar_data.resample('D').sum().where(lambda df: df <= 1., other=1.)
     solar_profile_daily = list(solar_data_daily['DE'])
 
     wind_data.set_index('start', inplace=True)
-    wind_data_daily = wind_data.resample('D').mean().where(lambda df: df <= 1., other=1.)
+    wind_data_daily = wind_data.resample('D').sum().where(lambda df: df <= 1., other=1.)
     wind_profile_daily = list(wind_data_daily['DE'])
 
     for re_loc in list(network.generators_t.p_max_pu.columns):
