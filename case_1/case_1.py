@@ -69,7 +69,7 @@ techno_econ_data = get_techno_econ_data(Nyears, years, discount_rate, network)
 
 # generates p_max_pu values for renewable generators based on data from open-power-system data repository:
 # current p_max_pu snapshots only applicable for 365 days snapshots length (24H freq) - note on 26.06.2022
-# Solar, Wind Onshore and Wind Offshore
+# gets profile for solar, wind, and hydro run-of-river
 
 set_re_profile(network)
 

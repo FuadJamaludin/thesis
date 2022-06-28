@@ -68,7 +68,7 @@ techno_econ_data = get_techno_econ_data(Nyears, years, discount_rate, network)
 
 # generates p_max_pu values for renewable generators based on data from open-power-system data repository:
 # current p_max_pu snapshots only applicable for 365 days snapshots length (24H freq) - note on 26.06.2022
-# Solar, Wind Onshore and Wind Offshore
+# gets profile for solar, wind, and hydro run-of-river
 
 set_re_profile(network)
 
@@ -101,9 +101,6 @@ network.madd('Bus',
 electrolysis_cap_cost = techno_econ_data.at['Electrolysis', 'capital_costs']
 electrolysis_efficiency = techno_econ_data.at['Electrolysis', 'efficiency']
 
-# electrolysis_cap_cost = 0
-# electrolysis_efficiency = 1
-
 h2_links = [s + '_Electrolysis' for s in h2_buses_names]
 
 # connects Electrical Buses/Nodes with H2 Buses using Electrolysis Links
@@ -119,9 +116,6 @@ network.madd('Link',
 
 h2_pipe_cap_cost = techno_econ_data.at['H2_(g)_pipeline', 'capital_costs']
 h2_pipe_efficiency = techno_econ_data.at['H2_(g)_pipeline', 'efficiency']
-
-# h2_pipe_cap_cost = 0
-# h2_pipe_efficiency = 1
 
 # attach and connect H2 pipelines between the H2 buses
 

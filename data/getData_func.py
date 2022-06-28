@@ -215,6 +215,8 @@ def get_hydrogen_data(scenario_h2, years_h2, h2_config, network):
     df_h2_demand.index.names = ['location_name']
     df_h2_demand.reset_index(inplace=True)
     df_h2_demand.dropna(subset=['location_name'], inplace=True)
+    df_h2_demand['demand_value'] = df_h2_demand['demand_value'].div(8760)  # from TWh/a to TW
+    df_h2_demand['demand_value'] = df_h2_demand['demand_value'].multiply(1e6)  # from TW to MW
     x_coor = []
     y_coor = []
 
@@ -264,7 +266,7 @@ def get_hydrogen_data(scenario_h2, years_h2, h2_config, network):
             if df_ac_loads_h2_loads_dist[column_count_y][distance_count_y] == \
                     df_ac_loads_h2_loads_dist[column_count_y].min():
                 h2_load_value = df_h2_demand[df_h2_demand['location_name'] == column_count_y]['demand_value'][
-                                    i_count_y] * 1e6  # in MWh
+                    i_count_y]
                 h2_demand_loc = df_ac_loads_h2_loads_dist.index[distance_count_y]
                 if df_h2_buses_load.at[h2_demand_loc, 'h2_load'] == 0:
                     df_h2_buses_load.at[h2_demand_loc, 'h2_load'] = h2_load_value
@@ -427,37 +429,57 @@ def get_hydrogen_data(scenario_h2, years_h2, h2_config, network):
 
 
 def set_re_profile(network):
+    # gets profile for solar, wind, and hydro run-of-river
+    # currently customized only for snapshots 365 days, 24H freq
+    # notes on 28.08.2022
     network = network
-
-    solar_data = pd.read_excel("C:/Users/work/pypsa_thesis/data/electrical/wind_solar_profile/solar_profile_2019.xlsx")
-    wind_data = pd.read_excel("C:/Users/work/pypsa_thesis/data/electrical/wind_solar_profile/wind_profile_2019.xlsx")
-
-    solar_profile = []
-    wind_profile = []
-    i_count = 0
-
-    for i in range(1, 8761):
-        if i % 24 == 0:
-            if i == 8761:
-                i = 8760
-            solar_profile.append(round(solar_data['DE'].iloc[i_count:i].sum() / 24, 5))
-            wind_profile.append(round(wind_data['DE'].iloc[i_count:i].sum() / 24, 5))
-            i_count = i
 
     pmaxpu_generators = network.generators[
         (network.generators['carrier'] == 'Solar') |
+        (network.generators['carrier'] == 'Run_of_River') |
         (network.generators['carrier'] == 'Wind_Offshore') |
         (network.generators['carrier'] == 'Wind_Onshore')]
 
     network.generators_t.p_max_pu = network.generators_t.p_max_pu.reindex(columns=pmaxpu_generators.index)
 
     network.generators_t.p_max_pu.loc[:, pmaxpu_generators.index] = pd.DataFrame(index=network.snapshots,
-                                                                                 columns=pmaxpu_generators.index,
+                                                                                 columns=pmaxpu_generators.index
                                                                                  )
+
+    ac_data = pd.read_excel(
+        "C:/Users/work/pypsa_thesis/data/electrical/ac_profile/ac_gen_20210101_20211231_transnetBW.xlsx")
+    date_time_list = ac_data['Date'] + ' ' + ac_data['Time of day']
+    ac_data.insert(0, 'timestamp', date_time_list)
+    ac_data['timestamp'] = pd.to_datetime(ac_data['timestamp'])
+    ac_data.drop(['Date', 'Time of day'], axis=1, inplace=True)
+    ac_data = ac_data.set_index(pd.to_datetime(ac_data['timestamp']))
+    ac_data_daily = ac_data.resample('D').mean()
+
+    for col in list(ac_data_daily.columns):
+        ac_data_daily[col] = ac_data_daily[col].div(24)  # MWh to MW
+
+    for gen in list(network.generators_t.p_max_pu.columns):
+        if 'ROF' in gen.split('_'):
+            gen_profile = ac_data_daily['ROF'].div(pmaxpu_generators.at[gen, 'p_nom']).where(lambda df: df <= 1.,
+                                                                                             other=1.)
+            network.generators_t.p_max_pu[gen] = list(gen_profile)
+
+    solar_data = pd.read_excel("C:/Users/work/pypsa_thesis/data/electrical/wind_solar_profile/solar_profile_2019.xlsx")
+    wind_data = pd.read_excel("C:/Users/work/pypsa_thesis/data/electrical/wind_solar_profile/wind_profile_2019.xlsx")
+
+    solar_data.set_index('start', inplace=True)
+    solar_data_daily = solar_data.resample('D').mean().where(lambda df: df <= 1., other=1.)
+    solar_profile_daily = list(solar_data_daily['DE'])
+
+    wind_data.set_index('start', inplace=True)
+    wind_data_daily = wind_data.resample('D').mean().where(lambda df: df <= 1., other=1.)
+    wind_profile_daily = list(wind_data_daily['DE'])
 
     for re_loc in list(network.generators_t.p_max_pu.columns):
         if 'SOL' in re_loc.split('_'):
-            network.generators_t.p_max_pu[re_loc] = solar_profile
+            network.generators_t.p_max_pu[re_loc] = solar_profile_daily
 
         elif 'WON' in re_loc.split('_'):
-            network.generators_t.p_max_pu[re_loc] = wind_profile
+            network.generators_t.p_max_pu[re_loc] = wind_profile_daily
+
+
